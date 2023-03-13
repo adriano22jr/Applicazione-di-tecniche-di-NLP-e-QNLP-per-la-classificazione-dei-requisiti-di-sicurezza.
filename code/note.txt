@@ -1,0 +1,35 @@
+String-Diagrams:
+- syntax-reader
+- bag of words
+- word-sentence
+- tree reader
+
+Rewriter:
+- Rewriter con ["prepositional_phrase", "determiner", "auxiliary", "connector", "coordination"]
+
+Parametrization:
+- TensorAnsatz per la pipeline classica
+-- SpiderAnsatz
+-- MPSAnsatz
+
+- IQPAnsatz per la pipeline quantum
+
+
+
+
+pipeline da testare:
+- syntax-reader, rewriter, TensorAnsatz -> syntax-tensor-pipeline
+- syntax-reader, rewriter, SpiderAnsatz 
+- syntax-reader, rewriter, MPSAnsatz
+
+- bag of words, rewriter, TensorAnsatz
+- bag of words, rewriter, SpiderAnsatz
+- bag of words, rewriter, MPSAnsatz
+
+- word-sentence, rewriter, TensorAnsatz
+- word-sentence, rewriter, SpiderAnsatz
+- word-sentence, rewriter, MPSAnsatz
+
+- tree-reader, rewriter, TensorAnsatz
+- tree-reader, rewriter, SpiderAnsatz
+- tree-reader, rewriter, MPSAnsatz

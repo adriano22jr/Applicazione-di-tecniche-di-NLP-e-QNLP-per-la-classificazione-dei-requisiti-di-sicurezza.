@@ -7,8 +7,9 @@ sentence2 = "John gave Mary a flower"
 parser = BobcatParser(verbose="suppress")
 rewriter = Rewriter(["prepositional_phrase", "determiner", "auxiliary", "connector", "coordination"])
 
+print(Rewriter.available_rules())
 
-diagram = parser.sentence2diagram(sentence)
+"""diagram = parser.sentence2diagram(sentence)
 rewrited_diagram = rewriter(diagram).normal_form()
 
-rewrited_diagram.draw(figsize=(14, 3), fontsize=12)
+rewrited_diagram.draw(figsize=(14, 3), fontsize=12)"""
