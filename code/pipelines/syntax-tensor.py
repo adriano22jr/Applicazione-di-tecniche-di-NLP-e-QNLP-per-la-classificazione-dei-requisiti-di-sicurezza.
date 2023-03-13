@@ -1,7 +1,6 @@
-from lambeq import BobcatParser, Rewriter, TensorAnsatz, AtomicType
+from lambeq import BobcatParser, Rewriter, TensorAnsatz, AtomicType, PytorchModel, PytorchTrainer, Dataset
 from discopy import Dim
 from utilities import *
-import torch
 
 #objects declaration for syntax-tensor pipeline
 bobcat_parser = BobcatParser(verbose = "text")
@@ -26,3 +25,20 @@ test_circuits = [tensor_ansatz(diagram) for diagram in test_normalized_diagrams]
 
 #creating model and trainer
 model = PytorchModel.from_diagrams(train_circuits + test_circuits)
+trainer = PytorchTrainer(
+    model = model,
+    loss_function = torch.nn.BCEWithLogitsLoss(),
+    optimizer = torch.optim.AdamW,
+    epochs = 50,
+    evaluate_functions = evaluation_metric(),
+    evaluate_on_train = True,
+    verbose = "text",
+    seed = SEED
+)
+
+#creating datasets
+train_dataset = Dataset(train_circuits, train_labels)
+test_dataset = Dataset(test_circuits, test_labels)
+
+#starting training
+trainer.fit(train_dataset, test_dataset, evaluation_step = 1, logging_step = 5)
