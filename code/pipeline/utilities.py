@@ -16,3 +16,4 @@ def evaluation_metric():
     return eval_metrics
 
 SEED = 0
+LEARNING_RATE = 3e-2
