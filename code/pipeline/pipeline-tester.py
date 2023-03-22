@@ -2,7 +2,7 @@ from lambeq import BobcatParser, TreeReader, spiders_reader, cups_reader, stairs
 from lambeq import TensorAnsatz, SpiderAnsatz, MPSAnsatz, AtomicType
 from lambeq import PytorchModel, PytorchTrainer, Dataset
 from discopy import Dim
-from lambeq_pipeline import *
+from classic_pipeline import *
 
 parser = BobcatParser(verbose = "text")
 ansatz = TensorAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)})
