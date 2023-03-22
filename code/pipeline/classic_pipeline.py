@@ -12,7 +12,7 @@ def accuracy(y_hat, y):
 eval_metrics = {"acc": accuracy}
 
 
-class Pipeline():
+class ClassicPipeline():
     SUPPORTED_RULES = ["auxiliary", "connector", "coordination", "curry", "determiner", "postadverb", "preadverb", "prepositional_phrase", "object_rel_pronoun", "subject_rel_pronoun"]
     
     def __init__(self, parser, ansatz) -> None:
@@ -23,7 +23,7 @@ class Pipeline():
     def add_rewriter_rules(self, *rules) -> None:
         self.__rewriter.add_rules(*rules)
         
-    def create_circuits_and_labels(self, control: str, dataset: str):
+    def create_circuits_and_labels(self, dataset: str, control = None):
         labels, sentences = extract_data(dataset)
         diagrams = self.__parser.sentences2diagrams(sentences)
 
@@ -53,7 +53,7 @@ class Pipeline():
                 evaluate_on_train = True,
                 learning_rate = LEARNING_RATE,
                 verbose = "text",
-                seed = SEED
+                seed = CLASSIC_SEED
         )
         
     def train_model(self, train_set, test_set):        

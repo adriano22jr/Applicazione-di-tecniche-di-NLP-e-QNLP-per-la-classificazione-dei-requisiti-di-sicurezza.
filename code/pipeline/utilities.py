@@ -8,5 +8,6 @@ def extract_data(dataset):
         sentence.append(line[1:].strip())
     return label, sentence
 
-SEED = 0
+CLASSIC_SEED = 0
+QUANTUM_SEED = 2
 LEARNING_RATE = 3e-2
