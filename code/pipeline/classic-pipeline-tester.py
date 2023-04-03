@@ -12,7 +12,7 @@ tree_parser = TreeReader(mode=TreeReaderMode.RULE_ONLY)
 
 tensor_ansatz = TensorAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)})
 spider_ansatz = SpiderAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)})
-mps_ansatz = MPSAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)})
+mps_ansatz = MPSAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)}, bond_dim = 3)
 
 
 pip = ClassicPipeline(bobcat_parser, tensor_ansatz)

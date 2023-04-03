@@ -1,36 +1,44 @@
-String-Diagrams:
-- syntax-reader
-- bag of words
-- word-sentence
-- tree reader
+CLASSIC PIPELINE
+    - provati i vari parser disponibili:
+        --  BobcatParser (semantic parser) sembra raggiungere in maniera più agevole la train accuracy in 50 epochs. 
+                con tensor_ansatz: 99.29% - 95.00%
+                con spider_ansatz: 98.57% - 98.33%
+                con mps_ansatz: 99.29% - 95.00%
+        
+        --  SpiderReader (bag-of-words) raggiunte le 30 epochs non ci sono miglioramenti, sia per il train che per il test accuracy.
+                con tensor_ansatz: 74.29% - 58.33%
+                con spider_ansatz: 74.29% - 58.33%
+                con mps_ansatz: 74.29% - 58.33%
 
-Rewriter:
-- Rewriter con ["prepositional_phrase", "determiner", "auxiliary", "connector", "coordination"]
+        --  CupsReader (words-sequence) valori di train accuracy tendenzialmente in salita, anche se tra 45 e 50 epoch diminusice, ma test accuracy scarsissima.
+                con tensor_ansatz: 
+                    45-EPOCH: 97.14% - 33.33%      
+                    50-EPOCH: 95.71% - 33.33%
+                con spider_ansatz:
+                    45-EPOCH: 97.14% - 33.33%      
+                    50-EPOCH: 95.71% - 33.33%
+                con mps_ansatz: 
+                    45-EPOCH: 97.14% - 33.33%      
+                    50-EPOCH: 95.71% - 33.33%
+        
+        --  StairsReader (word-sequence) diversamente dal tipo precendente ha valori di train/test accuracy discreti. Forse con piu di 50 epochs si possono migliorare.
+                con tensor_ansatz: 81.43% - 80.00%
+                con spider_ansatz: None
+                con mps_ansatz: None
+        
+        --  TreeReader ha accuracy altalenanti ma raggiungendo le 50 epochs tocca 100% di accuracy sul train set e quasi 97 sul test set.
+                con tensor_ansatz: 100% - 96.67%
+                con mps_ansatz: None
+        
 
-Parametrization:
-- TensorAnsatz per la pipeline classica
--- SpiderAnsatz
--- MPSAnsatz
+NB: bobcat parser al momento sembra il piu promettente, sia con tensor che con spider. (in effetti nel caso di studio si dovrebbero analizzare sintatticamente le frasi per estrapolare le categorie)
+NB: parser di tipo bag-of-words non sembra indicato per il caso di utilizzo in quanto non raggiungiamo valori di accuracy soddisfacenti.
+NB: analizzare con cups_reader ha risultati pessimi, stairs al contrario lavora molto meglio.
+NB: TreeReader ha la miglior accuracy per il train set.
 
-- IQPAnsatz per la pipeline quantum
-
-
+NB: tutti i test effettuati utilizzano tecniche di rewriting e normalizzazione con i marcatori: auxiliary, connector, determiner
 
 
-pipeline da testare:
-- syntax-reader, rewriter, TensorAnsatz -> syntax-tensor.py
-- syntax-reader, rewriter, SpiderAnsatz -> syntax-spider.py
-- syntax-reader, rewriter, MPSAnsatz -> syntax-mps.py
 
-- bag of words, rewriter, TensorAnsatz -> bow-tensor.py
-- bag of words, rewriter, SpiderAnsatz -> bow-spider.py
-- bag of words, rewriter, MPSAnsatz -> bow-mps.py
-
-(cups_reader)
-- word-sentence, rewriter, TensorAnsatz -> cups-tensor.py
-- word-sentence, rewriter, SpiderAnsatz -> cups-spider.py
-- word-sentence, rewriter, MPSAnsatz -> cups-mps.py
- 
-- tree-reader, rewriter, TensorAnsatz
-- tree-reader, rewriter, SpiderAnsatz
-- tree-reader, rewriter, MPSAnsatz
+QUANTUM PIPELINE
+    - non fa il train.
