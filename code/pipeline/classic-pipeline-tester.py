@@ -1,14 +1,22 @@
-from lambeq import BobcatParser, TreeReader, spiders_reader, cups_reader, stairs_reader
+from lambeq import BobcatParser, TreeReader, TreeReaderMode, spiders_reader, cups_reader, stairs_reader
 from lambeq import TensorAnsatz, SpiderAnsatz, MPSAnsatz, AtomicType
-from lambeq import PytorchModel, PytorchTrainer, Dataset
 from discopy import Dim
 from classic_pipeline import *
 
-parser = BobcatParser(verbose = "text")
-ansatz = TensorAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)})
+bobcat_parser = BobcatParser(verbose = "text")
+spider_parser = spiders_reader
+cups_parser = cups_reader
+stairs_parser = stairs_reader
+tree_parser = TreeReader(mode=TreeReaderMode.RULE_ONLY)
 
-pip = ClassicPipeline(parser, ansatz)
-#pip.add_rewriter_rules(Pipeline.SUPPORTED_RULES[0], Pipeline.SUPPORTED_RULES[1], Pipeline.SUPPORTED_RULES[4])
+
+tensor_ansatz = TensorAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)})
+spider_ansatz = SpiderAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)})
+mps_ansatz = MPSAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)})
+
+
+pip = ClassicPipeline(bobcat_parser, tensor_ansatz)
+pip.add_rewriter_rules(ClassicPipeline.SUPPORTED_RULES[0], ClassicPipeline.SUPPORTED_RULES[1], ClassicPipeline.SUPPORTED_RULES[4])
 train_labels, train_circuits = pip.create_circuits_and_labels("code/pipeline/mc_train_data.txt", "n")
 test_labels, test_circuits = pip.create_circuits_and_labels("code/pipeline/mc_test_data.txt", "n")
 
