@@ -22,7 +22,10 @@ CLASSIC PIPELINE
                     50-EPOCH: 95.71% - 33.33%
         
         --  StairsReader (word-sequence) diversamente dal tipo precendente ha valori di train/test accuracy discreti. Forse con piu di 50 epochs si possono migliorare.
-                con tensor_ansatz: 81.43% - 80.00%
+                con tensor_ansatz: 
+                    50-EPOCH: 81.43% - 80.00%
+                    70-EPOCH: 90.71% - 83.33%
+                    100-EPOCH: 95.71% - 90.00% si stabilizza arrivato alla epoch 95
                 con spider_ansatz: None
                 con mps_ansatz: None
         
@@ -41,4 +44,4 @@ NB: tutti i test effettuati utilizzano tecniche di rewriting e normalizzazione c
 
 
 QUANTUM PIPELINE
-    - non fa il train.
+    - andamento altalenante dell'accuracy per il training set, stessa con il test set, anche se mediamente i risultati tendono a salire.

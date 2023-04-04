@@ -15,7 +15,7 @@ spider_ansatz = SpiderAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(
 mps_ansatz = MPSAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)}, bond_dim = 3)
 
 
-pip = ClassicPipeline(bobcat_parser, tensor_ansatz)
+pip = ClassicPipeline(bobcat_parser, spider_ansatz)
 pip.add_rewriter_rules(ClassicPipeline.SUPPORTED_RULES[0], ClassicPipeline.SUPPORTED_RULES[1], ClassicPipeline.SUPPORTED_RULES[4])
 train_labels, train_circuits = pip.create_circuits_and_labels("code/pipeline/mc_train_data.txt", "n")
 test_labels, test_circuits = pip.create_circuits_and_labels("code/pipeline/mc_test_data.txt", "n")

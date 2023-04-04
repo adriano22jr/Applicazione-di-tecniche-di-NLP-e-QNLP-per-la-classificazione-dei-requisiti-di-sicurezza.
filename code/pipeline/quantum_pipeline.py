@@ -54,7 +54,7 @@ class QuantumPipeline():
         self.__trainer = QuantumTrainer(
             model = self.__model,
             loss_function = loss,
-            epochs = 1000,
+            epochs = 100,
             optimizer = SPSAOptimizer,
             optim_hyperparams = {'a': 0.05, 'c': 0.06, 'A':0.01 * 1000},
             evaluate_functions = eval_metrics,
@@ -64,7 +64,7 @@ class QuantumPipeline():
         )
         
     def train_model(self, train_set, test_set):        
-        self.__trainer.fit(train_set, test_set, evaluation_step = 1, logging_step = 100)
+        self.__trainer.fit(train_set, test_set, evaluation_step = 1, logging_step = 1)
         
     def plot(self):
         fig1, ((ax_tl, ax_tr), (ax_bl, ax_br)) = plt.subplots(2, 2, sharex = True, sharey='row', figsize=(10, 6))

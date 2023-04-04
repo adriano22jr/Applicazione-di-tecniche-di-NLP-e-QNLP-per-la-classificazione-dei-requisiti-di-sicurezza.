@@ -48,7 +48,7 @@ class ClassicPipeline():
                 model = self.__model,
                 loss_function = torch.nn.BCEWithLogitsLoss(),
                 optimizer = torch.optim.AdamW,
-                epochs = 50,
+                epochs = 70,
                 evaluate_functions = eval_metrics,
                 evaluate_on_train = True,
                 learning_rate = LEARNING_RATE,
