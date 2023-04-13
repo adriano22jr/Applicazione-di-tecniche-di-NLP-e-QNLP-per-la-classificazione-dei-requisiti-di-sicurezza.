@@ -45,3 +45,17 @@ NB: tutti i test effettuati utilizzano tecniche di rewriting e normalizzazione c
 
 QUANTUM PIPELINE
     - andamento altalenante dell'accuracy per il training set, stessa con il test set, anche se mediamente i risultati tendono a salire.
+
+
+
+
+
+
+
+
+
+
+
+TESTING REQUISITI:
+- a BobcatParser non piacciono troppe virgole, quindi le ho rimosse.
+per i file con i requisiti sono necessarie delle operazioni di data-cleaning. ci sono costrutti che non vengono riconosciuti dai parser.

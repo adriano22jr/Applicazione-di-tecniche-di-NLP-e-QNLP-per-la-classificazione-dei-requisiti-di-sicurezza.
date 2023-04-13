@@ -1,4 +1,5 @@
 from lambeq import BobcatParser, TreeReader, TreeReaderMode, spiders_reader, cups_reader, stairs_reader, Rewriter
+from lambeq import SpacyTokeniser
 from lambeq import TensorAnsatz, SpiderAnsatz, MPSAnsatz, AtomicType
 from lambeq import PytorchModel, PytorchTrainer, Dataset
 from discopy import Dim
@@ -16,6 +17,7 @@ class ClassicPipeline():
     SUPPORTED_RULES = ["auxiliary", "connector", "coordination", "curry", "determiner", "postadverb", "preadverb", "prepositional_phrase", "object_rel_pronoun", "subject_rel_pronoun"]
     
     def __init__(self, parser, ansatz) -> None:
+        self.__tokeniser = SpacyTokeniser()
         self.__parser = parser
         self.__ansatz = ansatz
         self.__rewriter = Rewriter()
@@ -25,7 +27,8 @@ class ClassicPipeline():
         
     def create_circuits_and_labels(self, dataset: str, control = None):
         labels, sentences = extract_data(dataset)
-        diagrams = self.__parser.sentences2diagrams(sentences)
+        tokens = self.__tokeniser.tokenise_sentences(sentences)
+        diagrams = self.__parser.sentences2diagrams(tokens, tokenised = True)
 
         if control.lower() == "y":
             normalized_diagrams = [self.__rewriter(diagram).normal_form() for diagram in diagrams]            
