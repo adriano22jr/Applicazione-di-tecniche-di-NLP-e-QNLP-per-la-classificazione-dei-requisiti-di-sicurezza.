@@ -3,9 +3,9 @@
 1  The CNG shall detect the end of the life of the key used for cryptographic protection of the wireless communication between the CND and the CNG . 
 1  A CPN-user attempting to invoke a CNG-mediated service shall be identified and authenticated by the CNG before being granted access to the service . 
 1  The CNG shall implement an authentication failure handling policy . 
-1  The cng shall take action according to local authentication failure handling policy (which may include silently discarding the authentication and explicit failure notification, or in the case of a replay of credentials may include notification of the true owner of the credentials) upon detection of failure during identification, authentication and authorization . 
-1  The CNG should detect replayed user and device credentials . 
-1  When the CNG detects replayed user and device credentials, the CNG shall stop the relevant processes . 
+1  The CNG shall take action according to local authentication failure handling policy (which may include silently discarding the authentication and explicit failure notification, or in the case of a replay of credentials may include notification of the true owner of the credentials) upon detection of failure during identification, authentication and authorization . 
+1  The CNG should detect replayed user and/or device credentials . 
+1  When the CNG detects replayed user and/or device credentials, the CNG shall stop the relevant processes . 
 1  The CNG shall implement a privacy protection policy specifying as a minimum private and critical information . 
 1  When the CNG detects violation of the privacy protection policy the CNG shall discard all signalling, including signalling from the NGN . 
 1  The CNG shall implement an authorization management handling policy . 

@@ -1,7 +1,7 @@
 import collections
 
-file = open("code/datasets/GPS.csv", "r")
-new_file = open("code/datasets/GPS_edited.csv", "w")
+file = open("code/datasets/ePurse.csv", "r")
+new_file = open("code/datasets/ePurse_edited.csv", "w")
 new_list = []
 
 for line in file:

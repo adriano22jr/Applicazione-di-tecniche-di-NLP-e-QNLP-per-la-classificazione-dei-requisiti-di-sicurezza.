@@ -59,3 +59,7 @@ QUANTUM PIPELINE
 TESTING REQUISITI:
 - a BobcatParser non piacciono troppe virgole, quindi le ho rimosse.
 per i file con i requisiti sono necessarie delle operazioni di data-cleaning. ci sono costrutti che non vengono riconosciuti dai parser.
+
+
+whether or not non riconosciuto (i modi di dire non vengono riconosciuti (????))
+servono soggetti per ogni aggettivo o avverbio (load and unload sentences non viene riconosciuto, load sentences and unload sentences si)

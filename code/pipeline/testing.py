@@ -7,37 +7,34 @@ from utilities import *
 tokeniser = SpacyTokeniser()
 parser = BobcatParser(verbose = "progress")
 ansatz = TensorAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)})
-labels, sentences = extract_data("code/datasets/GPS_edited.csv")
-tokens = tokeniser.tokenise_sentences(sentences)
+
+token = tokeniser.tokenise_sentence("The CNG should detect replayed user credentials and/or device credentials ")
+print(token)
+diagram = parser.sentence2diagram(token, tokenised=True)
+print(diagram)
 
 
-"""i = 0
-while i < len(tokens):
-    try:
-        print(f"parsing string {i} of {len(tokens)}")
-        diagram = parser.sentence2diagram(tokens[i], tokenised = True)
-        i += 1
-    except: 
-        Exception
-        print(tokens[i])
-        i += 1
-        continue"""
 
-diagrams = parser.sentences2diagrams(tokens, tokenised = True)
+"""
+labels, sentences = extract_data("code/datasets/ePurse_edited.csv")
+#tokens = tokeniser.tokenise_sentences(sentences)
 
+
+
+faults = []
 i = 0
-while i < len(diagrams):
+count = 0
+while i < len(sentences):
     try:
-        print(f"converting diagram {i} of {len(diagrams)}")
-        circuit = ansatz(diagrams[i])
+        print(f"parsing string {i} of {len(sentences)}")
+        diagram = parser.sentence2diagram(sentences[i], tokenised = True)
         i += 1
-    except: 
-        Exception
-        print(diagrams[i])
+    except Exception: 
+        faults.append((labels[i], sentences[i]))
+        count += 1
         i += 1
         continue
-    
-"""circuit = ansatz(diagrams[0])
-print(circuit)
-#circuits = [ansatz(diagram) for diagram in diagrams]
-#print(f"Done! Number of diagrams: {len(diagrams)}")"""
+    """
+#print(len(faults), count)
+
+
