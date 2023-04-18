@@ -17,8 +17,8 @@ mps_ansatz = MPSAnsatz({AtomicType.NOUN: Dim(2), AtomicType.SENTENCE: Dim(2)}, b
 
 pip = ClassicPipeline(bobcat_parser, tensor_ansatz)
 pip.add_rewriter_rules(ClassicPipeline.SUPPORTED_RULES[0], ClassicPipeline.SUPPORTED_RULES[1], ClassicPipeline.SUPPORTED_RULES[4])
-train_labels, train_circuits = pip.create_circuits_and_labels("code/datasets/ePurse_edited.csv", "y")
-test_labels, test_circuits = pip.create_circuits_and_labels("code/datasets/GPS_edited.csv", "y")
+train_labels, train_circuits = pip.create_circuits_and_labels("project/datasets/edited_datasets/CPN_edited.csv", "n")
+test_labels, test_circuits = pip.create_circuits_and_labels("project/datasets/edited_datasets/ePurse_edited.csv", "n")
 
 train_set, test_set = pip.create_dataset(train_labels, train_circuits), pip.create_dataset(test_labels, test_circuits)
 pip.create_trainer(train_circuits, test_circuits)

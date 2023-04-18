@@ -21,6 +21,7 @@ def find_faults_in_file(file: str):
             i += 1
         except Exception: 
             faults.append(sentences[i])
+            print(sentences[i])
             count += 1
             i += 1
             continue
@@ -42,23 +43,34 @@ def check_fixed_faults(tokens_list):
 
     print("Loop done")
 
-
-
-
+def find_duplicates(filename):
+    duplicates = []
+    position = 1
+    with open(filename) as f:
+        seen = set()
+        for line in f:
+            if line in seen:
+                duplicates.append( (line, position) )
+                print(line, position)
+                position += 1
+            else:
+                seen.add(line)
+                position += 1
+    
+    return duplicates
 
 fault_strings_cpn = [
     "The CNG should detect replayed user credentials and/or device credentials .",
     "When the CNG detects replayed user credentials and/or device credentials, the CNG shall stop the relevant processes .",
-    "The CNG and the CPN shall be able to support parental control related functionalities limiting the use of the broadband connection on a user basis or time basis. Limitations on a content basis may be shared with devoted network servers .",
+    "The CNG and the CPN shall be able to support parental control related functionalities limiting the use of the broadband connection on a user basis or time basis. Limitations on a content may be shared with devoted network servers .",
     "The CNG shall be equipped with a WAN interface towards the NGN, implementing layer 1 functionalities and layer 2 functionalities ('one-box' solution) .",
     "The CNG shall support different IP address schemes and subnets on the same physical LAN port and on different LAN ports, irrespective of routed mode or bridged mode of operation, allowing the direct addressability of CNDs from the NGN side in relation to data plane flows, control plane flows and management plane flows .",
     "The CNG and the Customer Network shall assure the confidentiality flows, the integrity of signalling flows control flows and media flows and management flows .",
     "The CNG and the Customer Network shall provide the opportunity for a customer network administrator to perform service configuration and network-related configuration. According to the service choices and network provider choices, the CNG and Customer Network may prevent user initiated modification of network parameters and service related parameters .",
     "The CNG shall support mechanisms for managing IPTV flows provided both in unicast mode and multicast mode .",
     "STB gateways or media gateways should be equipped with a programmable open API allowing the implementation of specific service logics .",
-    "The CNG and the CPN shall support adequate Quality of Service mechanisms (e.g. prioritize the traffic in the event that there is not sufficient bandwidth in the customer network in order to ensure the correct network performances to each traffic flow). To achieve this objective a number of functionalities shall be supported by CNG and/or CNDs, as defined in the following bullets. Most of the following set of requirements is defined adopting as a reference the Home Gateway Initiative (HGI) Release Specification mentioned in clause 2 .",
     "In order to support the NGN services and intra-CPN communications, all the CNDs in the CPN shall be addressable directly or by the mean of the CNG using L2 mechanisms or L3 mechanisms .",
-    "In case of managed services, the CNG shall support zero-touch provisioning to activate new services, starting from Internet access to voice and video services and shall be remotely manageable. In case of unmanaged services the user shall be able to configure the CNG by himself ."
+    "In case of managed services, the CNG shall support zero-touch provisioning to activate new services, starting from Internet access to voice services and video services and shall be remotely manageable. In case of unmanaged services the user shall be able to configure the CNG by himself ."
 ]
 
 fault_strings_epurse = [
@@ -75,61 +87,40 @@ fault_strings_epurse = [
     "The issuer host must authenticate the card upon the load request and unload request ."
 ]
 
-check_fixed_faults(fault_strings_cpn)
-#check_fixed_faults(fault_strings_epurse)
+fault_strings_gps = [
+    
+]
+
+"""tokeniser = SpacyTokeniser()
+parser = BobcatParser(verbose = "progress")
+token = tokeniser.tokenise_sentence("Currency exchange rate fluctuations may increase the card issuers liability. The card issuer must be able to adjust maximum balances to bring them in line with their policies. The card issuer may update the maximum balances as part of a load, a partial unload, and a currency exchange transaction. On a currency exchange transaction, only the crypto currency maximum balance may be updated .")
+diagram = parser.sentence2diagram(token, tokenised = True)"""
+
+"""check_fixed_faults(fault_strings_cpn)
+check_fixed_faults(fault_strings_epurse)
+check_fixed_faults(fault_strings_gps)
+print(len(find_faults_in_file("project/datasets/edited_datasets/CPN_edited.csv")))
+print(len(find_faults_in_file("project/datasets/edited_datasets/ePurse_edited.csv")))"""
 
 
+#da qui inizia il testing per la conversione dei diagrammi in circuiti.
 
+def create_diagrams(dataset: str):
+    tokeniser = SpacyTokeniser()
+    parser = BobcatParser(verbose = "progress")
+    labels, sentences = extract_data(dataset)
+    tokens = tokeniser.tokenise_sentences(sentences)
+    diagrams = parser.sentences2diagrams(tokens, tokenised = True)
+    
+    return diagrams
 
+diagrams = create_diagrams("project/datasets/edited_datasets/ePurse_edited.csv")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
-labels, sentences = extract_data("code/datasets/ePurse_edited.csv")
-#tokens = tokeniser.tokenise_sentences(sentences)
-
-
-
-faults = []
-i = 0
-count = 0
-while i < len(sentences):
-    try:
-        print(f"parsing string {i} of {len(sentences)}")
-        diagram = parser.sentence2diagram(sentences[i], tokenised = True)
-        i += 1
-    except Exception: 
-        faults.append((labels[i], sentences[i]))
-        count += 1
-        i += 1
-        continue
-    """
-
-
+def create_circuits(diagrams):
+    ansatz = TensorAnsatz({AtomicType.NOUN: Dim(4), AtomicType.SENTENCE: Dim(2)})
+     
+    circuits = []    
+    for i in range(len(diagrams)):
+        print(f"converting diagram {i+1}")
+        ansatz(diagrams[i]) 
+    return circuits
