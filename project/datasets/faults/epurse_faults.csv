@@ -1,0 +1,29 @@
+PRE EDIT:
+    req2    On-line authentication must take place between the card issuer and the CEP card for load, unload, and currency exchange transactions . 
+    req29   The transaction signatures ensure end to end integrity of transmitted data for load, unload, and currency exchange transactions .
+    req49   If a scheme provider establishes a central error repository, all transactions for the scheme with MAC errors must be sent to that central error repository whether or not they are submitted to the dispute process . 
+    req72   Payment decisions are based on signature validations, scheme provider rules, and merchant and merchant acquirer agreements .
+    req77   All load transactions are on-line transactions. Authorization of funds for load transactions must require a form of cardholder verification. The load device must support on-line encrypted PIN or off-line PIN verification .     
+    req84   Flexibility is required to accommodate the variety of environments where unlinked loads may be implemented. As a result, the design specification must not preclude dual-leg transactions** from taking place either sequentially or in parallel. The design of a given implementation will vary depending on the device, host, and network capabilities. . 
+    req85   Unload and currency exchange transactions are optional for CEP card issuers. The CEP card must indicate whether the card issuer supports these transactions. However, if a card issuer issues multi-currency capable cards, it must provide its cardholder with a facility to remove any remaining value. As a result, if a card issuer supports loading of multiple currencies onto a card, then it must support the unload or currency exchange transaction or both. .
+    req90   Script messages that conform to EMV specifications may be included as part of load, unload and currency exchange messages from the card issuer to the CEP card. An update key must be used when card parameters are changed. Script messages may be sent to the CEP card either before or after the credit for load, debit of unload and currency exchange commands. .
+    req95   It is a card issuer decision to determine the currencies that are allowed to occupy slots in the CEP card. This decision is made by the card issuer during the load or currency exchange transaction, by approving or rejecting the request to authorize the transaction. .
+    req108  Load and unload functions must be authenticated using end-to-end security between the card and the card issuer .
+    req109  The issuer host must authenticate the card upon the load/unload request .
+
+
+
+POST EDIT:
+    req2    On-line authentication must take place between the card issuer and the CEP card for load transactions, unload transactions and currency exchange transactions .
+    req29   The transaction signatures ensure end to end integrity of transmitted data for load transactions, unload transactions and currency exchange transactions .
+    req49   If a scheme provider establishes a central error repository, all transactions for the scheme with MAC errors must be sent to that central error repository even if they are submitted to the dispute process . 
+    req72   Payment decisions are based on signature validations, scheme provider rules and merchant acquirer agreements .
+    req77   All load transactions are on-line transactions. Authorization of funds for load transactions must require a form of cardholder verification. The load device must support on-line encrypted PIN verification or off-line PIN verification .    
+    req84   Flexibility is required to accommodate the variety of environments where unlinked loads may be implemented. As a result, the design specification must not preclude dual-leg transactions from taking place either sequentially or in parallel. The design of a given implementation will vary depending on the device capabilities, host capabilities and network capabilities .
+    req85   Unload transactions and currency exchange transactions are optional for CEP card issuers. The CEP card must indicate whether the card issuer supports these transactions. However, if a card issuer issues multi-currency capable cards, it must provide its cardholder with a facility to remove any remaining value. As a result, if a card issuer supports loading of multiple currencies onto a card, then it must support the unload transaction or currency exchange transaction or both .
+    req90   Script messages that conform to EMV specifications may be included as part of load messages, unload messages and currency exchange messages from the card issuer to the CEP card. An update key must be used when card parameters are changed. Script messages may be sent to the CEP card either before or after the credit for load commands, debit of unload commands and currency exchange commands .
+    req95   It is a card issuer decision to determine the currencies that are allowed to occupy slots in the CEP card. This decision is made by the card issuer during the load transaction or currency exchange transaction, by approving the request or rejecting the request to authorize the transaction .
+    req108  Load functions and unload functions must be authenticated using end-to-end security between the card and the card issuer .
+    req109  The issuer host must authenticate the card upon the load request and unload request .
+
+
