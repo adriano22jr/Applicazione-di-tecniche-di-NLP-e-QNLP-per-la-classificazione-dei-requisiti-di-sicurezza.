@@ -26,7 +26,7 @@ class ClassicPipeline():
         self.__rewriter.add_rules(*rules)
         
     def create_circuits_and_labels(self, dataset: str, control = None):
-        labels, sentences = extract_data(dataset)
+        labels, sentences = extract_data_manual(dataset)
         tokens = self.__tokeniser.tokenise_sentences(sentences)
         diagrams = self.__parser.sentences2diagrams(tokens, tokenised = True)
 
