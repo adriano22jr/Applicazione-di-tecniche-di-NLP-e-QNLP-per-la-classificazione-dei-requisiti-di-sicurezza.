@@ -1,7 +1,6 @@
 from lambeq import BobcatParser, Rewriter
 from lambeq import IQPAnsatz, AtomicType, remove_cups
 from lambeq import TketModel, QuantumTrainer, SPSAOptimizer, Dataset
-from pytket.extensions.qiskit import AerBackend
 from utilities import *
 import os, warnings, numpy as np, matplotlib.pyplot as plt
 
