@@ -37,6 +37,23 @@ class ClassicPipeline():
         
         circuits = [self.__ansatz(diagram) for diagram in diagrams]
         return labels, circuits
+    
+    def normalize_diagrams(self, diagrams: list):
+        max_dim = max(len(diagram) for diagram in diagrams)
+        print(max_dim)
+        padded_diagrams = []
+        
+        for diagram in diagrams:
+            add_count = max_dim - len(diagram)
+            print(add_count)
+            
+            pad_diagrams = [self.__ansatz(self.__parser.sentence2diagram("qw")) for i in range(add_count)]
+            new_diagram = diagram
+            for pad in pad_diagrams:
+                new_diagram = pad @ new_diagram
+            padded_diagrams.append(new_diagram)
+
+        return padded_diagrams    
 
     def create_dataset(self, labels, circuits):
         return Dataset(circuits, labels)
