@@ -27,9 +27,7 @@ class ClassicPipeline():
         
     def create_circuits_and_labels(self, dataset: str, control = None):
         labels, sentences = extract_data_manual(dataset)
-        sorted_sentences = sorted(sentences, key = len)
-        
-        tokens = self.__tokeniser.tokenise_sentences(sorted_sentences)
+        tokens = self.__tokeniser.tokenise_sentences(sentences)
         diagrams = self.__parser.sentences2diagrams(tokens, tokenised = True)
 
         if control.lower() == "y":
