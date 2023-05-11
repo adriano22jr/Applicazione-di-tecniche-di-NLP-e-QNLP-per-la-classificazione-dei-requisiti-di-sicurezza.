@@ -56,7 +56,7 @@ class ClassicPipeline():
         return padded_diagrams    
 
     def create_dataset(self, labels, circuits):
-        return Dataset(circuits, labels)
+        return Dataset(circuits, labels, shuffle = False)
     
     def create_trainer(self, *circuits):
         circuits_model = []
