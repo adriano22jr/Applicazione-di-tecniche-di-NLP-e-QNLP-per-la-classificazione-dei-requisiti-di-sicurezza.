@@ -3,15 +3,24 @@ from lambeq import SpacyTokeniser
 from lambeq import TensorAnsatz, SpiderAnsatz, MPSAnsatz, AtomicType
 from lambeq import PytorchModel, PytorchTrainer, Dataset
 from discopy import Dim
+import torchmetrics
 from utilities import *
 import matplotlib.pyplot as plt
 
 
-sig = torch.sigmoid
 def accuracy(y_hat, y):
-    return torch.sum(torch.eq(torch.round(sig(y_hat)), y))/len(y)/2
-eval_metrics = {"acc": accuracy}
+    return torchmetrics.functional.accuracy(y_hat, y, "binary")
 
+def precision(y_hat, y):
+    return torchmetrics.functional.precision(y_hat, y, "binary")
+
+def recall(y_hat, y):
+    return torchmetrics.functional.recall(y_hat, y, "binary")
+
+def f1score(y_hat, y):
+    return torchmetrics.functional.f1_score(y_hat, y, "binary")
+
+eval_metrics = {"acc": accuracy, "rec": recall, "f1": f1score}
 
 class ClassicPipeline():
     SUPPORTED_RULES = ["auxiliary", "connector", "coordination", "curry", "determiner", "postadverb", "preadverb", "prepositional_phrase", "object_rel_pronoun", "subject_rel_pronoun"]
@@ -76,6 +85,9 @@ class ClassicPipeline():
                 verbose = "text",
                 seed = CLASSIC_SEED
         )
+        
+    def get_model_trainer(self):
+        return self.__model, self.__trainer
         
     def train_model(self, train_set, test_set):        
         self.__trainer.fit(train_set, test_set, evaluation_step = 1, logging_step = 5)
