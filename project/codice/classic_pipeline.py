@@ -68,26 +68,28 @@ class ClassicPipeline():
     def create_dataset(self, labels, circuits):
         return Dataset(circuits, labels, shuffle = False)
     
-    def create_trainer(self, *circuits):
+    def create_model(self, *circuits):
         circuits_model = []
         for circuit in circuits:
             circuits_model = circuits_model + circuit
 
         self.__model = PytorchModel.from_diagrams(circuits_model)
+        return self.__model
+    
+    def create_trainer(self, model = None, loss = None, optimizer = torch.optim.AdamW, n_epochs = 0, lr = LEARNING_RATE, seed = CLASSIC_SEED):
         self.__trainer = PytorchTrainer(
-                model = self.__model,
-                loss_function = torch.nn.BCEWithLogitsLoss(),
-                optimizer = torch.optim.AdamW,
-                epochs = 70,
+                model = model,
+                loss_function = loss,
+                optimizer = optimizer,
+                epochs = n_epochs,
                 evaluate_functions = eval_metrics,
                 evaluate_on_train = True,
-                learning_rate = LEARNING_RATE,
+                learning_rate = lr,
                 verbose = "text",
-                seed = CLASSIC_SEED
+                seed = seed
         )
         
-    def get_model_trainer(self):
-        return self.__model, self.__trainer
+        return self.__trainer
         
     def train_model(self, train_set, test_set):        
         self.__trainer.fit(train_set, test_set, evaluation_step = 1, logging_step = 5)
