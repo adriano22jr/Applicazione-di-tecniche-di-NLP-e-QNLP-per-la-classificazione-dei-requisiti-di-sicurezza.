@@ -1,0 +1,292 @@
+Current triple: 10 BCEWithLogitsLoss() <class 'torch.optim.adamw.AdamW'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7105   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6816   valid/loss: 0.7344   train/acc: 0.5298   train/rec: 0.4107   train/f1: 0.4662   valid/acc: 0.4960   valid/rec: 0.4032   valid/f1: 0.4444
+Epoch 10:  train/loss: 0.5880   valid/loss: 1.2150   train/acc: 0.6042   train/rec: 0.5655   train/f1: 0.5882   valid/acc: 0.4758   valid/rec: 0.5000   valid/f1: 0.4882
+
+
+Current triple: 10 BCEWithLogitsLoss() <class 'torch.optim.adagrad.Adagrad'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4113   valid/f1: 0.4574
+Epoch 5:   train/loss: 0.6788   valid/loss: 0.7576   train/acc: 0.5417   train/rec: 0.4345   train/f1: 0.4867   valid/acc: 0.4839   valid/rec: 0.3952   valid/f1: 0.4336
+Epoch 10:  train/loss: 0.5570   valid/loss: 1.1413   train/acc: 0.6845   train/rec: 0.6548   train/f1: 0.6748   valid/acc: 0.4919   valid/rec: 0.5081   valid/f1: 0.5000
+
+
+Current triple: 10 BCEWithLogitsLoss() <class 'torch.optim.adam.Adam'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6815   valid/loss: 0.7357   train/acc: 0.5327   train/rec: 0.4167   train/f1: 0.4714   valid/acc: 0.4960   valid/rec: 0.4032   valid/f1: 0.4444
+Epoch 10:  train/loss: 0.5869   valid/loss: 1.2413   train/acc: 0.6012   train/rec: 0.5595   train/f1: 0.5839   valid/acc: 0.4758   valid/rec: 0.4919   valid/f1: 0.4841
+
+
+Current triple: 10 BCEWithLogitsLoss() <class 'torch.optim.adamax.Adamax'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6860   valid/loss: 0.7275   train/acc: 0.5060   train/rec: 0.3869   train/f1: 0.4392   valid/acc: 0.4879   valid/rec: 0.3790   valid/f1: 0.4253
+Epoch 10:  train/loss: 0.6542   valid/loss: 0.8070   train/acc: 0.5446   train/rec: 0.4702   train/f1: 0.5080   valid/acc: 0.4839   valid/rec: 0.4194   valid/f1: 0.4483
+
+
+Current triple: 10 HingeEmbeddingLoss() <class 'torch.optim.adamw.AdamW'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4788   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.3681   valid/loss: 0.4421   train/acc: 0.4940   train/rec: 0.2560   train/f1: 0.3359   valid/acc: 0.5040   valid/rec: 0.4032   valid/f1: 0.4484
+Epoch 10:  train/loss: -22.9001   valid/loss: 0.0971   train/acc: 0.4911   train/rec: 0.2381   train/f1: 0.3187   valid/acc: 0.5000   valid/rec: 0.3548   valid/f1: 0.4151
+
+
+Current triple: 10 HingeEmbeddingLoss() <class 'torch.optim.adagrad.Adagrad'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.2185   valid/loss: 0.3937   train/acc: 0.4970   train/rec: 0.2857   train/f1: 0.3623   valid/acc: 0.5282   valid/rec: 0.4032   valid/f1: 0.4608
+Epoch 10:  train/loss: -1039.0154   valid/loss: -0.3288   train/acc: 0.4970   train/rec: 0.2440   train/f1: 0.3267   valid/acc: 0.5202   valid/rec: 0.4597   valid/f1: 0.4893
+
+
+Current triple: 10 HingeEmbeddingLoss() <class 'torch.optim.adam.Adam'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.3646   valid/loss: 0.4409   train/acc: 0.4940   train/rec: 0.2560   train/f1: 0.3359   valid/acc: 0.5040   valid/rec: 0.4032   valid/f1: 0.4484
+Epoch 10:  train/loss: -24.7939   valid/loss: 0.0750   train/acc: 0.4911   train/rec: 0.2381   train/f1: 0.3187   valid/acc: 0.5000   valid/rec: 0.3468   valid/f1: 0.4095
+
+
+Current triple: 10 HingeEmbeddingLoss() <class 'torch.optim.adamax.Adamax'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.4453   valid/loss: 0.4591   train/acc: 0.5089   train/rec: 0.2679   train/f1: 0.3529   valid/acc: 0.5202   valid/rec: 0.4032   valid/f1: 0.4566
+Epoch 10:  train/loss: -0.1833   valid/loss: 0.3973   train/acc: 0.4970   train/rec: 0.2321   train/f1: 0.3158   valid/acc: 0.5121   valid/rec: 0.3952   valid/f1: 0.4475
+
+
+
+
+Current triple: 20 BCEWithLogitsLoss() <class 'torch.optim.adamw.AdamW'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7105   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6816   valid/loss: 0.7344   train/acc: 0.5298   train/rec: 0.4107   train/f1: 0.4662   valid/acc: 0.4960   valid/rec: 0.4032   valid/f1: 0.4444
+Epoch 10:  train/loss: 0.5880   valid/loss: 1.2150   train/acc: 0.6042   train/rec: 0.5655   train/f1: 0.5882   valid/acc: 0.4758   valid/rec: 0.5000   valid/f1: 0.4882
+Epoch 15:  train/loss: 0.4487   valid/loss: 4.9737   train/acc: 0.7143   train/rec: 0.6905   train/f1: 0.7073   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 20:  train/loss: 0.3373   valid/loss: 18.3751   train/acc: 0.7976   train/rec: 0.7619   train/f1: 0.7901   valid/acc: 0.5282   valid/rec: 0.5161   valid/f1: 0.5224
+
+
+Current triple: 20 BCEWithLogitsLoss() <class 'torch.optim.adagrad.Adagrad'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4113   valid/f1: 0.4574
+Epoch 5:   train/loss: 0.6788   valid/loss: 0.7576   train/acc: 0.5417   train/rec: 0.4345   train/f1: 0.4867   valid/acc: 0.4839   valid/rec: 0.3952   valid/f1: 0.4336
+Epoch 10:  train/loss: 0.5570   valid/loss: 1.1413   train/acc: 0.6845   train/rec: 0.6548   train/f1: 0.6748   valid/acc: 0.4919   valid/rec: 0.5081   valid/f1: 0.5000
+Epoch 15:  train/loss: 0.4408   valid/loss: 1.6205   train/acc: 0.7262   train/rec: 0.7321   train/f1: 0.7278   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 20:  train/loss: 0.3575   valid/loss: 4.6521   train/acc: 0.7768   train/rec: 0.7500   train/f1: 0.7706   valid/acc: 0.5081   valid/rec: 0.5000   valid/f1: 0.5041
+
+
+Current triple: 20 BCEWithLogitsLoss() <class 'torch.optim.adam.Adam'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6815   valid/loss: 0.7357   train/acc: 0.5327   train/rec: 0.4167   train/f1: 0.4714   valid/acc: 0.4960   valid/rec: 0.4032   valid/f1: 0.4444
+Epoch 10:  train/loss: 0.5869   valid/loss: 1.2413   train/acc: 0.6012   train/rec: 0.5595   train/f1: 0.5839   valid/acc: 0.4758   valid/rec: 0.4919   valid/f1: 0.4841
+Epoch 15:  train/loss: 0.4480   valid/loss: 5.3161   train/acc: 0.7143   train/rec: 0.7083   train/f1: 0.7126   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 20:  train/loss: 0.3344   valid/loss: 22.4897   train/acc: 0.7976   train/rec: 0.7738   train/f1: 0.7927   valid/acc: 0.5403   valid/rec: 0.5323   valid/f1: 0.5366
+
+
+Current triple: 20 BCEWithLogitsLoss() <class 'torch.optim.adamax.Adamax'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6860   valid/loss: 0.7275   train/acc: 0.5060   train/rec: 0.3869   train/f1: 0.4392   valid/acc: 0.4879   valid/rec: 0.3790   valid/f1: 0.4253
+Epoch 10:  train/loss: 0.6542   valid/loss: 0.8070   train/acc: 0.5446   train/rec: 0.4702   train/f1: 0.5080   valid/acc: 0.4839   valid/rec: 0.4194   valid/f1: 0.4483
+Epoch 15:  train/loss: 0.5900   valid/loss: 1.3256   train/acc: 0.5982   train/rec: 0.5952   train/f1: 0.5970   valid/acc: 0.4798   valid/rec: 0.4919   valid/f1: 0.4861
+Epoch 20:  train/loss: 0.5136   valid/loss: 3.9542   train/acc: 0.6577   train/rec: 0.6548   train/f1: 0.6567   valid/acc: 0.4677   valid/rec: 0.4839   valid/f1: 0.4762
+
+
+Current triple: 20 HingeEmbeddingLoss() <class 'torch.optim.adamw.AdamW'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4788   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.3681   valid/loss: 0.4421   train/acc: 0.4940   train/rec: 0.2560   train/f1: 0.3359   valid/acc: 0.5040   valid/rec: 0.4032   valid/f1: 0.4484
+Epoch 10:  train/loss: -22.9001   valid/loss: 0.0971   train/acc: 0.4911   train/rec: 0.2381   train/f1: 0.3187   valid/acc: 0.5000   valid/rec: 0.3548   valid/f1: 0.4151
+Epoch 15:  train/loss: -4284.4009   valid/loss: -3.9443   train/acc: 0.4970   train/rec: 0.2619   train/f1: 0.3424   valid/acc: 0.5040   valid/rec: 0.3548   valid/f1: 0.4171
+Epoch 20:  train/loss: -735904.0625   valid/loss: -17.6436   train/acc: 0.5000   train/rec: 0.2262   train/f1: 0.3115   valid/acc: 0.5000   valid/rec: 0.4032   valid/f1: 0.4464
+
+
+Current triple: 20 HingeEmbeddingLoss() <class 'torch.optim.adagrad.Adagrad'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.2185   valid/loss: 0.3937   train/acc: 0.4970   train/rec: 0.2857   train/f1: 0.3623   valid/acc: 0.5282   valid/rec: 0.4032   valid/f1: 0.4608
+Epoch 10:  train/loss: -1039.0154   valid/loss: -0.3288   train/acc: 0.4970   train/rec: 0.2440   train/f1: 0.3267   valid/acc: 0.5202   valid/rec: 0.4597   valid/f1: 0.4893
+Epoch 15:  train/loss: -138748784.0000   valid/loss: -61.5057   train/acc: 0.4970   train/rec: 0.2500   train/f1: 0.3320   valid/acc: 0.5081   valid/rec: 0.4839   valid/f1: 0.4959
+Epoch 20:  train/loss: -91494725409379975168.0000   valid/loss: 91.8708   train/acc: 0.4851   train/rec: 0.2321   train/f1: 0.3108   valid/acc: 0.5040   valid/rec: 0.5403   valid/f1: 0.5214
+
+
+Current triple: 20 HingeEmbeddingLoss() <class 'torch.optim.adam.Adam'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.3646   valid/loss: 0.4409   train/acc: 0.4940   train/rec: 0.2560   train/f1: 0.3359   valid/acc: 0.5040   valid/rec: 0.4032   valid/f1: 0.4484
+Epoch 10:  train/loss: -24.7939   valid/loss: 0.0750   train/acc: 0.4911   train/rec: 0.2381   train/f1: 0.3187   valid/acc: 0.5000   valid/rec: 0.3468   valid/f1: 0.4095
+Epoch 15:  train/loss: -4822.9175   valid/loss: -4.5697   train/acc: 0.4970   train/rec: 0.2560   train/f1: 0.3373   valid/acc: 0.5000   valid/rec: 0.3629   valid/f1: 0.4206
+Epoch 20:  train/loss: -1091387.1250   valid/loss: -23.6759   train/acc: 0.5000   train/rec: 0.2143   train/f1: 0.3000   valid/acc: 0.5040   valid/rec: 0.4274   valid/f1: 0.4629
+
+
+Current triple: 20 HingeEmbeddingLoss() <class 'torch.optim.adamax.Adamax'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.4453   valid/loss: 0.4591   train/acc: 0.5089   train/rec: 0.2679   train/f1: 0.3529   valid/acc: 0.5202   valid/rec: 0.4032   valid/f1: 0.4566
+Epoch 10:  train/loss: -0.1833   valid/loss: 0.3973   train/acc: 0.4970   train/rec: 0.2321   train/f1: 0.3158   valid/acc: 0.5121   valid/rec: 0.3952   valid/f1: 0.4475
+Epoch 15:  train/loss: -6.3141   valid/loss: 0.2459   train/acc: 0.4970   train/rec: 0.2202   train/f1: 0.3045   valid/acc: 0.5161   valid/rec: 0.3548   valid/f1: 0.4231
+Epoch 20:  train/loss: -60.9282   valid/loss: -0.2946   train/acc: 0.4970   train/rec: 0.2440   train/f1: 0.3267   valid/acc: 0.5121   valid/rec: 0.3952   valid/f1: 0.4475
+
+
+
+
+Current triple: 30 BCEWithLogitsLoss() <class 'torch.optim.adamw.AdamW'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7105   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6816   valid/loss: 0.7344   train/acc: 0.5298   train/rec: 0.4107   train/f1: 0.4662   valid/acc: 0.4960   valid/rec: 0.4032   valid/f1: 0.4444
+Epoch 10:  train/loss: 0.5880   valid/loss: 1.2150   train/acc: 0.6042   train/rec: 0.5655   train/f1: 0.5882   valid/acc: 0.4758   valid/rec: 0.5000   valid/f1: 0.4882
+Epoch 15:  train/loss: 0.4487   valid/loss: 4.9736   train/acc: 0.7143   train/rec: 0.6905   train/f1: 0.7073   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 20:  train/loss: 0.3373   valid/loss: 18.3744   train/acc: 0.7976   train/rec: 0.7619   train/f1: 0.7901   valid/acc: 0.5282   valid/rec: 0.5161   valid/f1: 0.5224
+Epoch 25:  train/loss: 0.2632   valid/loss: 34.6909   train/acc: 0.8363   train/rec: 0.8452   train/f1: 0.8378   valid/acc: 0.5403   valid/rec: 0.5081   valid/f1: 0.5250
+Epoch 30:  train/loss: 0.2225   valid/loss: 52.7445   train/acc: 0.8750   train/rec: 0.8690   train/f1: 0.8743   valid/acc: 0.5040   valid/rec: 0.4758   valid/f1: 0.4896
+
+
+Current triple: 30 BCEWithLogitsLoss() <class 'torch.optim.adagrad.Adagrad'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4113   valid/f1: 0.4574
+Epoch 5:   train/loss: 0.6788   valid/loss: 0.7576   train/acc: 0.5417   train/rec: 0.4345   train/f1: 0.4867   valid/acc: 0.4839   valid/rec: 0.3952   valid/f1: 0.4336
+Epoch 10:  train/loss: 0.5570   valid/loss: 1.1413   train/acc: 0.6845   train/rec: 0.6548   train/f1: 0.6748   valid/acc: 0.4919   valid/rec: 0.5081   valid/f1: 0.5000
+Epoch 15:  train/loss: 0.4408   valid/loss: 1.6205   train/acc: 0.7262   train/rec: 0.7321   train/f1: 0.7278   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 20:  train/loss: 0.3575   valid/loss: 4.6520   train/acc: 0.7768   train/rec: 0.7500   train/f1: 0.7706   valid/acc: 0.5081   valid/rec: 0.5000   valid/f1: 0.5041
+Epoch 25:  train/loss: 0.3946   valid/loss: 5.4530   train/acc: 0.7917   train/rec: 0.7619   train/f1: 0.7853   valid/acc: 0.5202   valid/rec: 0.5161   valid/f1: 0.5182
+Epoch 30:  train/loss: 0.2640   valid/loss: 6.1625   train/acc: 0.8125   train/rec: 0.7976   train/f1: 0.8097   valid/acc: 0.5242   valid/rec: 0.5323   valid/f1: 0.5280
+
+
+Current triple: 30 BCEWithLogitsLoss() <class 'torch.optim.adam.Adam'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6815   valid/loss: 0.7357   train/acc: 0.5327   train/rec: 0.4167   train/f1: 0.4714   valid/acc: 0.4960   valid/rec: 0.4032   valid/f1: 0.4444
+Epoch 10:  train/loss: 0.5869   valid/loss: 1.2413   train/acc: 0.6012   train/rec: 0.5595   train/f1: 0.5839   valid/acc: 0.4758   valid/rec: 0.4919   valid/f1: 0.4841
+Epoch 15:  train/loss: 0.4480   valid/loss: 5.3161   train/acc: 0.7143   train/rec: 0.7083   train/f1: 0.7126   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 20:  train/loss: 0.3344   valid/loss: 22.4910   train/acc: 0.7976   train/rec: 0.7738   train/f1: 0.7927   valid/acc: 0.5403   valid/rec: 0.5323   valid/f1: 0.5366
+Epoch 25:  train/loss: 0.2446   valid/loss: 41.2097   train/acc: 0.8542   train/rec: 0.8452   train/f1: 0.8529   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 30:  train/loss: 0.2137   valid/loss: 35.8004   train/acc: 0.8601   train/rec: 0.8512   train/f1: 0.8589   valid/acc: 0.4677   valid/rec: 0.4274   valid/f1: 0.4454
+
+
+Current triple: 30 BCEWithLogitsLoss() <class 'torch.optim.adamax.Adamax'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6860   valid/loss: 0.7275   train/acc: 0.5060   train/rec: 0.3869   train/f1: 0.4392   valid/acc: 0.4879   valid/rec: 0.3790   valid/f1: 0.4253
+Epoch 10:  train/loss: 0.6542   valid/loss: 0.8070   train/acc: 0.5446   train/rec: 0.4702   train/f1: 0.5080   valid/acc: 0.4839   valid/rec: 0.4194   valid/f1: 0.4483
+Epoch 15:  train/loss: 0.5900   valid/loss: 1.3256   train/acc: 0.5982   train/rec: 0.5952   train/f1: 0.5970   valid/acc: 0.4798   valid/rec: 0.4919   valid/f1: 0.4861
+Epoch 20:  train/loss: 0.5135   valid/loss: 3.9539   train/acc: 0.6577   train/rec: 0.6607   train/f1: 0.6588   valid/acc: 0.4677   valid/rec: 0.4839   valid/f1: 0.4762
+Epoch 25:  train/loss: 0.4369   valid/loss: 14.2379   train/acc: 0.7202   train/rec: 0.7083   train/f1: 0.7169   valid/acc: 0.4758   valid/rec: 0.4435   valid/f1: 0.4583
+Epoch 30:  train/loss: 0.3801   valid/loss: 34.8355   train/acc: 0.7589   train/rec: 0.7500   train/f1: 0.7568   valid/acc: 0.5202   valid/rec: 0.5000   valid/f1: 0.5103
+
+
+Current triple: 30 HingeEmbeddingLoss() <class 'torch.optim.adamw.AdamW'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4788   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.3681   valid/loss: 0.4421   train/acc: 0.4940   train/rec: 0.2560   train/f1: 0.3359   valid/acc: 0.5040   valid/rec: 0.4032   valid/f1: 0.4484
+Epoch 10:  train/loss: -22.9001   valid/loss: 0.0971   train/acc: 0.4911   train/rec: 0.2381   train/f1: 0.3187   valid/acc: 0.5000   valid/rec: 0.3548   valid/f1: 0.4151
+Epoch 15:  train/loss: -4284.4023   valid/loss: -3.9443   train/acc: 0.4970   train/rec: 0.2619   train/f1: 0.3424   valid/acc: 0.5040   valid/rec: 0.3548   valid/f1: 0.4171
+Epoch 20:  train/loss: -735901.4375   valid/loss: -17.6437   train/acc: 0.5000   train/rec: 0.2262   train/f1: 0.3115   valid/acc: 0.5000   valid/rec: 0.4032   valid/f1: 0.4464
+Epoch 25:  train/loss: -11988881113088.0000   valid/loss: -336.9754   train/acc: 0.4821   train/rec: 0.1607   train/f1: 0.2368   valid/acc: 0.5081   valid/rec: 0.4597   valid/f1: 0.4831
+Epoch 30:  train/loss: -26314849282074607616.0000   valid/loss: -4291.9473   train/acc: 0.4970   train/rec: 0.2024   train/f1: 0.2869   valid/acc: 0.5121   valid/rec: 0.5161   valid/f1: 0.5141
+
+
+Current triple: 30 HingeEmbeddingLoss() <class 'torch.optim.adagrad.Adagrad'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.2185   valid/loss: 0.3937   train/acc: 0.4970   train/rec: 0.2857   train/f1: 0.3623   valid/acc: 0.5282   valid/rec: 0.4032   valid/f1: 0.4608
+Epoch 10:  train/loss: -1039.0154   valid/loss: -0.3288   train/acc: 0.4970   train/rec: 0.2440   train/f1: 0.3267   valid/acc: 0.5202   valid/rec: 0.4597   valid/f1: 0.4893
+Epoch 15:  train/loss: -138749104.0000   valid/loss: -61.5056   train/acc: 0.4970   train/rec: 0.2500   train/f1: 0.3320   valid/acc: 0.5081   valid/rec: 0.4839   valid/f1: 0.4959
+Epoch 20:  train/loss: -91494830962496241664.0000   valid/loss: 91.8855   train/acc: 0.4851   train/rec: 0.2321   train/f1: 0.3108   valid/acc: 0.5040   valid/rec: 0.5403   valid/f1: 0.5214
+Epoch 25:  train/loss: -126142474251206131712.0000   valid/loss: -19270.9844   train/acc: 0.4940   train/rec: 0.2024   train/f1: 0.2857   valid/acc: 0.5000   valid/rec: 0.5565   valid/f1: 0.5267
+Epoch 30:  train/loss: -130210649681791287296.0000   valid/loss: -122082.1328   train/acc: 0.4970   train/rec: 0.1786   train/f1: 0.2620   valid/acc: 0.4919   valid/rec: 0.4919   valid/f1: 0.4919
+
+
+Current triple: 30 HingeEmbeddingLoss() <class 'torch.optim.adam.Adam'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.3646   valid/loss: 0.4409   train/acc: 0.4940   train/rec: 0.2560   train/f1: 0.3359   valid/acc: 0.5040   valid/rec: 0.4032   valid/f1: 0.4484
+Epoch 10:  train/loss: -24.7939   valid/loss: 0.0750   train/acc: 0.4911   train/rec: 0.2381   train/f1: 0.3187   valid/acc: 0.5000   valid/rec: 0.3468   valid/f1: 0.4095
+Epoch 15:  train/loss: -4822.9185   valid/loss: -4.5697   train/acc: 0.4970   train/rec: 0.2560   train/f1: 0.3373   valid/acc: 0.5000   valid/rec: 0.3629   valid/f1: 0.4206
+Epoch 20:  train/loss: -1091385.5000   valid/loss: -23.6760   train/acc: 0.5000   train/rec: 0.2143   train/f1: 0.3000   valid/acc: 0.5040   valid/rec: 0.4274   valid/f1: 0.4629
+Epoch 25:  train/loss: -28461735346176.0000   valid/loss: -357.0647   train/acc: 0.4851   train/rec: 0.1667   train/f1: 0.2445   valid/acc: 0.5121   valid/rec: 0.4758   valid/f1: 0.4937
+Epoch 30:  train/loss: -64121138788733812736.0000   valid/loss: -1233.6605   train/acc: 0.4970   train/rec: 0.1905   train/f1: 0.2747   valid/acc: 0.5161   valid/rec: 0.5323   valid/f1: 0.5238
+
+
+Current triple: 30 HingeEmbeddingLoss() <class 'torch.optim.adamax.Adamax'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.4453   valid/loss: 0.4591   train/acc: 0.5089   train/rec: 0.2679   train/f1: 0.3529   valid/acc: 0.5202   valid/rec: 0.4032   valid/f1: 0.4566
+Epoch 10:  train/loss: -0.1833   valid/loss: 0.3973   train/acc: 0.4970   train/rec: 0.2321   train/f1: 0.3158   valid/acc: 0.5121   valid/rec: 0.3952   valid/f1: 0.4475
+Epoch 15:  train/loss: -6.3141   valid/loss: 0.2459   train/acc: 0.4970   train/rec: 0.2202   train/f1: 0.3045   valid/acc: 0.5161   valid/rec: 0.3548   valid/f1: 0.4231
+Epoch 20:  train/loss: -60.9282   valid/loss: -0.2946   train/acc: 0.4970   train/rec: 0.2440   train/f1: 0.3267   valid/acc: 0.5121   valid/rec: 0.3952   valid/f1: 0.4475
+Epoch 25:  train/loss: -509.0316   valid/loss: -1.3141   train/acc: 0.4940   train/rec: 0.2500   train/f1: 0.3307   valid/acc: 0.5040   valid/rec: 0.3871   valid/f1: 0.4384
+Epoch 30:  train/loss: -3917.9106   valid/loss: -3.3727   train/acc: 0.4970   train/rec: 0.2500   train/f1: 0.3320   valid/acc: 0.4960   valid/rec: 0.3871   valid/f1: 0.4344
+
+
+
+
+Current triple: 40 BCEWithLogitsLoss() <class 'torch.optim.adamw.AdamW'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7105   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6816   valid/loss: 0.7344   train/acc: 0.5298   train/rec: 0.4107   train/f1: 0.4662   valid/acc: 0.4960   valid/rec: 0.4032   valid/f1: 0.4444
+Epoch 10:  train/loss: 0.5880   valid/loss: 1.2150   train/acc: 0.6042   train/rec: 0.5655   train/f1: 0.5882   valid/acc: 0.4758   valid/rec: 0.5000   valid/f1: 0.4882
+Epoch 15:  train/loss: 0.4487   valid/loss: 4.9734   train/acc: 0.7143   train/rec: 0.6905   train/f1: 0.7073   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 20:  train/loss: 0.3373   valid/loss: 18.3724   train/acc: 0.7976   train/rec: 0.7619   train/f1: 0.7901   valid/acc: 0.5282   valid/rec: 0.5161   valid/f1: 0.5224
+Epoch 25:  train/loss: 0.2633   valid/loss: 34.6640   train/acc: 0.8363   train/rec: 0.8452   train/f1: 0.8378   valid/acc: 0.5403   valid/rec: 0.5081   valid/f1: 0.5250
+Epoch 30:  train/loss: 0.2229   valid/loss: 52.5799   train/acc: 0.8780   train/rec: 0.8750   train/f1: 0.8776   valid/acc: 0.5000   valid/rec: 0.4758   valid/f1: 0.4876
+Epoch 35:  train/loss: 0.1666   valid/loss: 39.1954   train/acc: 0.8899   train/rec: 0.8869   train/f1: 0.8896   valid/acc: 0.5000   valid/rec: 0.4758   valid/f1: 0.4876
+Epoch 40:  train/loss: 0.1399   valid/loss: 27.2048   train/acc: 0.9196   train/rec: 0.9286   train/f1: 0.9204   valid/acc: 0.5484   valid/rec: 0.5000   valid/f1: 0.5254
+
+
+Current triple: 40 BCEWithLogitsLoss() <class 'torch.optim.adagrad.Adagrad'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4113   valid/f1: 0.4574
+Epoch 5:   train/loss: 0.6788   valid/loss: 0.7576   train/acc: 0.5417   train/rec: 0.4345   train/f1: 0.4867   valid/acc: 0.4839   valid/rec: 0.3952   valid/f1: 0.4336
+Epoch 10:  train/loss: 0.5570   valid/loss: 1.1413   train/acc: 0.6845   train/rec: 0.6548   train/f1: 0.6748   valid/acc: 0.4919   valid/rec: 0.5081   valid/f1: 0.5000
+Epoch 15:  train/loss: 0.4408   valid/loss: 1.6205   train/acc: 0.7262   train/rec: 0.7321   train/f1: 0.7278   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 20:  train/loss: 0.3575   valid/loss: 4.6520   train/acc: 0.7768   train/rec: 0.7500   train/f1: 0.7706   valid/acc: 0.5081   valid/rec: 0.5000   valid/f1: 0.5041
+Epoch 25:  train/loss: 0.3946   valid/loss: 5.4532   train/acc: 0.7917   train/rec: 0.7619   train/f1: 0.7853   valid/acc: 0.5202   valid/rec: 0.5161   valid/f1: 0.5182
+Epoch 30:  train/loss: 0.2640   valid/loss: 6.1625   train/acc: 0.8125   train/rec: 0.7976   train/f1: 0.8097   valid/acc: 0.5242   valid/rec: 0.5323   valid/f1: 0.5280
+Epoch 35:  train/loss: 0.2201   valid/loss: 6.6914   train/acc: 0.8452   train/rec: 0.8333   train/f1: 0.8434   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 40:  train/loss: 0.2008   valid/loss: 7.4774   train/acc: 0.8601   train/rec: 0.8690   train/f1: 0.8614   valid/acc: 0.5040   valid/rec: 0.4919   valid/f1: 0.4980
+
+
+Current triple: 40 BCEWithLogitsLoss() <class 'torch.optim.adam.Adam'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6815   valid/loss: 0.7357   train/acc: 0.5327   train/rec: 0.4167   train/f1: 0.4714   valid/acc: 0.4960   valid/rec: 0.4032   valid/f1: 0.4444
+Epoch 10:  train/loss: 0.5869   valid/loss: 1.2413   train/acc: 0.6012   train/rec: 0.5595   train/f1: 0.5839   valid/acc: 0.4758   valid/rec: 0.4919   valid/f1: 0.4841
+Epoch 15:  train/loss: 0.4480   valid/loss: 5.3152   train/acc: 0.7143   train/rec: 0.7083   train/f1: 0.7126   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 20:  train/loss: 0.3344   valid/loss: 22.5131   train/acc: 0.7976   train/rec: 0.7738   train/f1: 0.7927   valid/acc: 0.5403   valid/rec: 0.5323   valid/f1: 0.5366
+Epoch 25:  train/loss: 0.2446   valid/loss: 41.1651   train/acc: 0.8512   train/rec: 0.8452   train/f1: 0.8503   valid/acc: 0.5121   valid/rec: 0.5081   valid/f1: 0.5101
+Epoch 30:  train/loss: 0.2110   valid/loss: 36.4605   train/acc: 0.8571   train/rec: 0.8512   train/f1: 0.8563   valid/acc: 0.4677   valid/rec: 0.4274   valid/f1: 0.4454
+Epoch 35:  train/loss: 0.1823   valid/loss: 17.5154   train/acc: 0.8899   train/rec: 0.8869   train/f1: 0.8896   valid/acc: 0.4879   valid/rec: 0.4274   valid/f1: 0.4549
+Epoch 40:  train/loss: 0.1765   valid/loss: 6.7834   train/acc: 0.8810   train/rec: 0.8512   train/f1: 0.8773   valid/acc: 0.4879   valid/rec: 0.4516   valid/f1: 0.4686
+
+
+Current triple: 40 BCEWithLogitsLoss() <class 'torch.optim.adamax.Adamax'>
+Epoch 1:   train/loss: 0.6933   valid/loss: 0.7106   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5121   valid/rec: 0.4194   valid/f1: 0.4622
+Epoch 5:   train/loss: 0.6860   valid/loss: 0.7275   train/acc: 0.5060   train/rec: 0.3869   train/f1: 0.4392   valid/acc: 0.4879   valid/rec: 0.3790   valid/f1: 0.4253
+Epoch 10:  train/loss: 0.6542   valid/loss: 0.8070   train/acc: 0.5446   train/rec: 0.4702   train/f1: 0.5080   valid/acc: 0.4839   valid/rec: 0.4194   valid/f1: 0.4483
+Epoch 15:  train/loss: 0.5900   valid/loss: 1.3256   train/acc: 0.5982   train/rec: 0.5952   train/f1: 0.5970   valid/acc: 0.4798   valid/rec: 0.4919   valid/f1: 0.4861
+Epoch 20:  train/loss: 0.5135   valid/loss: 3.9541   train/acc: 0.6577   train/rec: 0.6607   train/f1: 0.6588   valid/acc: 0.4677   valid/rec: 0.4839   valid/f1: 0.4762
+Epoch 25:  train/loss: 0.4369   valid/loss: 14.2383   train/acc: 0.7202   train/rec: 0.7083   train/f1: 0.7169   valid/acc: 0.4758   valid/rec: 0.4435   valid/f1: 0.4583
+Epoch 30:  train/loss: 0.3802   valid/loss: 34.8407   train/acc: 0.7589   train/rec: 0.7500   train/f1: 0.7568   valid/acc: 0.5202   valid/rec: 0.5000   valid/f1: 0.5103
+Epoch 35:  train/loss: 0.3186   valid/loss: 72.7306   train/acc: 0.7887   train/rec: 0.7560   train/f1: 0.7815   valid/acc: 0.5282   valid/rec: 0.4839   valid/f1: 0.5063
+Epoch 40:  train/loss: 0.2610   valid/loss: 108.5578   train/acc: 0.8542   train/rec: 0.8571   train/f1: 0.8546   valid/acc: 0.5121   valid/rec: 0.4839   valid/f1: 0.4979
+
+
+Current triple: 40 HingeEmbeddingLoss() <class 'torch.optim.adamw.AdamW'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4788   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.3681   valid/loss: 0.4421   train/acc: 0.4940   train/rec: 0.2560   train/f1: 0.3359   valid/acc: 0.5040   valid/rec: 0.4032   valid/f1: 0.4484
+Epoch 10:  train/loss: -22.9001   valid/loss: 0.0971   train/acc: 0.4911   train/rec: 0.2381   train/f1: 0.3187   valid/acc: 0.5000   valid/rec: 0.3548   valid/f1: 0.4151
+Epoch 15:  train/loss: -4284.3994   valid/loss: -3.9443   train/acc: 0.4970   train/rec: 0.2619   train/f1: 0.3424   valid/acc: 0.5040   valid/rec: 0.3548   valid/f1: 0.4171
+Epoch 20:  train/loss: -735901.5000   valid/loss: -17.6436   train/acc: 0.5000   train/rec: 0.2262   train/f1: 0.3115   valid/acc: 0.5000   valid/rec: 0.4032   valid/f1: 0.4464
+Epoch 25:  train/loss: -11988916764672.0000   valid/loss: -336.9742   train/acc: 0.4821   train/rec: 0.1607   train/f1: 0.2368   valid/acc: 0.5081   valid/rec: 0.4597   valid/f1: 0.4831
+Epoch 30:  train/loss: -26314866874260652032.0000   valid/loss: -4291.9229   train/acc: 0.4970   train/rec: 0.2024   train/f1: 0.2869   valid/acc: 0.5121   valid/rec: 0.5161   valid/f1: 0.5141
+Epoch 35:  train/loss: -2949544755753572630528.0000   valid/loss: -13097.4326   train/acc: 0.5060   train/rec: 0.2024   train/f1: 0.2906   valid/acc: 0.4960   valid/rec: 0.5161   valid/f1: 0.5059
+Epoch 40:  train/loss: -2976470933500690694144.0000   valid/loss: 43255.9766   train/acc: 0.5089   train/rec: 0.2083   train/f1: 0.2979   valid/acc: 0.4960   valid/rec: 0.4758   valid/f1: 0.4856
+
+
+Current triple: 40 HingeEmbeddingLoss() <class 'torch.optim.adagrad.Adagrad'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.2185   valid/loss: 0.3937   train/acc: 0.4970   train/rec: 0.2857   train/f1: 0.3623   valid/acc: 0.5282   valid/rec: 0.4032   valid/f1: 0.4608
+Epoch 10:  train/loss: -1039.0151   valid/loss: -0.3288   train/acc: 0.4970   train/rec: 0.2440   train/f1: 0.3267   valid/acc: 0.5202   valid/rec: 0.4597   valid/f1: 0.4893
+Epoch 15:  train/loss: -138748560.0000   valid/loss: -61.5056   train/acc: 0.4970   train/rec: 0.2500   train/f1: 0.3320   valid/acc: 0.5081   valid/rec: 0.4839   valid/f1: 0.4959
+Epoch 20:  train/loss: -91494760593752064000.0000   valid/loss: 91.8789   train/acc: 0.4851   train/rec: 0.2321   train/f1: 0.3108   valid/acc: 0.5040   valid/rec: 0.5403   valid/f1: 0.5214
+Epoch 25:  train/loss: -126142421474647998464.0000   valid/loss: -19271.0254   train/acc: 0.4940   train/rec: 0.2024   train/f1: 0.2857   valid/acc: 0.5000   valid/rec: 0.5565   valid/f1: 0.5267
+Epoch 30:  train/loss: -130210535332581998592.0000   valid/loss: -122082.5391   train/acc: 0.4970   train/rec: 0.1786   train/f1: 0.2620   valid/acc: 0.4919   valid/rec: 0.4919   valid/f1: 0.4919
+Epoch 35:  train/loss: -161645607955069927424.0000   valid/loss: -141361.0469   train/acc: 0.5060   train/rec: 0.2024   train/f1: 0.2906   valid/acc: 0.4879   valid/rec: 0.4677   valid/f1: 0.4774
+Epoch 40:  train/loss: -271760765090975973376.0000   valid/loss: 1002317.4375   train/acc: 0.5030   train/rec: 0.2321   train/f1: 0.3184   valid/acc: 0.4919   valid/rec: 0.4516   valid/f1: 0.4706
+
+
+Current triple: 40 HingeEmbeddingLoss() <class 'torch.optim.adam.Adam'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.3646   valid/loss: 0.4409   train/acc: 0.4940   train/rec: 0.2560   train/f1: 0.3359   valid/acc: 0.5040   valid/rec: 0.4032   valid/f1: 0.4484
+Epoch 10:  train/loss: -24.7939   valid/loss: 0.0750   train/acc: 0.4911   train/rec: 0.2381   train/f1: 0.3187   valid/acc: 0.5000   valid/rec: 0.3468   valid/f1: 0.4095
+Epoch 15:  train/loss: -4822.9185   valid/loss: -4.5697   train/acc: 0.4970   train/rec: 0.2560   train/f1: 0.3373   valid/acc: 0.5000   valid/rec: 0.3629   valid/f1: 0.4206
+Epoch 20:  train/loss: -1091385.8750   valid/loss: -23.6759   train/acc: 0.5000   train/rec: 0.2143   train/f1: 0.3000   valid/acc: 0.5040   valid/rec: 0.4274   valid/f1: 0.4629
+Epoch 25:  train/loss: -28461798260736.0000   valid/loss: -357.0634   train/acc: 0.4851   train/rec: 0.1667   train/f1: 0.2445   valid/acc: 0.5121   valid/rec: 0.4758   valid/f1: 0.4937
+Epoch 30:  train/loss: -64121288322315190272.0000   valid/loss: -1234.0177   train/acc: 0.4970   train/rec: 0.1905   train/f1: 0.2747   valid/acc: 0.5161   valid/rec: 0.5323   valid/f1: 0.5238
+Epoch 35:  train/loss: -3133889754875799011328.0000   valid/loss: -6774.9199   train/acc: 0.5030   train/rec: 0.2500   train/f1: 0.3347   valid/acc: 0.5000   valid/rec: 0.5323   valid/f1: 0.5156
+Epoch 40:  train/loss: -3706371858383417376768.0000   valid/loss: 8508.7598   train/acc: 0.5089   train/rec: 0.2262   train/f1: 0.3154   valid/acc: 0.4919   valid/rec: 0.4839   valid/f1: 0.4878
+
+
+Current triple: 40 HingeEmbeddingLoss() <class 'torch.optim.adamax.Adamax'>
+Epoch 1:   train/loss: 0.5016   valid/loss: 0.4787   train/acc: 0.4970   train/rec: 0.3571   train/f1: 0.4152   valid/acc: 0.5202   valid/rec: 0.4194   valid/f1: 0.4664
+Epoch 5:   train/loss: 0.4453   valid/loss: 0.4591   train/acc: 0.5089   train/rec: 0.2679   train/f1: 0.3529   valid/acc: 0.5202   valid/rec: 0.4032   valid/f1: 0.4566
+Epoch 10:  train/loss: -0.1833   valid/loss: 0.3973   train/acc: 0.4970   train/rec: 0.2321   train/f1: 0.3158   valid/acc: 0.5121   valid/rec: 0.3952   valid/f1: 0.4475
+Epoch 15:  train/loss: -6.3141   valid/loss: 0.2459   train/acc: 0.4970   train/rec: 0.2202   train/f1: 0.3045   valid/acc: 0.5161   valid/rec: 0.3548   valid/f1: 0.4231
+Epoch 20:  train/loss: -60.9282   valid/loss: -0.2946   train/acc: 0.4970   train/rec: 0.2440   train/f1: 0.3267   valid/acc: 0.5121   valid/rec: 0.3952   valid/f1: 0.4475
+Epoch 25:  train/loss: -509.0313   valid/loss: -1.3141   train/acc: 0.4940   train/rec: 0.2500   train/f1: 0.3307   valid/acc: 0.5040   valid/rec: 0.3871   valid/f1: 0.4384
+Epoch 30:  train/loss: -3917.9092   valid/loss: -3.3727   train/acc: 0.4970   train/rec: 0.2500   train/f1: 0.3320   valid/acc: 0.4960   valid/rec: 0.3871   valid/f1: 0.4344
+Epoch 35:  train/loss: -28304.4043   valid/loss: -4.7190   train/acc: 0.4940   train/rec: 0.2262   train/f1: 0.3089   valid/acc: 0.4960   valid/rec: 0.3952   valid/f1: 0.4395
+Epoch 40:  train/loss: -196075.0312   valid/loss: -1.5381   train/acc: 0.5000   train/rec: 0.2321   train/f1: 0.3171   valid/acc: 0.4960   valid/rec: 0.4113   valid/f1: 0.4493
