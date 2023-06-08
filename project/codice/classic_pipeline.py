@@ -91,10 +91,10 @@ class ClassicPipeline():
         
         return self.__trainer
         
-    def train_model(self, train_set, test_set):        
-        self.__trainer.fit(train_set, test_set, evaluation_step = 1, logging_step = 5)
+    def train_model(self, train_set, test_set, eval_step, log_step):        
+        self.__trainer.fit(train_set, test_set, evaluation_step = eval_step, logging_step = log_step)
             
-    def plot(self):
+    def plot(self, filename):
         fig1, ((ax_tl, ax_tr), (ax_bl, ax_br)) = plt.subplots(2, 2, sharey='row', figsize=(10, 6))
         
         ax_tl.set_title("Training set")
