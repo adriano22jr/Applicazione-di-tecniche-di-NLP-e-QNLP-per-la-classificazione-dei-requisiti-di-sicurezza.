@@ -1,0 +1,1118 @@
+0  This is hte new demographic screen which can be found here\: login as oscar or mac2002 or 1117 select cash waitlist .
+0  This is hte new demographic screen which can be found here\: click on case management .
+0  This is hte new demographic screen which can be found here\: click on 'M' next to any client .
+0  This is hte new demographic screen which can be found here\: click on search button .
+0  This is hte new demographic screen which can be found here\: click on create new demographic button .
+0  We want the entire new version of the create demographic screen to appear when you select edit for the demographic screen .
+0  Background\: the the e-form iframe etc .
+0  Background\: click on case management .
+0  Background\: click on 'M' next to any client .
+0  Background\: click on search button .
+0  Background\: click on create new demographic button .
+0  Note that this screen looks different than this screen\: click on case management .
+0  Note that this screen looks different than this screen\: click on 'M' next to any client .
+0  Requirements\: replace screenB with screenA .
+0  Background\: login as oscar or mac2002 or 1117 click on cash waitlist link .
+0  Requirement\: login as oscar or mac2002 or 1117 click on cash waitlist link .
+0  Requirement\: click on new client .
+0  Requirement\: the list of names that appear in this search should be changed into links .
+0  Requirement\: click on 'search client' or black 'search' link at top of the page .
+0  Requirement\: Log in as oscsar .
+0  Requirement\: Click on program List .
+0  Requirement\: Click on Regeneration Community Services .
+0  Requirement\: Click on Vacancy tab .
+0  Requirement\: Click on any Vacancy .
+0  Requirement\: Add Submit button to save vacancy template status changes that tigers the following pop-up Status .
+0  As per my email  please work on this feature after you have adjusted the registration form with default OSCAR program as per Marcs request\: login as oscar or mac2002 or 1117 select cash waitlist .
+0  As per my email  please work on this feature after you have adjusted the registration form with default OSCAR program as per Marcs request\: select manage facilities in navigator .
+0  As per my email  please work on this feature after you have adjusted the registration form with default OSCAR program as per Marcs request\: select edit next to cash waitlist .
+0  When yes is selected then in the registration form have the bed program drop down appear and have a) bed program dropdown default be blank b) bed program drop down be mandatory c service program check boxes be optional .
+0  When no is selected  then in the registration form  have the bed program drop down and service program check boxes not be visible and have the default value for bed program be 'oscar program' and have this value be entered automatically when the registration form is saved .
+0  In each case there should be a 'cancel' button which takes you to the page before 'new client' was selected and a 'save' button which saves the registration form and iframe eform in one step .
+0  Requirements\: please change the search pages so that they look like the attached image - specifically screens after step 1  2  and 4 .
+0  Requirements\: please fix the workflow steps\: namely steps 1-9 . . .steps 2 and 3 are already in place .
+0  Background\: click on 'new Vacancy' link next to Regeneration Community Services .
+0  Note2\: there is a vacancy status column with values active  filled  withdrawn .
+0  Requirement\: create a filter with a drop down with the following values active  filled  withdrawn  any .
+0  Requirement\: a) when you select active - only vacancies with vacancy status = active appear in list .
+0  Requirement\: when you select filled - only vacancies with vacancy status = filled appear in list .
+0  Requirement\: when you select withdrawn - only vacancies with vacancy status = withdrawn appear in list .
+0  Requirement\: when you select any - all vacancies with all values of vacancy status appear .
+0  Requirements\: add a button to the right of reject button called Duplicates .
+0  Requirements\: when you click on 'Duplicates' button next to client name X the following occurs .
+0  Requirements\: the list of clients with the same name appears  have client name X highlighted in some very obvious way (e .g . yellow background or something for that row) .
+0  Requirements\: the name of the client .
+0  Requirements\: add a column e .g . to the right of name called Module .
+0  Requirements\: in module  please put in Encounter link  spelled out as Encounter .
+0  When you click on 'Duplicates' button next to client name X the following occurs\: the 'Merge Records' screen opens with X (first name and last name) entered and the search button clicked .
+0  When you click on 'Duplicates' button next to client name X the following occurs\: the name of the client .
+0  Ability to edit ADT information\: admission date .
+0  When you click on 'Duplicates' button next to client name X the following occurs\: click on history tab for any client in PMM summary screen .
+0  When you click on 'Duplicates' button next to client name X the following occurs\: when you click on an admission date link  a dialogue appears allowing a user to change the date .
+0  When you click on 'Duplicates' button next to client name X the following occurs\: the date can only be changed if the user has the role rights to admit a client to that program .
+0  When you click on 'Duplicates' button next to client name X the following occurs\: if the user does not have the rights to do so  a dialogue appears stating that the user does not have authority to change this date .
+0  When you click on 'Duplicates' button next to client name X the following occurs\: when the date is edited  the date that the change was made is stored as well as the name of the provider who made the change .
+0  When you click on 'Duplicates' button next to client name X the following occurs\: when you click on the magnifying lens on that row of the history table  the admission date has a little numerical link e .g . '1' or '2' in the top right hand corner .
+0  When you click on 'Duplicates' button next to client name X the following occurs\: if the numerical link is clicked the history of the changes to that date are listed in much the same way that the history of a editted progress note can be viewed .
+0  OB tags from the recent antenatal forms  . . . needed by GPs Specialists and Midwives .
+0  Currently the Caseload feature is a fixed table with no ability to configure different table fields .
+0  Making this configurable would allow different providers to see different fields as appropriate to their work .
+0  Role based security .
+0  Background\: log in as OSCAR or mac2002 or 1117 .
+0  Background\: click on cash wailtlist facility .
+0  Background\: note that in pmm oscars program domain = cashwaitlist program and phone encounters program  these are the programs in the cash waitlist facility that oscar has privileges in .
+0  Background\: click on 'staff list' link .
+0  Background\: click on edit next to oscar  note the programs that are assigned to oscar (this includes programs in different facilities) .
+0  This is where the programs are assigned to a provider .
+0  Background\: click on 'case management' link .
+0  Background\: you are now in the case management screen\: note that there is a 'program' drop down .
+0  This drop down is incorrect  it should only show the program domain programs for this provider for this facility (=cash waitlist facility) .
+0  Requirements\: in caseload ensure that the only clients that can be seen by a provider are clients in the facility that a provider logs into  in this case oscar has logged in through 'cashwaitlist' facility .
+0  Requirements\: create a drop down called 'program' for the caseload screen that is the same as the 'program' drop down in the case management screen  however please correct it so that only the program domain for the logged in facility appears .
+0  Requirements\: include a the programs in the program domain for that provider  but also an option = 'all programs'  that provides all clients in all the programs in that providers program domain .
+0  Requirements\: login as oscar or mac2002 or 1117 .
+0  Requirements\: click on all vacancies .
+0  Requirements\: click on vacancy #58 .
+0  Requirements\: click on 'create referral' link .
+0  Requirements\: login as regen or List2012 or 1006 .
+0  Requirements\: click on program .
+0  Requirements\: click on number link under clients in queue .
+0  Requirements\: admit that client .
+0  The 'all vacancies' page should only list the vacancies with status = active .
+0  Requirement\: login as regen or List2012 or 1006 .
+0  Requirement\: click on program then click on any one of the program names under program name column (in this case only 1) .
+0  Requirement\: click on vacancies tab .
+0  Requirements\: please create a link in the navigator called Program Vacancies .
+0  Requirements\: have this link lead to the page reached in step 3 above .
+0  Background\: click on program then click on 'new vacancy link' for any one of the programs (in this case only 1) .
+0  Background\: click on home  then click on any program name in the program name column (in this case only 1) .
+0  To get to this \: have the title of the column be a link so that when you click it it orders the table in alphabetical or reverse alphabetical order .
+0  Background\: create a vacancy by selecting a vacancy template or giving a vacancy name  clicking on save .
+0  Background\: click on home link at top .
+0  Background\: click on any program name in program name column .
+0  Background\: note that the vacancy create date is stored as a date with no time information .
+0  Summary\: please change this function so that one can make a referral to a vacancy rather than just a program .
+0  Background\: log in as oscar or mac2002 or 1117 .
+0  Background\: click on all vacancies .
+0  Background\: go the summary page for any client (e .g . Boba Fett) .
+0  Background\: click on refer to vacancy tab .
+0  Requirement\: change this screen so that the list presented is the list of vacancies rather than a list of programs .
+0  In the program referral queue of the program that the client has been referred to should list the vacancy name and vacancy template as well (if there is no vacancy  then 'not applicable' should appear .
+0  When the client is admitted to the program referred to  the status of the vacancy should be changed to filled .
+0  Requirement\: click on history tab for any client in PMM summary screen .
+0  Requirement\: when you click on an discharge date link  a dialogue appears allowing a user to change the date .
+0  Requirement\: the date can only be changed if the user has the role rights to admit a client to that program .
+0  Requirement\: if the user does not have the rights to do so  a dialogue appears stating that the user does not have authority to change this date .
+0  Requirement\: when the date is edited  the date that the change was made is stored as well as the name of the provider who made the change .
+0  Requirement\: when you click on the magnifying lens on that row of the history table  the discharge date has a little numerical link e .g . '1' or '2' in the top right hand corner .
+0  Requirement\: if the numerical link is clicked the history of the changes to that date are listed in much the same way that the history of a editted progress note can be viewed .
+0  Requirement\: when you click on an referral date link  a dialogue appears allowing a user to change the date .
+0  Requirement\: when you click on the magnifying lens on that row of the history table  the referral date has a little numerical link e .g . '1' or '2' in the top right hand corner .
+0  Requirement\: when you click on an completion date link  a dialogue appears allowing a user to change the date .
+0  Requirement\: when you click on the magnifying lens on that row of the history table  the completion date has a little numerical link e .g . '1' or '2' in the top right hand corner .
+0  One way might be to\: click on program list .
+0  One way might be to\: click on edit next to regeneration Community Services .
+0  One way might be to\: click on vacancy edit tab .
+0  Requirement\: Perhaps this right column could be changed to yes or no drop downs and a save button .
+0  Requirement\: perhaps click on Vacancy templates tab and note that there is a check box there . . . .perhaps that check box can automatically save into the database when it is changed .
+0  So we want to get a button running from the face sheet to the case management screen where the provider will be able to see the client list and click into Encounter files .
+0  It is unclear as to where to save the new note you have written because the Save i disappears .
+0  You can only sign save and exit .
+0  Enable OSCAR CME UI .
+0  Within the OSCAR CME UI  if you add a prescription using a link in the upper right hand corner of the screen  once you select 'update print and save' the CME window does not refresh with the prescription .
+0  You have to get out of the CME  and re-enter for it to record the latest prescription .
+0  Logged onto Newtonbrook .
+0  Notice that there is a Tickler i for that document .
+0  If you select the Tickler  it is the OSCAR tickler system  not CAISI . . .can this be changed?
+0  We would like the blank in-take forms to be name-able from the beginning rather than having to save the form and then re-name it .
+0  Basically wed like a drop down list that would sit beside or below the encounter type in the note writing section .
+0  Agencies want to be able to log how much time a provider spent on the phone  face to face  or with other providers .
+0  Produce a visual indication that multi-page printed hardcopy is complete for all printed reports .
+1  Inform users of the confidential nature of personal health information by showing this labeling on any hardcopy printout displaying data .
+0  Institutions or addresses .
+0  Departments or programs (linked subset of the institutions) .
+0  By linked subset I mean that institutions to department or program is one to many - it could perhaps be done the way it is currently done for specialists e .g . you could have a list of all of the departments and then for each facility or institution you could check off which departments belong to that facility - so when you select an institution the drop down for departments will be a particular subset of the total list of departments - this would make sense for hospitals where each hospital has e .g . a radiology  microbiology department etc .
+0  Consent to contact\: yes or no (drop down) - this is linked to client and contact .
+0  Status\: active or inactive (drop down) - this is linked to client and contact .
+0  Output\: * 'number of admissions to shelter bed programs' A .
+0  Output\: * 'number of admissions to service programs' B .
+0  Output\: * number of all discharges to community from .
+0  Shelter bed programs C .
+0  Number of placements into housing (including D .
+0  Friends  relatives  private or public housing .
+0  Number of return admissions to shelter (total recidivism) E .
+0  Number of return admissions from housing F .
+0  Intakes should prepopulate from previous versions of the form .
+0  Tomislav mentioned to me that there is already this feature for a hospitalization issue .
+0  The report would be run based on a time frame (like all the reports  start date and end date) and would pull all the times that this issue was used  the master file number of the client .
+0  To add to this report\: Can you make it a generic report on an issue - where the provider can choose the issue they want to run the report on .
+0  To add to this report\: Can the report include the date  client name and provider name - for each time the issue was used in a set time frame .
+0  Ability to respond to an eReferral with textual data as well as blob data  where the blob data is expected to be something like a for maybe an image of a scanned document .
+0  This will allow any feature in oscar to send information to another oscar  as long as its tied to a client via the health number .
+0  Ability to send eform to PHR .
+0  We would like the ability to send eforms to MyOscar similar to the way we can currently send oscar documents to MyOscar .
+0  The current though is to convert the eform into   then send the to myoscar .
+0  A button to show how this med has been prescribed in the clinic before .
+0  Fill in instruction and special instruction .
+0  Return unique med history based on number of occurence .
+0  Display med history .
+0  PMM\: new client  bed program is mandatory .
+0  I am not sure if this somehow conflict with face-to-face encounter  which I believe is an option some agencies use as it is based on some standardized reporting tool .
+0  As previously discussed  there has been several requests to improve the concept of merging client records  specifically by allowing case notes to be copied from one file to another .
+0  While merging client files allows the PMM files to be linked  there currently is nothing done to allow the actual case notes to transfer from the incorrect file to the main record  making this process slightly confusing to our end user .
+0  Default Date should be added to case notes in OSCAR UI .
+0  Notice that the case note at the bottom of the screen is ready for you to write  however  once completed  there is no default date . . .you must select the date  even if it is todays date .
+0  Also  being that the CPP issues are displayed constantly at the top of the CME page  they should not each be given a separate listing similar to case notes as this could easily get very dense and require providers to scroll through a lot of information (a physician recommended this to us) .
+0  Ticklerplus\: add creation date and assigned doctor to report .
+0  OCAN XML export\: create file with list of clients exprted .
+0  When you click on download report  somehow a file with a list of all the files in that xml report gets produced .
+0  This file will contain the following info\: file name of the xml .
+0  This file will contain the following info\: the following information for each client in that XML file (in columns) .
+0  This will be a record for the agency staff of what was in the submission file .
+0  Also include the unique ID for that client submission as a column in the xml submission summary . . .
+0  Ability to Undelete deleted documents .
+0  The ability to recover deleted documents .
+0  The delete action should only appear to administrators or the user who uploaded the document .
+0  The undelete action should only appear to administrators or the user who uploaded the document .
+0  All users should be able to see and view deleted and active documents .
+0  Mark Demographics for inclusion of newsletter .
+0  Have a field in the demographics that lets you mark if a patient wants to be included in the newsletter .
+0  RFQ Feature\: please add additional action access values .
+0  Allow duplicate client merge .
+0  RFQ Feature\: enforce or override service restriction .
+0  When you click on save button in registration page the system should .
+0  Check for programs in the list of programs and facilities that the client is restricted from which are active and see if the program being admitted into is one of these programs .
+0  Check for the facilities in the list of programs and facilities that the client is restricted from which are active and see if the program being admitted into is a program that belongs to one of these facilities .
+0  If a or b are true then produce the following message to the user .
+0  The client currently has a service restriction in effect at the program or facility you are trying to admit the client into .
+0  If a or b are true AND the user has a role in which they have Service restriction override on admission in their role for that program then produce the following message to the user .
+0  You have permission to override this restriction .
+0  Admit from Queue (in program queue page) .
+0  When you click on admit button next to client name in the queue the system should .
+0  Randy already has a page which allows you to turn on or off the new case management for individuals in real time .
+0  Once you are logged in to OSCAR  you can access it .
+0  RFQ Feature\: set up agency  facilities  program  room  beds .
+0  It needs to be clear on the left hand side of the navigation what is administration (editing or modifying values  adding rooms  beds  etc .) and what is merely informative (seeing agency information  listing facilities  showing bed occupancy) .
+0  We need to clarify what roles can do edit or update or create tasks versus listing tasks .
+0  Can any SMIS user see the list of all facilities and their room occupancies?
+0  The report that we need is described at the bottom  briefly this is a testing of the reporting feature by creating a report that we already have in CAISI\: a list of program admissions and discharges in a particular date range .
+0  RFQ Feature\: link reg intake gender to list editor table .
+0  Find client tomislav  test .
+0  Note that there is a gender variable drop down there .
+0  Requirement\: please link this gender drop down to the list generated in the CAISI List editor as per previous bug .
+0  Upon duplicate name it gives an error (the error above was because you created 2 facilities with <blank> as the name) .
+0  As per our discussion  we have a definite function for a 'facilities level' admin and that is to be able to send messages to all staff in a facility .
+0  Here is a stab at the requirements\: log into devel as oscar .
+0  Here is a stab at the requirements\: click on 'Facilities Messages' then click on 'Create New message' - the Facilities Message Editor should be the same as the 'System Message Editor' but it will have a drop down menu that will include the Facilities in the Facility domain of that user .
+0  Here is a stab at the requirements\: when you click on save  that message will appear the same way as it does for the system message however only for users who share that facility domain .
+0  Here is a stab at the requirements\: because this is a separate object  we can create a 'Facility Admin' role and create role rights for this role in the usual OSCAR assign role rights to object function .
+0  RFQ-SD2\: filter programs in program list .
+0  This feature is about adding an ability to filter the program list by the facilities that the programs are associated with .
+0  The drop down list contains all the facilities as well as the word any .
+0  When the word 'any' is selected  then all the programs are displayed  when one facility e .g . Seaton House is listed  then you see all the programs associated with Seaton House in the table constructed by Ted .
+0  Currently when a new user is set up in OSCAR  a provider number is assigned for the provider .
+0  When 1500 providers are being managed this becomes difficult or impossible to manage .
+0  Requirement\: change the provider number field from being a field that is filled out to one that is automatically generated .
+0  Requirement\: incorporate a manner to not interfere with old provider numbers when this function is introduced to a database that already contains provider numbers . . . .e .g . the process identifies the highest provider number and then increments this by 1 for the next provider number .
+0  RFQ-SD2\: remove caisi roles link in nav bar .
+0  In CDS  please have the gender default to what is in the registration intake  namely male  female or transgender or other = other .
+0  In the Encounter  under the tab 'Patient History' there are several areas where general information about the client can be entered in (family history  social history  medical history  etc .) .
+0  According to the College of Physicians  it should be updated regularly and the last date the CPP is updated should be displayed .
+0  It is recommended that doctors use this to keep the most current general picture of a clients overall health .
+0  Is there anyway on the Patient History tab there can be a feature that says 'Updated Last\:' or something to that effect that would have the date that someone last entered information and saved it?
+0  Ultimately it would be great to have that 'toggle' feature so the health care professionals can use the Oscar CME and the other users can use the CAISI CME - but for now I would say that having the date is a good immediate solution .
+0  Point out new items and categories .
+1  That is\: there are two versions of the consent form .
+1  That is\: opt in version .
+1  That is\: opt out version .
+1  That is\: there is an exit survey after the consent is obtained . . .
+0  There is an 'end date' in the Master file but if this is changed  it has no reflection in the above HNR field (and from what Tomislav said it is related to the expiry of the record as a whole) .
+0  I believe the 'end date' on the master file represents when the client ceases to be come a patient  i .e . the corresponding 'date joined'  I do not believe this is the 'expiry date' of the HIN .
+1  Can you please make a small change on the consent history in the forms tab (looks great by the way) . . . .
+1  Consented to all .
+1  No consent given etc .
+1  So everytime the consent status is changed  it is tracked in these forms and then you can look at the wording of the form etc .
+1  As per conversation  the display of the form should display the selected consent and the selected consent will not be on the listing summary .
+0  Requirement\: please have Medication Records appear also as a view link between legal and old chart .
+0  Activity Report - please put link in admin page .
+0  Theres the activity report which allows program and date range input and outputs counts by role and encounter type  and groupings of issues  and this report is NOT hidden and is currently on the menu .
+0  This assumes that all instances are using the same definitions and values for gender which is the case in the integrated community right now . . . .
+0  You currently allow an agency to import tombstone data into the registration form from the integrator .
+0  Ie the client should have a photo in the integrator that is treated in the same way that e .g . the DOB is treated .
+0  This photo should have a limit in size e .g . 500kb .
+1  The addition of the picture should be linked to an additional line added to the consent Include my picture as part of my identification between agencies\: Yes or no .
+1  If 'no' then the picture from the local database is not sent to integrator .
+0  As discussed please develop an export function that allows an intake questionnaire be exported and imported into another installation .
+0  Allow us to build forms in the Registration Intake Editor that can be accessed by agencies in the Forms tab .
+0  WL please create a new role .
+0  This role has all the same access as WL operator role .
+1  Who obrained the consent should be blocked out as well as the agency where the consent was obtained until we have granularity built into the consent process .
+1  The next requirement (not in this feature unless easy to implement) will be to show the provider who obtained the consent if this information is also allowed by the type of consent given (e .g . if a client does not want it known that he was at a mental health clinic  then it should not be known that a psychiatrist obtained the consent) .
+1  Actually show all aspects of the consent in the remote agency  as we add granularity we can remove information from the consent as required by consent granularity .
+0  Need ability to find the creator of a bill in the Edit inv .
+0  Need to be able to find the creator of a bill in the Edit invoice area .
+0  For example\: When you click 'validate' under the tombstone data a pop up window should appear that says  .
+0  Right now you need to re-prescribe a med to set it to long term .
+0  During a med review it would be nice to be able to flag a med as long term without having to re-presribe .
+0  As a consuming application  I want to store exam results using the Electronic Data Interchange Personal Identifier (EDIPI) as the patient identifier so the exam result is available for retrieval by EDIPI in the disability claims adjudication process .
+0  The EDIPI is the primary patient identifier for the storage of exam results .
+0  Exam results consist of a DisabilityBenefits Questionnaire (DBQ)   and possibly other supporting clinical information .
+0  VLER DAS sends the exam result with the EDIPI as the patient identifier to the Health Data Repository (HDR) for storage  when the EDIPI is available .
+0  As a consuming application  I want a list of available exam results (first pass) retrieved byPatient ID so that I can request the exam result (second pass) that I need from the list .
+0  Interested parties must retrieve stored exam results to review and adjudicate disability claims .
+1  VBA will only retrieve those exam results that have an associated claim established .
+0  VBA currently uses (in most cases) the Social Security Number (SSN) as the patient identifier associated with a specific claim .
+0  Producing applications send patient identifying information to Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) with the exam result .
+0  VLER DAS obtains the Patient ID and Assigning Authority (based upon the patient identifying information sent by the producing application) and sends this information with the exam result to the Health Data Repository (HDR) for storage .
+0  Hence  consuming applications can query VLER DAS for exam results stored with a given Patient ID and Assigning Authority .
+0  VLER DAS receives a request from a consuming application for a list of exam results filtered by Patient ID (Electronic Data Interchange Personal Identifier (EDIPI)   ICN  or SSN)   Assigning Authority  and Assigning Facility .
+0  VBA uses SSN as the patient identifier when querying by Patient ID  Assigning Authority  and Assigning Facility .
+0  VHA uses ICN (when a unique ICN exists) as the patient identifier when querying by Patient ID  Assigning Authority  and Assigning Facility .
+0  VLER DAS sends a list of available exam results filtered by Patient ID  Assigning Authority  and Assigning Facility to the consuming application (first pass)  .
+0  In the first pass pick-list VLER DAS sends the following common data elements for each available exam result to the consuming application\: Disability Benefit Questionnaire (DBQ) Document Type .
+0  In the first pass pick-list VLER DAS sends the following common data elements for each available exam result to the consuming application\: Creation Date (Date  Time  and Time Zone) .
+0  In the first pass pick-list VLER DAS sends the following common data elements for each available exam result to the consuming application\: Date Status Modified (Date  Time  and Time Zone) .
+0  In the first pass pick-list VLER DAS sends the following common data elements for each available exam result to the consuming application\: Status of Exam Result .
+0  In the first pass pick-list VLER DAS sends the following common data elements for each available exam result to the consuming application\: The consuming application sends the Uniform Resource Locator (URL) for a specific exam result from the first pass pick-list to VLER DAS .
+0  VLER DAS processes the request for a specific exam result .
+0  In the first pass pick-list VLER DAS sends the following common data elements for each available exam result to the consuming application\: VLER DAS sends the specific exam result to the consuming application (second pass)  .
+0  In the first pass pick-list VLER DAS sends the following common data elements for each available exam result to the consuming application\: VLER DAS sends the specific exam result to the consuming application (second pass) each time the user selects an item from the same pick-list .
+0  VLER DAS sends a pick-list of available exam results to the consuming application (first pass) in response to a request for exam results filtered by Patient ID (i .e .  EDIPI  ICN  or SSN)   Assigning Authority  and Assigning Facility .
+0  In the first pass pick-list VLER DAS sends the common data element Patient Information (First Name  Middle Name  Last Name  Date of Birth  ID  Assigning Authority  and Assigning Facility) for each available exam result to the consuming application .
+0  In the first pass pick-list VLER DAS sends the common data element Document ID for each available exam result to the consuming application .
+0  In the first pass pick-list VLER DAS sends the common data element DBQ Document Type for each available exam result to the consuming application .
+0  In the first pass pick-list VLER DAS sends the common data element Creation Date (Date  Time  and Time Zone) for each available exam result to the consuming application .
+0  In the first pass pick-list VLER DAS sends the common data element VA Facility Information (Name  ID  Assigning Authority) for each available exam result to the consuming application .
+0  In the first pass pick-list VLER DAS sends the common data element Physician Information (First Name  Middle Name  Last Name  ID  Assigning Facility or Assigning Authority) for each available exam result to the consuming application .
+0  In the first pass pick-list VLER DAS sends the common data element Status of Exam Result for each available exam result to the consuming application .
+0  VLER DAS sends the specific exam result to the consuming application (second pass) each time the user selects an item from the same pick-list .
+0  In the first pass pick-list VLER DAS sends the common data element Date Status Modified (Date  Time  and Time Zone) for each available exam result to the consuming application .
+0  VLER DAS can only retrieve and send available first pass data elements stored in the Health Data Repository (HDR)  .
+0  For example  if physician name is not present in the exam result when stored  then VLER DAS cannot return the physician name in the first pass pick-list .
+0  As a consuming application  I want a list of available exam results (first pass) retrieved by Physician Name and Date Range  so that I can request the exam result (second pass) that I need from the list .
+0  Therefore  a query by Physician Name allows the VHA to identify exam results completed by a given provider .
+0  Producing applications send Physician information (when entered  including First Name  Middle Initial  and Last Name) to Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) with the exam result .
+0  VLER DAS sends the Physician information to the Health Data Repository (HDR) for storage with the exam result .
+0  Hence  CAPRI can query VLER DAS for exam results stored with a given Physician Name .
+0  In addition  VLER DAS and consuming applications require a Date Range to keep the list of results to a manageable number .
+0  VLER DAS receives a request from a consuming application for a list of exam results filtered by Physician Name and Date Range .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: Last Name  Date Range .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: Last Name  First Name  Date Range .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: Last Name  First Name  Middle Name  Date Range .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: VLER DAS sends an error message in the event of a badly formed query with sufficient information to inform the user what is needed (i .e .  Last Name; Last Name  First Name; Last Name  First Name  Middle Name)  .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: In the first pass pick-list VLER DAS sends the following common data elements for each available exam result to the consuming application .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: Patient Information (First Name  Middle Name  Last Name  Date of Birth  ID  Assigning Authority  and Assigning Facility) .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: Document ID .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: Disability Benefit Questionnaire (DBQ) Document Type .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: Creation Date (Date  Time  and Time Zone) .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: Date Status Modified (Date  Time  and Time Zone) .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: VA Facility Information (Name  ID  Assigning Authority) .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: Physician Information (First Name  Middle Name  Last Name  Assigning Facility or Assigning Authority) .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: Status of Exam Result .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: The consuming application sends the Uniform Resource Locator (URL) for a specific exam result from the first pass pick-list to VLER DAS .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: VLER DAS sends the specific exam result to the consuming application (second pass)  .
+0  VLER DAS sends a list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configurations\: VLER DAS sends an exam result to the consuming application (second pass) each time the user selects an exam result from the same pick-list .
+0  VLER DAS sends a pick-list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configuration\: Last Name  Date Range .
+0  VLER DAS sends a pick-list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configuration\: Last Name  First Name  Date Range .
+0  VLER DAS sends a pick-list of available exam results filtered by Physician Name and Date Range to the consuming application (first pass) for the following allowed configuration\: Last Name  First Name  Middle Name  Date Range .
+0  VLER DAS sends an error message in the event of a badly formed query with sufficient information to inform the user what is needed (i .e .  Last Name; Last Name  First Name; Last Name  First Name  Middle Name)  .
+0  In the first pass pick-list VLER DAS sends the common data element Physician Information (First Name  Middle Name  Last Name  Assigning Facility or Assigning Authority) for each available exam result to the consuming application .
+0  VLER DAS can only retrieve and send available first pass data elements stored in the HDR .
+0  As a VBA consuming application  I want a list of available exam results (first pass) having a status of Completed retrieved by Social Security Number (SSN) for a given date range  so that I can request the exam result (second pass) that I need from the list .
+0  An example of how this functionality may be used is as follows\: Veterans Benefits Administration (VBA) must retrieve stored exam results  in order to automate disability rating calculations for VBA Ratings Specialists .
+1  VBA Ratings Specialists will only retrieve those exam results that are deemed Completed and have an associated claim established .
+0  VBA currently uses (in most cases) the SSN as the identifier for established claims .
+0  The DBQ Forms Service sends the SSN to Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) with the exam result .
+0  VLER DAS sends the SSN to the Health Data Repository (HDR) for storage with the exam result .
+0  Hence  consuming applications can query VLER DAS for exam results that have been previously stored with an SSN .
+0  VLER DAS receives a request from a consuming application for a list of exam results filtered by SSN and Status is Completed for a given date range .
+0  VLER DAS sends a list of available exam results filtered by SSN and Status is Completed for a given date range to the consuming application (first pass)  .
+0  VLER DAS sends a pick-list of available exam results to the consuming application (first pass) in response to a request for exam results filtered by SSN and Status is Completed for a given date range .
+0  In the first pass pick-list VLER DAS sends the common data element Claim Number or SSN for each available exam result to the consuming application .
+0  VLER DAS can only retrieve and send available first pass data elements stored in HDR .
+0  As a consuming application  I want a list of available exam results (first pass) retrieved by Status of Exam Result and Date Range  so that I can request the exam result (second pass) that I need from the list .
+0  An example of how this functionality may be used is as follows\: Consuming applications may need to retrieve exam results stored with a given Status  so that the disability claims adjudication process can advance .
+0  Likewise  Veterans Benefit Administration (VBA) must retrieve exam results with a status of Completed in order to calculate disability ratings .
+0  Producing applications send the Status of Exam Result to Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) with the exam result .
+0  CAPRI users can also send the Status of Exam Result to VLER DAS as an update when there has been a change in status for a previously stored exam result (e .g .  change in Status of Exam Result from Pending  Under Review to Completed)  .
+0  VLER DAS sends the Status of Exam Result to the Health Data Repository (HDR) for storage with the exam result .
+0  Hence  consuming applications can query VLER DAS for exam results stored with a given Status of Exam Result .
+0  VLER DAS receives a request from a consuming application for a list of exam results filtered by Status of Exam Result and Date Range .
+0  VLER DAS sends a list of available exam results filtered by Status of Exam Result and Date Range to the consuming application (first pass)  .
+0  In the first pass pick-list VLER DAS sends the following common data elements for each available exam result to the consuming application\: VLER DAS sends exam results to the consuming application (second pass) each time the user selects an exam result from the same pick-list .
+0  VLER DAS sends a pick-list of available exam results to the consuming application (first pass) in response to a request for exam results filtered by Status of Exam Result and Date Range .
+0  In the first pass pick-list VLER DAS sends the common data element Status of Exam Result and Date Range for each available exam result to the consuming application .
+0  VLER DAS sends the specific exam result to the consuming application (second pass) each time the user selects an exam item from the same pick-list .
+0  VLER DAS can only return exam results that have a stored Status of Exam Result in response to this query .
+0  As a consuming application  I want VLER DAS to retrieve a list of available exam results (first pass) by a combination of selection criteria  so that I can request the exam result (second pass) that I need from the list .
+0  These exam results must be reviewed by VHA prior to use by Veterans Benefits Administration (VBA) for claims adjudication .
+0  VLER DAS receives a request from a consuming application for a list of exam results filtered by multiple selection criteria .
+0  The selection criteria can be any appropriate combination of the elements below\: Physician Last Name (Not case sensitive) .
+0  The selection criteria can be any appropriate combination of the elements below\: Physician First Name  Last Name (Not case sensitive) .
+0  The selection criteria can be any appropriate combination of the elements below\: Physician First Name  Middle Name  Last Name (Not case sensitive) .
+0  The selection criteria can be any appropriate combination of the elements below\: Status of Exam Result .
+0  The selection criteria can be any appropriate combination of the elements below\: VLER DAS sends a list of available exam results filtered by multiple selection criteria to the consuming application (first pass)  .
+0  The selection criteria can be any appropriate combination of the elements below\: In the first pass pick-list VLER DAS sends the following data elements for each available exam result to the consuming application .
+0  The selection criteria can be any appropriate combination of the elements below\: Patient Information (First Name  Middle Name  Last Name  Date of Birth  ID  DAS Assigning Authority (contains Assigning Facility) ) .
+0  The selection criteria can be any appropriate combination of the elements below\: Disability Benefit Questionnaire (DBQ) Document Type .
+0  The selection criteria can be any appropriate combination of the elements below\: Creation Date (Date  Time  and Time Zone) .
+0  The selection criteria can be any appropriate combination of the elements below\: Date Status Modified (Date  Time  and Time Zone) .
+0  The selection criteria can be any appropriate combination of the elements below\: Physician Information (First Name  Middle Name  Last Name  Assigning Facility or Assigning Authority) .
+0  The selection criteria can be any appropriate combination of the elements below\: In a second pass  the consuming application sends the request for a specific exam result from the first pass pick-list to VLER DAS .
+0  The selection criteria can be any appropriate combination of the elements below\: VLER DAS sends the specific exam result requested to the consuming application (second pass)  .
+0  The selection criteria can be any appropriate combination of the elements below\: VLER DAS sends the requested exam result to the consuming application (second pass) each time the user selects a subsequent item from the same pick-list .
+0  VLER DAS sends a pick-list of available exam results to the consuming application (first pass) in response to a request for exam results using any appropriate combination of the elements below\: Date Range on the Creation Date (Date  Time  and Time Zone) .
+0  VLER DAS sends a pick-list of available exam results to the consuming application (first pass) in response to a request for exam results using any appropriate combination of the elements below\: Date Range on the Date Status Modified (Date  Time  and Time Zone) .
+0  VLER DAS sends a pick-list of available exam results to the consuming application (first pass) in response to a request for exam results using any appropriate combination of the elements below\: VA Facility Information (Name  ID  Assigning Authority) .
+0  VLER DAS sends a pick-list of available exam results to the consuming application (first pass) in response to a request for exam results using any appropriate combination of the elements below\: Physician Last Name (Not case sensitive) .
+0  VLER DAS sends a pick-list of available exam results to the consuming application (first pass) in response to a request for exam results using any appropriate combination of the elements below\: Physician First Name  Last Name (Not case sensitive) .
+0  VLER DAS sends a pick-list of available exam results to the consuming application (first pass) in response to a request for exam results using any appropriate combination of the elements below\: Physician First Name  Middle Name  Last Name (Not case sensitive) .
+0  In the first pass pick-list VLER DAS sends the data element Patient ID (First Name  Middle Name  Last Name  Date of Birth  ID  Assigning Authority and Assigning Facility) for each available exam result to the consuming application .
+0  In the first pass pick-list VLER DAS sends the data element DBQ Document Type for each available exam result to the consuming application .
+0  In the first pass pick-list VLER DAS sends the data element Creation Date (Date  Time  and Time Zone) for each available exam result to the consuming application within the Date Range requested .
+0  In the first pass pick-list VLER DAS sends the data element Date Status Modified (Date  Time  and Time Zone) for each available exam result to the consuming application within the Date Range requested .
+0  In the first pass pick-list VLER DAS sends the data element VA Facility Information (Name  ID  Assigning Authority) for each available exam result to the consuming application .
+0  In the first pass pick-list VLER DAS sends the data element Physician Information (First Name  Middle Name  Last Name  Assigning Facility or Assigning Authority) for each available exam result to the consuming application .
+0  In the first pass pick-list VLER DAS sends the data element Status of Exam Result for each available exam result to the consuming application .
+0  VLER DAS can only return exam results that have the data elements used in the filter stored with the exam results .
+0  As a consuming application  I want VLER DAS to retrieve a list of all exam results (first pass) for a specific patient using any acceptable identifier (for example SSN  ICN  or EDIPI)   so that I can request the exam result (second pass) that I need from the list .
+0  VHA must review these exam results prior to Veterans Benefits Administration (VBA) claims adjudication .
+0  The Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) must have a unique client identifier to store exam results (which contain the Disability Benefits Questionnaire (DBQ) information)  .
+0  If the client for whom an exam result has been submitted for storage does not have an Integration Control Number (ICN) match  or has multiple matches from the identification service  then the exam result cannot be stored using the ICN as a client identifier of the data .
+1  To avoid losing the information contained in an exam result  a clients Social Security Number (SSN) is used as the client identifier (Patient ID in HDR) to store the exam results when no unique ICN is available .
+0  Therefore  we want VLER DAS to retrieve all exam results for a given patient  regardless of the ID under which they are stored .
+0  VLER DAS receives a request from a consuming application for a list of all exam results for a patient .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: Integration Control Number (ICN) .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: Social Security Number (SSN)  .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: VLER DAS sends a list of all exam results to the consuming application (first pass)  .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: In the first pass pick-list VLER DAS sends the following data elements for each available exam result to the consuming application .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: Patient Information (First Name  Middle Name  Last Name  Date of Birth  ID  DAS Assigning Authority (contains Assigning Facility) ) .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: Document ID .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: Disability Benefit Questionnaire (DBQ) Document Type .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: Creation Date (Date  Time  and Time Zone) .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: Date Status Modified (Date  Time  and Time Zone) .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: VA Facility Information (Name  ID  Assigning Authority) .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: Physician Information (First Name  Middle Name  Last Name  Assigning Facility or Assigning Authority) .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: Status of Exam Result .
+0  VLER DAS retrieves all exam results for the patient regardless of which of the following Patient IDs is received from the consuming application in the selection criteria\: In a second pass  the consuming application sends the request for a specific exam result from the first pass pick-list to VLER DAS .
+0  VLER DAS processes the request for one exam result each time the user selects an item from the same pick-list .
+0  VLER DAS retrieves all exam results for the patient using Integration Control Number (ICN) regardless of the Patient ID received from the consuming application in the selection criteria .
+0  VLER DAS retrieves all exam results for the patient using Electronic Data Interchange Personal Identifier (EDIPI) regardless of the Patient ID received from the consuming application in the selection criteria .
+0  VLER DAS retrieves all exam results for the patient using Social Security Number (SSN) regardless of the Patient ID received from the consuming application in the selection criteria .
+0  VLER DAS sends a list of all exam results to the consuming application (first pass)  .
+0  In the first pass pick-list VLER DAS sends the following data elements for each available exam result to the consuming application\: Disability Benefit Questionnaire (DBQ) Document Type .
+0  In the first pass pick-list VLER DAS sends the following data elements for each available exam result to the consuming application\: Creation Date (Date  Time  and Time Zone) .
+0  In the first pass pick-list VLER DAS sends the following data elements for each available exam result to the consuming application\: Date Status Modified (Date  Time  and Time Zone) .
+0  In the first pass pick-list VLER DAS sends the following data elements for each available exam result to the consuming application\: Physician Last Name (Not case sensitive) .
+0  In the first pass pick-list VLER DAS sends the following data elements for each available exam result to the consuming application\: Physician First Name  Last Name (Not case sensitive) .
+0  In the first pass pick-list VLER DAS sends the data element Date Status Modified (Date  Time  and Time Zone) for each available exam result to the consuming application .
+0  As a consuming application or user of exam results  I want producing applications (i .e .  Health Data Repository ) to limit the number of list results (first pass) returned to five hundred (500) for Disability Benefits Questionnaire (DBQ) queries  so that VLER DAS can optimize performance  and ensure usability .
+0  The DBQ Service is currently required to support 100 000 new DBQ claims per month  with a higher growth factor expected in the future .
+0  Consuming applications can query VLER DAS for exam results (i .e .  DBQs and attachments) using various filter criteria configurations .
+0  For example  if a Veterans Benefit Administration (VBA) Ratings Specialist submitted a query for exam results with a date range of 6 months and a status of Complete there potentially could be hundreds of thousands of exam results meeting this criteria .
+0  Therefore  a maximum results limitation must be included in order to prevent VLER DAS from being overwhelmed .
+0  The maximum results value of 500 allows the DBQ Service participants to function within performance requirements  while also providing the consuming applications with adequate information needed to adjudicate disability claims .
+0  VLER DAS receives a maximum of 500 results in reverse chronological order by Creation Date (i .e .  the most recent 500 results are returned) in the first pass pick-list from HDR  and sends the pick-list to the consuming application .
+0  If the 500 maximum result limit is reached   then VLER DAS receives a message as part of the pick-list stating 500 Max Record Limit Reached from HDR  and sends the message to the consuming application .
+0  If the 500 maximum result limit is reached  then VLER DAS receives a message as part of the pick-list stating 500 Max Record Limit Reached from HDR  and sends the message to the consuming application .
+0  As a consuming application  I want a list of available exam results (first pass) retrieved by Date Status Modified  so that I can request the exam result (second pass) that I need from the list .
+0  Interested parties need to retrieve stored exam results by the Date Status Modified to review and adjudicate disability claims .
+0  Examples of how this functionality may be used are\: Veterans Benefits Administration (VBA) expects completed exam results for a veteran  however no notification is received .
+0  The reviewer knows the date it was last worked and would like to query by Date Status Modified .
+0  Health Data Repository (HDR) populates and stores the Date Status Modified when the status has changed  hence the consuming application can query Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) by using the element Date Status Modified .
+0  VLER DAS receives a request from a consuming application for a list of exam results filtered by date range for Date Status Modified .
+0  VLER DAS sends a list of available exam results filtered by date range for Date Status Modified to the consuming application (first pass)  .
+0  In the first pass pick-list VLER DAS sends the following common data elements when available for each matching exam result to the consuming application\: Patient Information (First Name  Middle Name  Last Name  Date of Birth  ID  Assigning Authority  and Assigning Facility) .
+0  In the first pass pick-list VLER DAS sends the following common data elements when available for each matching exam result to the consuming application\: Creation Date (Date  Time  and Time Zone) .
+0  In the first pass pick-list VLER DAS sends the following common data elements when available for each matching exam result to the consuming application\: VA Facility Information (Name  ID  Assigning Authority) .
+0  In the first pass pick-list VLER DAS sends the following common data elements when available for each matching exam result to the consuming application\: Physician Information (First Name  Middle Name  Last Name  Assigning Facility or Assigning Authority) .
+0  In the first pass pick-list VLER DAS sends the following common data elements when available for each matching exam result to the consuming application\: Status of Exam Result .
+0  In the first pass pick-list VLER DAS sends the following common data elements when available for each matching exam result to the consuming application\: Claim Number - SSN .
+0  In the first pass pick-list VLER DAS sends the following common data elements when available for each matching exam result to the consuming application\: VLER DAS sends the specific exam result to the consuming application (second pass) each time the user selects an exam result from the same pick-list .
+0  VLER DAS sends a pick-list of available exam results to the consuming application (first pass) in response to a request for exam results filtered by date range for Date Status Modified .
+0  In the first pass pick-list  VLER DAS sends the common data element Patient Information (First Name  Middle Name  Last Name  Date of Birth  ID  Assigning Authority  and Assigning Facility) when available for each matching exam result to the consuming application .
+0  In the first pass pick-list  VLER DAS sends the common data element Document ID for each available exam result to the consuming application .
+0  In the first pass pick-list  VLER DAS sends the common data element DBQ Document Type when available for each matching exam result to the consuming application .
+0  In the first pass pick-list  VLER DAS sends the common data element Creation Date (Date  Time  and Time Zone) for each available exam result to the consuming application .
+0  In the first pass pick-list  VLER DAS sends the common data element Date Status Modified (Date  Time  and Time Zone) when available for each matching exam result to the consuming application .
+0  In the first pass pick-list  VLER DAS sends the common data element VA Facility Information (Name  ID  Assigning Authority) when available for each matching exam result to the consuming application .
+0  In the first pass pick-list  VLER DAS sends the common data element Physician Information (First Name  Middle Name  Last Name  Assigning Facility or Assigning Authority) when available for each matching exam result to the consuming application .
+0  In the first pass pick-list  VLER DAS sends the common data element Status of Exam Result when available for each matching exam result to the consuming application .
+0  In the first pass pick-list  VLER DAS sends the common data element Claim Number SSN when available for each matching exam result to the consuming application .
+0  VLER DAS sends the specific exam result to the consuming application (second pass) each time the user selects an exam result from the same pick-list .
+0  As a consuming application  I want Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) to send Claim Number  Social Security Number (SSN) in the (first pass) pick list in response to a request for exam results  so that the user of the consuming application can make selections using the Claim Number  SSN data .
+1  VBA Ratings Specialists will retrieve all exam results that have an associated claim established .
+0  Producing applications send the Claim Number - SSN information to VLER DAS with the exam result .
+0  VLER DAS sends this information for storage to the Health Data Repository (HDR) with the exam result .
+0  This allows VLER DAS to return the Claim Number  SSN data element in the first pass picklist to the consuming applications .
+0  VLER DAS receives a request from a consuming application for a list of exam results .
+0  The consuming application will submit (filtered) single or multiple selection criteria .
+0  VLER DAS sends a list of available exam results .
+0  Patient Information (First Name  Middle Name  Last Name  Date of Birth  ID  DAS Assigning Authority (contains Assigning Facility) ) .
+0  Disability Benefit Questionnaire (DBQ) Document Type .
+0  Creation Date (Date  Time  and Time Zone) .
+0  Date Status Modified (Date  Time  and Time Zone) .
+0  VA Facility Information (Name  ID  Assigning Authority) .
+0  Physician Information (First Name  Middle Name  Last Name  Assigning Facility or Assigning Authority) .
+0  Exam Result Status .
+0  The consuming application sends the Uniform Resource Locator (URL) for a specific exam result from the first pass pick-list to VLER DAS .
+0  VLER DAS sends the specific exam result requested to the consuming application (second pass)  .
+0  VLER DAS sends the requested exam result to the consuming application (second pass) each time the user selects a subsequent item from the same pick-list .
+0  Each entry in the first pass pick-list sent by VLER DAS to the consuming application includes the common data element Claim Number - SSN for each available exam result .
+0  The producing applications are responsible for the validity of the exam result data .
+0  As the Centers for Medicare and Medicaid Services (CMS) Hub  I want Virtual Lifetime Electronic Record (VLER) Data Access Service (DAS) to pass a request for an Affordable Care Act (ACA) applicants health coverage information to Veteran Information or Eligibility Record Services (VIERS) and pass the VIERS response back so that I can determine if the applicant meets the ACA Minimum Essential Coverage (MEC) requirement .
+0  The CMS asks people if they have coverage  if they respond with no  CMS will send a request for coverage information for a given period of time .
+0  VLER DAS helps to retrieve that VA coverage information by passing the request from the CMS Hub to VIERS and then passing the response from VIERS to the CMS Hub .
+0  The CMS Hub sends the request for health coverage information to VLER DAS .
+0  VLER DAS sends the request for health coverage information to VIERS .
+0  VIERS receives the request for health coverage information from VLER DAS .
+0  VIERS retrieves the health coverage information .
+0  VIERS sends the health coverage information response to VLER DAS .
+0  VLER DAS receives the health coverage information response from VIERS .
+0  VLER DAS sends the health coverage information response to the CMS Hub .
+0  VLER DAS sends the CMS Hub request for health coverage information to VIERS .
+0  VLER DAS sends the VIERS health coverage information response to the CMSHub .
+0  CMS handles person identity verification before sending a request to VLER DAS .
+0  CMS validates the field data in the request before passing it to VLER DAS .
+0  VIERS handles all retrieval and processing of the request for health coverage information .
+0  VIERS performs the business processing and Identity Management .
+0  VLER DAS performs no business processing or field validation on the request .
+1  As the Centers for Medicare and Medicaid Services (CMS) Hub I want to send a query to the Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) for information on the Affordable Care Act (ACA) applicants Department of Veterans Affairs (VA) systems coverage so that the CMS Hub can determine if the applicant meets the ACA Minimal Essential Coverage (MEC) requirement .
+0  VLER DAS sends the VIERS health coverage information response to the CMS Hub .
+0  All actors must be running .
+0  The CMS Hub must have network access to VLER gateway over the Internet .
+0  The VLER Gateway must have network access to VIERS over the VA Wide Area Network (WAN)  .
+0  The CMS Hub makes a request to VA for details of eligibility on behalf of an ACA Applicant .
+0  Some applicants will be veterans  but for those who are not  it is likely that VIERS will not be able to identify them  and in this case VA will return a status of APPLICANT_NOT_FOUND to CMS .
+0  The CMS request and response conform to the ICD (Reference #2)  .
+0  CMS performs the following\: CMS creates a SOAP (Simple Object Access Protocol) request for information from VA  specifying a given ACA Applicant .
+0  CMS performs the following\: CMS sends the request to VLER Gateway in a synchronous web service call .
+0  CMS performs the following\: CMS receives back a return value from the web service call as a response to the request .
+0  The web service call from CMS  and its entire SOAP message  is passed to VIERS unchanged except for host addressing .
+0  The VIERS interface is to be the same as that of the VLER Gateway for this request .
+0  The synchronous response back from VIERS is passed back to CMS unchanged .
+0  The VIERS request and response conform to Reference #3 .
+0  VLER Gateway performs the following\: Gateway obtains the entire SOAP request .
+0  VLER Gateway performs the following\: Gateway creates the web service request to VIERS .
+0  VLER Gateway performs the following\: Gateway performs a synchronous web service call to VIERS using the above request .
+0  VLER Gateway performs the following\: Gateway receives back a return value from the web service call as a response to the request .
+0  VLER Gateway performs the following\: Gateway obtains the entire SOAP response .
+0  VLER Gateway performs the following\: Gateway creates a response to the CMS request .
+0  VLER Gateway performs the following\: Gateway returns a reply to the incoming CMS request  as a response .
+0  The service invoker passes the SOAP request to VIERS  receives the synchronous response and returns it to the component and in turn to the VLER Gateway .
+0  The VLER Gateway returns the response to CMS .
+0  The VIERS request and response conform to Reference #3) VIERS performs the following\: VIERS receives a SOAP request from the VLER Gateway .
+0  The VIERS request and response conform to Reference #3) VIERS performs the following\: VIERS constructs a SOAP response .
+0  The VIERS request and response conform to Reference #3) VIERS performs the following\: VIERS returns the response to the VLER Gateway .
+0  CMS has received back a response to their request for data on behalf of a given ACA Applicant .
+0  VLER DAS receives a SOAP request for ACA enrollment status from the CMS Hub .
+0  VLER DAS forwards the SOAP request to VIERS .
+0  VLER DAS receives a SOAP response from VIERS .
+0  VLER DAS returns the SOAP response to the CMS Hub .
+0  Any changes to the WSDL  associated schema or the Interface Control Document (ICD) may be regarded as changes to the requirements for CMS ACA requests .
+0  The web service will run over HTTPS in production and possibly in testing .
+0  Within the VLER Gateway  the proxy passes the SOAP request to VIERS  receives the synchronous response and returns it to CMS .
+0  VIERS performs the following\: VIERS receives a synchronous SOAP web service request from the VLER Gateway .
+0  VIERS performs the following\: VIERS constructs a SOAP response .
+0  VIERS performs the following\: VIERS returns the response to the VLER Gateway .
+0  VSO Claims Management Service (CMS) captures the Veterans information through a VSO claims management system .
+0  VSO CMS generates a structured electronic VA form .
+0  VSO CMS electronically submits a Process Form to VLER DAS .
+0  VLER DAS receives and forwards the claims form to the D2D service hosted by VIERS with high priority for requests from the VSO .
+0  Frequency\: VLER DAS expects 5 000 claim submissions each day .
+0  VLER DAS sends the form to the D2D application via the VIERS system with high priority for requests from the VSO .
+0  D2D will ensure the VSO CMS is currently accredited by Office of Government Council (OGC) to submit forms on behalf of Veterans .
+0  D2D will ensure the VSO CMS has Power of Attorney (POA) in place for submitted Veteran claims .
+0  D2D will ensure the VSO CMS has an image of the Veterans signature .
+0  D2D performs identity management .
+0  Validation of all forms is performed by D2D .
+0  D2D will ensure the VSO CMS has an active corporate record in order to submit forms on behalf of Veteran .
+0  VSO uploads claims evidence to the Veterans information through a VSO CMS .
+0  VSO CMS generates a structured electronic attachment package .
+0  VSO CMS sends one attachment per transmission .
+0  VSO CMS electronically submits electronic attachment package to VLER DAS .
+0  VLER DAS receives and forwards the attachment package to the D2D service hosted by VIERS with low priority for requests from the VSO .
+0  Frequency\: VLER DAS expects 5 000 claim submissions with possible additional attachments each day .
+0  VLER DAS sends the attachment to D2D via VIERS with low priority for requests from the VSO .
+0  VLER DAS rejects any attachments greater than 10MB .
+0  Any attachment is less than or equal to 10MB .
+0  VLER DAS processes VSO Check Status Requests with high priority for requests from the VSO .
+0  Potential Volume - There are 300+ VSO CMS .
+0  VSO CMS sends a Check Status Request to VLER DAS .
+0  VLER DAS sends the Check Status Request to D2D .
+0  D2D retrieves the status manifest .
+0  D2D sends the status response to VLER DAS .
+0  VLER DAS sends the status response to the VSO CMS which sent the original request .
+0  VLER DAS passes the check status request from the VSO to the D2D application via the VIERS system .
+0  VLER DAS passes the status response from D2D to the VSO CMS which sent the original request .
+0  VLER DAS processes VSO CMS check status requests with high priority for requests from the VSO .
+0  A VSO CMS sends a Confirm Submission request to VLER DAS .
+0  VLER DAS sends the Confirm Submission request to D2D via VIERS .
+0  D2D sends VLER DAS a Confirm Submission response via VIERS .
+0  VLER DAS sends the Confirm Submission response to the VSO CMS which sent the original Confirm Submission request .
+0  VLER DAS processes VSO CMS Confirm Submission request as high priority for request from the VSO CMS .
+0  VLER DAS processes VSO CMS Submit Form requests as high priority for requests from the VSO CMS .
+0  Conversation\: MVI (Master Veteran Index) will be the only system used by the DAS (Data Access Service) for any identity management function .
+0  DAS will interface with MVI in the following environments\: The DAS MVI Component will call MVI to translate a PID (Person Identifier)   from ICN to EDIPI or vice versa  as required by DAS to access producers .
+0  DAS will only call MVI for translation when a PID is needed by at least one producer that DAS calls and the type of PID supplied by the consumer differs from the type of PID required by the producer (e .g . consumer supplies an ICN but producer requires an EDIPI or consumer supplies an EDIPI and producer requires an ICN)  .
+0  DAS will interface with MVI in the following environments\: DAS will only perform reads on MVI data  not writes such as Adds  Updates  or Deletes .
+0  DAS will not establish PID correlations with the MVI .
+0  DAS will interface with MVI in the following environments\: DAS will not store a cache of MVI correlations .
+0  DAS will interface with MVI in the following environments\: DAS may need to subscribe to ICN maintenance messages from the MVI  if DAS caches documents .
+0  Since documents would be cached with the AA (Assigning Authority) and PID  whenever a PID changes  DAS would need to either purge the cache or update the cached documents with the new PID .
+0  DAS will interface with MVI in the following environments\: DAS will call MVI to get a list of correlated identities (Source IDs) based on the consumer applications submitted PID .
+0  DAS will interface with MVI in the following environments\: If the DAS receives an error from the MVI  the DAS will report an HTTP error back to the consumer application .
+0  DAS will interface with MVI in the following environments\: If the MVI returns multiple identities for a requested PID  the DAS will submit requests to the necessary producers using each of the identities returned from the MVI and will aggregate the results as needed .
+0  While a Client should only have a single EDIPI and a single ICN  the MVI data model does allow for a Veteran to have multiple identifiers of the same type .
+0  DAS will interface with MVI in the following environments\: DAS will use the new interface to MVI which uses the SOAP protocol and HL7v3 .0 data standard over HTTP on the VA network .
+0  DAS will only query the MVI for current active source IDs (Deprecated PIDs will not be returned from MVI to DAS)  .
+0  The specific scenario to test this is as follows\: A producer (Producer 1) that accepts EDIPI as the PID interfaces with DAS .
+0  The specific scenario to test this is as follows\: Other producer(s) (Producers 2) that accept ICN also interface with DAS .
+0  The specific scenario to test this is as follows\: A Veteran has BIE possibly and possibly HIE records from the Producer 1 and at least one of the Producers 2 .
+0  The specific scenario to test this is as follows\: A consumer application submits a request to DAS using ICN .
+0  The specific scenario to test this is as follows\: A producer (Producer 1) that accepts ICN as the PID interfaces with DAS .
+0  The specific scenario to test this is as follows\: Other producer(s) (Producers 2) that accept EDIPI also interface with DAS .
+0  The specific scenario to test this is as follows\: A consumer application submits a request to DAS using EDIPI .
+1  As a consuming application  I want to send a query to the Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) for Care Coordinator Profile data on a patient identified by ICN (Integration Control Number)   a national VA patient ID  so that VLER DAS can use the MVI (Master Veteran Index) getCorrespondingIDs service to obtain a corresponding EDIPI (Electronic Data Interchange Personal Identifier)   a national DoD service member ID  by which DAS can retrieve the requested data from the appropriate producers and return it to me .
+0  VLER DAS sends the ICN for the Veteran or Service Member to the MVI to get the EDIPI required by the producing applications  in response to a request for Care Coordinator Profile information from a consuming application that uses ICN .
+0  VLER DAS sends the request with EDIPI to the producing applications to identify the Veteran or Service Member .
+0  VLER DAS sends the requested Care Coordinator Profile information to the consuming application .
+0  For the existing and currently planned consumers and producers served by VLER DAS  the only case where invocation of the MVI getCorrespondingIds service is needed is when a consumer requests Care Coordinator Profile data from the producer systems  and the patient is identified by ICN .
+0  In this case  the MVI is used to obtain the corresponding EDIPI .
+0  The Consumer must have network access to VRS over the Internet .
+0  VRS must have network access to MVI over the VA Wide Area Network (WAN)  .
+0  VRS must have network access to Producers over the VA Wide Area Network (WAN)  .
+0  The Consumer makes a First Pass request to VRS for Care Coordinator Profile data .
+0  This is done through the following steps\: The Consumer issues a REST request to VRS with a URL specifying Care Coordinator Profile data and with a patient ID that may be either an ICN or EDIPI .
+0  This is done through the following steps\: The Consumer receives back an Atom Feed as a First Pass response to the request .
+0  The Atom Feed includes URL links to the actual data (Subject Documents) gathered from all available Producers .
+0  Each link contains the appropriate patient ID (possibly translated from the first pass request) needed by the producer system identified in the link .
+0  The REST request is routed to a business process in VRS that requests Care Coordinator Profile data from all available Producers .
+0  The business process in VRS performs the following steps\: Receives a First Pass REST request in the form of a URL from a consumer .
+0  The business process in VRS performs the following steps\: Checks whether the patient ID in the request is ICN or EDIPI .
+0  The business process in VRS performs the following steps\: Creates a SOAP getCorrespondingIds request to MVI requesting all patient IDs corresponding to the ICN .
+0  The business process in VRS performs the following steps\: Sends getCorrespondingIds request to MVI and receives a synchronous response .
+0  The SOAP response from MVI contains a list of all patient IDs known by the MVI that correspond to the given ICN .
+0  The business process in VRS performs the following steps\: Creates a modified REST request for each producer  substituting the EDIPI  obtained from the MVI response  in place of the ICN .
+0  The business process in VRS performs the following steps\: Sends the REST request (updated in step 5 if necessary) to the Producers .
+0  The business process in VRS performs the following steps\: Aggregates responses from the Producers into a single Atom Feed .
+0  The business process in VRS performs the following steps\: Returns the Atom Feed to the Consumer .
+0  Steps 2 through 5 add support for invoking the MVI getCorrespondingIds service to the existing VLER DAS business process for retrieving Care Coordinator Profiles from the Producers .
+0  The MVI request and response conform to References 2 and 3 .
+0  MVI performs the following\: Receives a SOAP getCorrespondingIds request from VRS containing a patient ID  in this case an ICN .
+0  MVI performs the following\: Constructs a SOAP response containing a list of all the IDs by which the patient is known to MVI .
+0  This list is expected to contain the EDIPI for the patient .
+0  MVI performs the following\: Returns the response to VRS .
+0  Each producer performs the following steps\: Receives a First Pass REST request from VRS .
+0  Each producer performs the following steps\: Retrieves Care Coordinator Profile data and forms an Atom Feed .
+0  Each producer performs the following steps\: Returns the Atom Feed to VRS .
+0  The consumer has received a response from VRS to their First Pass request for Care Coordinator Profile data .
+0  The PID on the request must specify an ICN or EDIPI .
+0  The links on the URLs in the Atom Feed pick list will have EDIPI as needed by the Producers to handle Second Pass requests .
+1  As a CAPRI service user I want stored exam results to be accessible by interested parties  as part of the disability claims adjudication process .
+0  Required review for exam results will occur prior to submission to DAS or HDR .
+0  VLER DAS receives an exam result from a VHA C&P examiner using CAPRI with a status value of Completed .
+0  VLER DAS sends the exam result  including the Completed status value  to the HDR for storage .
+0  VLER DAS receives an exam result from CAPRI with a status value of Completed  and sends the exam result to the HDR for storage .
+0  CAPRI contains the business rules necessary to determine the status of an exam result .
+0  CAPRI applies these business rules to the originator (VHA Provider) and submits the exam result with the appropriate status .
+0  C&P exam results are the primary deliverable in the disability claims adjudication process .
+0  All parties involved have to agree on the possible status values of the exam result so that the producing and consuming applications can properly process the claims .
+0  Exam results created by VHA contracted providers using a proprietary system have a status of Pending-Under Review when they are submitted .
+0  VLER DAS receives a C&P exam result  including status  from a producing application  e .g . CAPRI .
+0  VLER DAS sends the C&P exam result  including status  to the CDS for storage in the HDR .
+0  The Reviewer retrieves the C&P exam result from CDS and updates the exam result status using Veterans Benefits Management System (VBMS) (or similar application)  .
+0  The Reviewer sends the updated C&P exam result status to VLER DAS using VBMS (or similar application)  .
+0  VLER DAS sends the updated exam result status to the CDS for storage in the HDR .
+0  HDR records the Date Status Modified in the database .
+0  VLER DAS sends an updated C&P exam result status to CDS for storage in the HDR .
+0  The producing application is responsible for applying any business rules that determine the appropriate status value for an exam result .
+0  The producing application is responsible for applying appropriate data formatting for VLER DAS processing .
+0  As a Veterans Health Administration (VHA) Contracted Provider  I want Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) to pass exam results  with a Pending-Under Review initial status to Clinical Data Service (CDS) for storage in Health Data Repository (HDR)   so that the disability claims adjudication process can advance .
+0  Interested parties must be able to access a stored exam result as part of the disability claims adjudication process .
+0  Some exam results require review as the next step in the process  and some are considered completed when they are submitted .
+0  Exams submitted by VHA-Contracted Providers should be in Pending-Under Review status .
+0  These exams are submitted from outside the VA firewall .
+0  VHA users will then have the capability to access the exams on HDR and the ability to change the status from Pending-Under Review to Completed or Rejected .
+0  Exam results are stored with an initial status  depending on the originating source .
+0  Exam results created by a VHA provider using CAPRI  a VBA contracted provider using a proprietary system  or a VHA or private treating clinician using the Disability Benefits Questionnaire (DBQ) Forms Service have a Completed status when the provider or clinician submits them .
+0  Exam results created by VHA contracted providers using a proprietary system have a Pending-Under Review status when submitted .
+0  A VHA provider may be able to review an exam result with a Pending-Under Reviewstatus and change its status to either Completed or Rejected .
+0  Completed and Rejected are final statuses .
+0  Conversation\: VLER DAS sends the exam result  including the status value  to the CDS for storage in the HDR .
+0  VLER DAS sends the producer a confirmation that the exam result is successfully stored in HDR .
+0  As a Veterans Benefits Administration (VBA) Contracted Provider  I want Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) to pass exam results  with a Completed initial status to Clinical Data Service (CDS) for storage in Health Data Repository (HDR)   so that the disability claims adjudication process can advance .
+0  Exams submitted by VBA-Contracted Providers should be in Completed status .
+0  Exam results created by a VHA provider using CAPRI  or a VBA contracted provider using a proprietary system  or a VHA or private treating clinician using the Disability Benefits Questionnaire (DBQ) Forms Service have a status of Completed when they are submitted .
+0  Conversation\: VLER DAS receives an exam result from the VBA-Contracted Provider with a Completed initial status value  .
+0  VLER DAS receives an exam result from VBA-Contracted Provider with a Completed status value  and sends the exam result to HDR for storage .
+1  As a notification subscriber  I want to receive a notification when an exam result has been stored with a status of Completed  so that the disability claims adjudication process can continue .
+0  The Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) provides a notification service to alert subscribers when a particular event occurs (e .g .  an exam result has been stored with a status of Completed)  .
+0  VBA receives a DBQ Status is Completed event notification for a specific exam result  which includes identifying information for that exam result .
+0  A VBA Ratings Specialist uses the identifying information provided in the notification (e .g .  the Document ID) to retrieve an exam result  in order to calculate a disability rating .
+0  VLER DAS enables consuming applications to subscribe to event notifications of which they choose to be made aware .
+0  VLER DAS receives an exam result with a status of Completed and sends it to the Health Data Repository (HDR) for storage .
+0  If the storage is successful  then VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the following information\: Patient Information (First Name  Middle Name  Last Name  Date of Birth  ID  Assigning Authority  Assigning Facility) .
+0  If the storage is successful  then VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the following information\: Disability Benefit Questionnaire (DBQ) Document Type .
+0  If the storage is successful  then VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the following information\: Creation Date (Date  Time  and Time Zone) .
+0  If the storage is successful  then VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the following information\: Date Status Modified (Date  Time  and Time Zone) .
+0  If the storage is successful  then VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the following information\: VA Facility Information (Name  ID  Assigning Authority) .
+0  If the storage is successful  then VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the following information\: Physician Information (First Name  Middle Name  Last Name  ID  Assigning Facility or Assigning Authority) .
+0  If the storage is successful  then VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the following information\: Status of Exam Result .
+0  If the storage is successful  then VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the following information\: SSN .
+0  VLER DAS receives an exam result with a status of Completed and sends it to HDR for storage .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the Patient Information (First Name  Middle Name  Last Name  Date of Birth  ID  Assigning Authority  Assigning Facility)  .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the Document ID .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the DBQ Document Type .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the Creation Date (Date  Time  and Time Zone)  .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the VA Facility Information (Name  ID  Assigning Authority)  .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the Physician Information (First Name  Middle Name  Last Name  ID  Assigning Facility or Assigning Authority)  .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the SSN .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the Status of Exam Result .
+0  VLER DAS sends the DBQ Status is Completed event notification to subscribers .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes Date Status Modified (Date  Time  and Time Zone)  .
+0  VLER DAS can only send available information stored in HDR with the DBQ Status is Completed event notification .
+0  This Technical Story describes the process for sending an event to one consuming application after a DBQ has been written to the database .
+0  VLER DAS sends the DBQ Status is Completed event notification tosubscribers .
+0  The following applications must be running\: Consuming Application (a VBA App e .g . VBMS) .
+0  The following applications must be running\: Each of the above applications have network accessibility .
+0  The following applications must be running\: The consumer application is subscribed to the jms or core or dbq or dbqCompletedEventTopic topic .
+0  The BTS DBQ Store process persists its process context  including the DBQ Write Request  before it is sent to CDS .
+0  The BTS DBQ Store process receives a successful (status = Completed) DBQ write response from CDS .
+0  The BTS DBQ Store process returns the response to its consumer .
+0  Using the message id in the DBQ write response  BTS retrieves the BTS Store DBQ process context from the BTS database .
+0  The DBQ Store process retrieves the DBQ Write Request from the process context .
+0  The DBQ Store process transforms the DBQ Write response into a completed event notification .
+0  The DBQ Store process publishes the response to the JMS topic jms or core or dbq or dbqCompletedEventTopic .
+0  BTS DBQ Store process stores the process context to the BTS database .
+0  The BTS DBQ process publishes events to the jms or core or dbq or dbqCompletedEventTopic JMS topic only when the status equals Completed .
+0  The Completed event contains\: Patient Information (First Name  Middle Name  Last Name  Date of Birth  ID  Assigning Authority)  .
+0  The Completed event contains\: Document ID .
+0  The Completed event contains\: DBQ Document Type .
+0  The Completed event contains\: Creation Date (Date  Time  and Time Zone)  .
+0  The Completed event contains\: VA Facility Information (Name  ID  Assigning Authority)  .
+0  The Completed event contains\: Physician Information (First Name  Middle Name  Last Name  ID  Assigning Facility or Assigning Authority)  .
+0  The Completed event contains\: SSN .
+0  The Completed event contains\: Status of Exam Result .
+1  As a Veterans Benefits Administration (VBA) notification subscriber  I want Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) to send me a notification when an exam result status has been updated from Pending-Under Review or Rejected to a Completed status  so the disability claims adjudication process can advance .
+0  VLER DAS provides a notification service to alert subscribers when a particular event occurs (e .g .  an exam result status has been updated from Pending-Under Review or Rejected to a Completed status )  .
+0  The VBA retrieves exam results with a Completed status in order to calculate a disability rating .
+0  An example of how this functionality is as follows\: VHA Contracted Provider submits an exam result with a Pending-Under Review status .
+0  A VHA reviewer approves the exam result and submits the exam result with a Completed status to VLER DAS .
+0  VBA receives a DBQ Status is Completed event notification for the exam result  which includes identifying information for that exam result .
+0  A VBA Ratings Specialist uses the identifying information provided in the notification (e .g .  the Document ID) to retrieve the exam result  in order to calculate a disability rating .
+0  A consuming application asks VLER DAS to subscribe it to event notifications of which they should be made aware .
+0  If the storage is successful  then VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the following information\: SSN or Claim Number .
+0  VLER DAS sends the status value change of Completed to HDR for storage .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the Patient Information (First Name  Middle Name  Last Name  Date of Birth  ID  Assigning Authority)  .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the Date Status Modified (Date  Time  and Time Zone)  .
+0  VLER DAS generates a corresponding DBQ Status is Completed event notification  which includes the SSN or Claim Number .
+0  As a consuming application I want to retrieve a list of available exam results by Facility ID and Date Range so that I can retrieve only those Exam Results that I need .
+0  This Technical Story describes the process for retrieving an exam result from the Health Data Repository (HDR) using VRS and the Clinical Data Service (CDS)  .
+0  The following applications must be running\: HDR .
+0  The following applications must be running\: Consuming Application .
+0  VRS receives a request from a consuming application for a First Pass pick-list of available exam results filtered by request criteria .
+0  The request criteria must specify values for the following formal parameters\: VA Facility ID (a numeric identifier as minimum  see Appendix A) .
+0  The request criteria must specify values for the following formal parameters\: VRS converts the request to a CDS Read Wrapper request .
+0  The request criteria must specify values for the following formal parameters\: VRS sends the CDS Read Wrapper request to the CDS Read Wrapper .
+0  The request criteria must specify values for the following formal parameters\: The CDS Read Wrapper converts this request into an appropriate CDS request .
+0  The request criteria must specify values for the following formal parameters\: The CDS Read Wrapper sends the CDS request to CDS .
+0  The request criteria must specify values for the following formal parameters\: CDS returns to the CDS Read Wrapper a list of available Exam Results meeting the specified request criteria .
+0  The request criteria must specify values for the following formal parameters\: Each item in the list received by the CDS Read Wrapper includes the following information .
+0  The request criteria must specify values for the following formal parameters\: Patient Information (First Name  Middle Name  Last Name  Patient ID  Assigning Authority) .
+0  The request criteria must specify values for the following formal parameters\: Disability Benefits Questionnaire (DBQ) type .
+0  The request criteria must specify values for the following formal parameters\: Creation Date (Date  Time  and Time Zone) .
+0  The request criteria must specify values for the following formal parameters\: VA Facility Information (Name  ID  Assigning Authority - See Appendix A) .
+0  The request criteria must specify values for the following formal parameters\: Status of Exam Result .
+0  The request criteria must specify values for the following formal parameters\: Physician Information (First Name  Middle Name  Last Name  Physician ID  and Assigning Facility or Assigning Authority) .
+0  The request criteria must specify values for the following formal parameters\: The CDS Read Wrapper converts the list to an Atom Feed response for VRS .
+0  The request criteria must specify values for the following formal parameters\: The CDS Read Wrapper returns the list as an Atom Feed to VRS .
+0  The request criteria must specify values for the following formal parameters\: VRS takes the CDS Read Wrapper Atom Feed and creates an Atom Feed response for the consuming application .
+0  The request criteria must specify values for the following formal parameters\: VRS returns the Atom Feed response to the consuming application .
+0  The consuming application has received the First Pass pick-list of available exam results  as an Atom Feed  matching its original specified request criteria .
+0  VRS receives a request from a consuming application for a specific Exam Result .
+0  VRS converts the request into a CDS Read Wrapper request .
+0  VRS sends the CDS Read Wrapper request to the CDS Read Wrapper .
+0  The CDS Read Wrapper converts the request to a CDS request .
+0  The CDS Read Wrapper sends the request to CDS .
+0  CDS returns the requested Exam Result to the CDS read Wrapper .
+0  The CDS Read Wrapper returns the Exam Result to VRS .
+0  VRS returns the Exam Result to the consuming application .
+0  The consuming application has received the requested exam result from VRS .
+0  The request criteria will specify a value for the formal parameter  VA Facility ID  by providing a numeric identifier as a minimum (see Appendix A for more information)  .
+0  VRS converts the request to a CDS Read Wrapper request .
+0  The CDS Read Wrapper converts this request to a CDS request .
+0  The CDS Read Wrapper sends the CDS request to CDS .
+0  CDS returns to the CDS Read Wrapper a list of available Exam Results meeting the specified request criteria .
+0  Each item in the list returned to the CDS Read Wrapper includes Patient Information (First Name  Middle Name  Last Name  Patient ID  Assigning Authority)  .
+0  Each item in the list returned to the CDS Read Wrapper includes Document ID (in a URL to be used for 2nd Pass retrieval)  .
+0  Each item in the list returned to the CDS Read Wrapper includes Disability Benefits Questionnaire (DBQ) Type .
+0  Each item in the list returned to the CDS Read Wrapper includes Creation Date (Date  Time  and Time Zone)  .
+0  Each item in the list returned to the CDS Read Wrapper includes VA Facility Information (Name  ID  Assigning Authority)  .
+0  Each item in the list returned to the CDS Read Wrapper includes Status of Exam Result .
+0  Each item in the list returned to the CDS Read Wrapper includes Physician Information (First Name  Middle Name  Last Name  Physician ID  and Assigning Facility or Assigning Authority)  .
+0  The CDS Read Wrapper converts the list to an Atom Feed response for VRS .
+0  The CDS Read Wrapper returns the list as an Atom Feed to VRS .
+0  VRS takes the CDS Read Wrapper Atom Feed and creates an Atom Feed response for the consuming application .
+0  VRS returns the Atom Feed response to the consuming application .
+0  As the Business Owner  I want the Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) to log all requests or responses that it receives or sends in relation to storage of an exam result so that VLER DAS is in compliance with Department of Veterans Affairs (VA) system auditing requirements and can assist with troubleshooting .
+0  The VA requires that system audit logs must record sufficient information to establish what events occurred  the sources  and outcomes of the events .
+0  Audit logging must be sufficient in detail to facilitate reconstruction of events if a compromise or malfunction is suspected or has occurred .
+0  A submitted exam result can be stored for later use by interested parties .
+0  All requests and responses for the store action must be logged in the audit log .
+0  An example of how this functionality may be used is as follows\: A Veterans Benefits Administration (VBA) Ratings Specialist needs to retrieve an exam result  however the exam result cannot be found .
+0  The events and outcomes associated with the specified exam result will be recorded in VLER DAS audit logs  and can be used to aid in tracking the exam result through the system .
+0  VLER DAS stores event descriptions in an audit log for a minimum of six (6) years .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Unique Identifier for the exam result .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Creation Date (Date  Time  and Time Zone) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Date Status Modified (Date  Time  and Time Zone) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: System ID (Fully Qualified Domain Name) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Transaction Type (description of action  e .g .  Store) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Organization Name the document is received from or sent to .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Event Description (e .g . refer to audit logging events below ) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Patient ID (EDIPI  if not available then ICN  if neither available then SSN)   Assigning Authority  Assigning Facility .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Status of Exam Result .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS stores the event description information in an audit log for the following events .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS receives a request from a producing application to store an exam result .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS calls the VA Identity Management (IdM) for the Patient ID .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS sends a request to the Health Data Repository (HDR) to store an exam result .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS receives a response from HDR regarding storage of the exam result .
+0  VLER DAS stores the Unique Identifier for the exam result  when available  in an audit log .
+0  VLER DAS stores the Creation Date (Date  Time  and Time Zone)   when available  in an audit log .
+0  VLER DAS stores the Date Status Modified (Date  Time  and Time Zone)   when available  in an audit log .
+0  VLER DAS stores the System ID (Fully Qualified Domain Name)   when available  in an audit log .
+0  VLER DAS stores the Transaction Type (description of action  e .g .  Store)   when available  in an audit log .
+0  VLER DAS stores the Organization Name the document is received from or sent to  when available  in an audit log .
+0  VLER DAS stores the Event Description  when available  in an audit log .
+0  VLER DAS stores the Patient ID (EDIPI  if not available then ICN  if neither available then SSN)   Assigning Authority  and Assigning Facility  when available  in an audit log .
+0  VLER DAS stores the Status of Exam Result  when available  in an audit log .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS receives a request from a producing application to store an exam result .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS calls the VA Identity Management (IdM) for the Patient ID .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS sends a request to HDR to store an exam result .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS receives a response from HDR regarding storage of the exam result .
+0  As the Business Owner  I want the Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) to log all requests or responses that it receives or sends in relation to retrieval of an exam result so that VLER DAS is in compliance with Department of Veterans Affairs (VA) system auditing requirements and can assist with troubleshooting .
+0  All previously submitted exam results are stored for later use by interested parties .
+0  When this is the case an identifiable exam result can be retrieved by interested parties for subsequent processing .
+0  All requests and responses for the retrieve action must be logged in the audit log .
+0  The events and outcomes associated with the specified exam result will be recorded in VLER DAS audit logs  and can be used to aid in trackingthe exam result through the system .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Transaction Type (description of action  e .g .  Retrieve) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Event Description (e .g .  refer to audit logging events below ) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Patient ID (EDIPI  if not available then ICN  if neither available then SSN)   Assigning Authority and Assigning Facility .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS receives a request from a consuming application to retrieve a list of exam results (first pass) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS sends a request to the Health Data Repository (HDR) to retrieve a list (first pass) of exam results .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS receives the list of exam results from HDR (first pass) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS sends the list of exam results to the consuming application (first pass) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS receives a request from the consuming application to retrieve an exam result (second pass or one pass) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS sends a request to the Health Data Repository (HDR) to retrieve an exam result (second pass or one pass) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS receives the exam result from HDR (second pass or one pass) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS sends the exam result to the consuming application (second pass or one pass) .
+0  VLER DAS stores the Transaction Type (description of action  e .g .  Retrieve)   when available  in an audit log .
+0  VLER DAS stores the Patient ID (EDIPI  if not available then ICN  if neither available then SSN)   Assigning Authority and Assigning Facility  when available  in an audit log .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS receives a request from a consuming application to retrieve a list of exam results (first pass)  .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS sends a request to HDR to retrieve a list of exam results (first pass)  .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS receives the list of exam results from HDR (first pass)  .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS sends the list of exam results to the consuming application (first pass)  .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS receives a request from the consuming application to retrieve an exam result (second pass or one pass)  .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS sends a request to HDR to retrieve an exam result (second pass or one pass)  .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS receives the exam result from HDR (second pass or one pass)  .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS sends the exam result to the consuming application (second pass or one pass)  .
+0  As the Business Owner  I want the Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) to log all requests or responses that it receives or sends in relation to the storage of an exam result status so that VLER DAS is in compliance with Department of Veterans Affairs (VA) system auditing requirements and can assist with troubleshooting .
+0  A previously submitted exam result may require an approval .
+0  When this is the case the exam result must be retrieved  so that an exam result status can be assigned and stored for later use by interested parties .
+0  All requests and responses for the store exam result status action must be logged in the audit log .
+0  An example of how this functionality may be used is as follows\: A Disability Examination Management Office (DEMO) Quality Control coordinator needs to approve an exam result so that it can be released to the Veterans Benefits Management System (VBMS) ; however the exam result cannot be found .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Transaction Type (description of action  e .g .  Store Status) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS receives a request from a producing application to store an exam result status .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS sends a request to the Health Data Repository (HDR) to store an exam result status .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS receives a response from HDR regarding storage of the exam result status .
+0  VLER DAS stores the Transaction Type (description of action  e .g .  Store Status)   when available  in an audit log .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS receives a request from a producing application to store an exam result status .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS sends a request to HDR to store an exam result status .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS receives a response from HDR regarding storage of the exam result status .
+0  As the Business Owner  I want the Virtual Lifetime Electronic Record (VLER) Data Access Services (DAS) to log all notifications for exam results stored with a status of Completed so that VLER DAS is in compliance with Department of Veterans Affairs (VA) system auditing requirements and can assist with troubleshooting .
+0  VLER DAS provides a notification service to alert subscribers when a particular event occurs (e .g .  an exam result has been stored with a status of Completed)  .
+0  All requests and responses for the notify of Completed status action must be logged in the audit log .
+0  An example of how this functionality may be used is as follows\: A VBA Ratings Specialist expects to receive a notification for an exam result stored with a status of Completed  however notification has not been received .
+0  The events and outcomes associated with the specified notification will be recorded in VLER DAS audit logs  and can be used to aid in tracking the exam result through the system .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Transaction Type (description of action  e .g .  Notify of Approval) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Organization Name the notification is sent to .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Event Description (e .g . refer to audit logging event below ) .
+0  VLER DAS stores the following attributes  when available  in an audit log\: Patient ID (EDIPI  if not available then ICN  if neither available then SSN)   Assigning Facility  and Assigning Authority .
+0  VLER DAS stores the following attributes  when available  in an audit log\: VLER DAS stores the event description information in an audit log for the following event\: VLER DAS sends a DBQ Status is Completed event notification to subscribers .
+0  VLER DAS stores the Transaction Type (description of action  e .g .  Notify of Completed Status)   when available  in an audit log .
+0  VLER DAS stores the Organization Name the notification is sent to  when available  in an audit log .
+0  VLER DAS stores the Patient ID (EDIPI  if not available then ICN  if neither available then SSN)   Assigning Facility  and Assigning Authority  when available  in an audit log .
+0  VLER DAS stores the event description information in an audit log for the following event\: VLER DAS sends a DBQ Status is Completed event notification to subscribers .
+0  The system shall create a single patient record for each patient .
+0  The system shall provide the ability to merge patient information from two patient records into a single patient record .
+0  The system shall provide the ability to include demographic information in reports .
+0  The system shall provide the ability to maintain and make available historic information for demographic data including prior names  addresses  phone numbers and email addresses .
+0  The system shall provide the ability to modify demographic information about the patient .
+0  The system shall store demographic information in the patient medical record in separate discrete data fields  such that data extraction tools can retrieve these data .
+0  The system shall provide the ability to access demographic information such as name  date of birth and gender needed for patient care functions .
+0  The system shall capture and maintain demographic information as discrete data elements as part of the patient record .
+0  The system shall provide the ability to query for a patient by more than one form of identification .
+0  The system shall provide the ability to capture and maintain  as discrete data elements  the identity of all providers associated with a specific patient encounter .
+0  The system shall provide the ability to capture and maintain  as discrete data elements  the principal provider responsible for the care of an individual patient .
+0  The system shall provide the ability to capture  maintain and display  as discrete data elements  all problems or diagnoses associated with a patient .
+0  The system shall provide the ability to maintain the onset date of the problem or diagnosis .
+0  The system shall provide the ability to maintain the resolution date of the problem or diagnosis .
+0  The system shall provide the ability to record the chronicity (chronic  acute or self-limiting  etc .) of a problem or diagnosis .
+0  The system shall provide the ability to record the user ID and date of all updates to the problem or diagnosis list .
+0  The system shall provide the ability to associate orders  medications  and notes with one or more problems or diagnoses .
+0  The system shall provide the ability to associate orders and medications with one or more codified problems or diagnoses .
+0  The system shall provide the ability to maintain a coded list of problems or diagnoses .
+0  The system shall provide the ability to display different views of the problem or diagnosis list based upon the status of the problem .
+0  The system shall provide the ability to capture  maintain and display free text comments associated with the problem or diagnosis .
+0  The system shall provide the ability to record the prescribing of medications including the identity of the prescriber .
+0  The system shall provide the ability to maintain medication ordering dates .
+0  The system shall provide the ability to display medication history for the patient .
+0  The system shall provide the ability to capture medications entered by authorized users other than the prescriber .
+0  The system shall store medication information in discrete data fields .
+0  The system shall provide the ability to enter uncoded or free text medications when medications are not on the vendor-provided medication database or information is insufficient to completely identify the medication .
+0  The system shall provide the ability to enter or further specify in a discrete field that the patient takes no medications .
+0  The system shall provide the ability to record the date of changes made to a patients medication list and the identity of the user who made the changes .
+0  The system shall provide the ability to update and display a patient-specific medication list based on current medication orders or prescriptions .
+0  The system shall provide the ability to display a view that includes only current medications .
+0  The system shall provide the ability to exclude a medication from the current medication list (e .g . marked inactive  erroneous  completed  discontinued) and document reason for such action .
+0  The system shall provide the ability to print a current medication list .
+0  The system shall provide the ability to display that the patient takes no medications .
+0  The system shall provide the ability to capture and maintain  as discrete data elements  all current medications including over-the-counter and complementary medications such as vitamins  herbs and supplements .
+0  The system shall provide the ability to display information which has been inactivated or removed from the allergy and adverse reaction list .
+0  The system shall provide the ability to specify the type of allergic or adverse reaction in a discrete data field .
+0  The user ID and date or time stamp shall be recorded .
+0  The system shall provide the ability for a user to explicitly capture and maintain  as discrete data  that the allergy list was reviewed .
+0  The user ID and date or time stamp shall be recorded when the allergies reviewed option is selected .
+0  The system shall provide the ability to explicitly indicate in a discrete field that a patient has no known drug allergies or adverse reactions .
+0  The system shall provide the ability to display the allergy list  including date of entry .
+0  The system shall provide the ability to capture  maintain and display  as discrete data  lists of medications and other agents to which the patient has had an allergic or other adverse reaction .
+0  The system shall provide the ability to capture  store  display  and manage patient history .
+0  The system shall provide the ability to capture structured data in the patient history .
+0  The system shall provide the ability to update a patient history by modifying  adding or removing items from the patient history as appropriate .
+0  The system shall provide the ability to capture patient history as both a presence and absence of conditions  i .e .  the specification of the absence of a personal or family history of a specific diagnosis  procedure or health risk behavior .
+0  The system shall provide the ability to capture history collected from outside sources .
+0  The system shall provide the ability to capture patient history in a standard coded form .
+0  The system shall provide the ability to create and display a summary list for each patient that includes  at a minimum  the active problem or diagnosis list  current medication list  medication allergies and adverse reactions .
+0  The system shall provide the ability to create clinical documentation or notes (henceforth documentation) .
+0  The system shall provide the ability to display documentation .
+0  The system shall provide the ability to save a note in progress prior to finalizing the note .
+0  The system shall provide the ability to finalize a note  i .e .  change the status of the note from in progress to complete so that any subsequent changes are recorded as such .
+0  The system shall provide the ability to record the identity of the user finalizing each note and the date and time of finalization .
+0  The system shall provide the ability to cosign a note and record the date and time of signature .
+0  The system shall provide the ability to addend possibly and possibly correct notes that have been finalized .
+0  The system shall provide the ability to identify the full content of a modified note  both the original content and the content resulting after any changes  corrections  clarifications  addenda  etc . to a finalized note .
+0  The system shall provide the ability to record and display the identity of the user who addended or corrected a note and the date and time of the change .
+0  The system shall provide the ability to enter free text notes .
+0  The system shall provide the ability to filter  search or order notes by associated diagnosis within a patient record .
+0  The system shall provide the ability to capture patient vital signs  including blood pressure  heart rate  respiratory rate  height  and weight  as discrete data .
+0  The system shall provide the ability to capture and display temperature  weight and height in both metric and English units .
+0  The system shall be capable of indicating to the user when a vital sign measurement falls outside a preset normal range as set by authorized users .
+0  The system shall provide the ability to capture other clinical data elements as discrete data .
+0  The system shall provide templates for inputting data in a structured format as part of clinical documentation .
+0  The system shall provide the ability to customize clinical templates .
+0  The system shall be capable of recording comments by the patient or the patients representative regarding the accuracy or veracity of information in the patient record (henceforth patient annotations) .
+0  The system shall display patient annotations in a manner which distinguishes them from other content in the system .
+0  The system shall provide the ability to graph height and weight over time .
+0  The system shall provide the ability to capture and store external documents .
+0  The system shall provide the ability to save scanned documents as images .
+0  The system shall provide the ability to receive  store in the patients record  and display text-based outside reports .
+0  The system shall provide the ability to index scanned documents and associate a date and document type to the document .
+0  The system shall provide the ability to retrieve indexed scanned documents based on document type and date .
+0  The system shall provide access to clinical images .
+0  They must be accessible from within the patients chart and labeled and date-time stamped or included in a patient encounter document .
+0  These images may be stored within the system or be provided through direct linkage to external sources .
+0  The system shall provide the ability to accept  store in the patients record  and display clinical results received through an interface with an external source .
+0  The system shall provide the ability to produce patient instructions and patient educational materials which may reside within the system or be provided through links to external source .
+0  These instructions may reside within the system or be provided through links to external sources .
+0  The system shall provide the ability to record that patient specific instructions or educational material were provided to the patient .
+0  The system shall provide the ability to create patient specific instructions .
+0  The system shall provide the ability to access and review medication information (such as patient education material or drug monograph) .
+0  The system shall provide the ability to record user and date stamp for prescription related events  such as initial creation  renewal  refills  discontinuation  and cancellation of a prescription .
+0  The system shall provide the ability to capture the identity of the prescribing provider for all medication orders .
+0  The system shall provide the ability to capture common content for prescription details including strength  sig  quantity  and refills to be selected by the ordering clinician .
+0  The system shall provide the ability to receive and display information received through electronic prescription eligibility checking .
+0  The system shall provide the ability to reorder a prior prescription without re-entering previous data (e .g . administration schedule  quantity) .
+0  The system shall provide the ability to print and electronically fax prescriptions .
+0  The system shall provide the ability to re-print and re-fax prescriptions .
+0  The system shall provide the ability to display a dose calculator for patient-specific dosing based on weight .
+0  The system shall provide the ability to identify medication samples dispensed  including lot number and expiration date .
+0  The system shall provide the ability to prescribe fractional amounts of medication (e .g . 1 or 2 tsp  1 or 2 tablet) .
+0  The system shall provide the ability to alert the user if the drug interaction information is outdated .
+0  The system shall provide the ability to allow the user to configure prescriptions to incorporate fixed text according to the users specifications .
+0  The system shall provide the ability to capture and maintain  as discrete data  a diagnosis or problem code or description associated with an order of any type (including prescriptions and medications ordered for administration) .
+0  The system shall provide the ability to display the associated problem or diagnosis (indication) on the printed prescription .
+0  The system shall provide the ability to create provider specific medication lists of the most commonly prescribed drugs with a default route  dose  frequency  and quantity .
+0  The system shall provide the ability to add reminders for necessary follow up tests based on medication prescribed .
+0  The system shall provide the ability to alert the user at the time a new medication is prescribed or ordered that drug interaction  allergy  and formulary checking will not be performed against the uncoded medication or free text medication .
+0  The system shall provide the ability to prescribe or order uncoded and non-formulary medications .
+0  The system shall provide the ability to maintain a coded list of medications including a unique identifier for each medication .
+0  The system shall provide the ability to access reference information for prescribing or ordering .
+0  The system shall provide the ability to order diagnostic tests  including labs and imaging studies .
+0  The system shall provide the ability to capture the identity of the ordering provider for all test orders .
+0  The system shall provide the ability to capture appropriate order entry detail  including associated diagnosis .
+0  The system shall provide the ability to display user created instructions possibly and possibly prompts when ordering diagnostic tests or procedures .
+0  The system shall provide the ability to relay orders for a diagnostic test to the correct destination for completion .
+0  The system shall have the ability to provide a view of active orders for an individual patient .
+0  The system shall have the ability to provide a view of orders by like or comparable type  e .g .  all radiology or all lab orders .
+0  The system shall provide the ability to display outstanding orders for multiple patients (as opposed to outstanding orders for a single patient) .
+0  The system shall provide the ability to require problem or diagnosis as an order component .
+0  The system shall provide the ability to view status information for ordered services .
+0  The system shall provide the ability to define a set of items to be ordered as a group .
+0  The system shall provide the ability to modify order sets .
+0  The system shall provide the ability to include in an order set order types including but not limited to medications  laboratory tests  imaging studies  procedures and referrals .
+0  The system shall provide the ability for individual orders in an order set to be selected or deselected by the user .
+0  The system shall provide the ability to display orders placed through an order set either individually or as a group .
+0  The system shall provide the ability to indicate normal and abnormal results based on data provided from the original data source .
+0  The system shall provide the ability to display numerical results in flow sheets and graphical form in order to compare results  and shall provide the ability to display values graphed over time .
+0  The system shall provide the ability to display non-numeric current and historical test results as textual data .
+0  The system shall provide the ability to notify the relevant providers (ordering  copy to) that new results have been received .
+0  The system shall provide the ability to filter or sort results by type of test and test date .
+0  The system shall provide the ability to forward a result to other users .
+0  The system shall provide the ability to link the results to the original order .
+0  The system shall provide the ability for a user to attach a free text comment to a result that can be seen by another user who might subsequently view that result .
+0  The system shall provide the ability to associate one or more images with a non-numerical result .
+0  The system shall provide the ability for a user to whom a result is presented to acknowledge the result .
+0  The system shall provide the ability to capture scanned paper consent documents (covered in DC .1 .1 .3 .1) .
+0  The system shall provide the ability to store  display and print patient consent forms .
+0  The system shall provide the ability to store and display administrative documents (e .g . privacy notices) .
+0  The system shall provide the ability to chronologically display consents and authorizations .
+0  The system shall provide the ability to indicate that a patient has completed advance directive(s) .
+0  The system shall provide the ability to indicate when advance directives were last reviewed .
+0  The system shall have the ability to provide access to standard care plan  protocol and guideline documents when requested at the time of the clinical encounter .
+0  The system shall provide the ability to create site-specific care plan  protocol  and guideline documents .
+0  The system shall provide the ability to modify site-specific standard care plan  protocol  and guideline documents obtained from outside sources .
+0  The system shall provide the ability to check for potential interactions between medications to be prescribed and medication allergies and intolerances listed in the record and alert the user at the time of medication prescribing or ordering if potential interactions exist .
+0  The system shall provide the ability to set the severity level at which drug interaction warnings should be displayed .
+0  The system shall provide the ability to display  on demand  potential drug-allergy interactions  drug-drug interactions and drug-diagnosis interactions based on current medications  active allergies and active problems .
+0  The system shall provide drug-diagnosis interaction alerts at the time of medication prescribing or ordering .
+0  The system shall provide the ability  when a new allergy is documented  to check for a potential interaction between the newly-documented allergy and the patients current medications  and alert the user if such interactions exist .
+0  The system shall provide the ability to check for potential interactions between medications to be prescribed or ordered and current medications and alert the user at the time of medication prescribing or ordering if potential interactions exist .
+0  The system shall provide the ability to view the rationale for a drug interaction alert .
+0  The system shall provide the ability to capture and maintain at least one reason for overriding any drug-drug or drug-allergy or intolerance interaction warning triggered at the time of medication prescribing or ordering .
+0  The system shall provide the ability to enter a structured response when overriding a drug-drug or drug-allergy or intolerance warning .
+0  The system shall provide the ability to prescribe or order a medication despite alerts for interactions possibly and possibly allergies or intolerances being present .
+0  The system shall provide the ability to accept updates to drug interaction databases .
+0  The system shall provide the ability to capture medication administration details as discrete data  including\: the medication name and dose .
+0  The system shall provide the ability to capture medication administration details as discrete data  including\: date and time of administration .
+0  The system shall provide the ability to capture medication administration details as discrete data  including\: route and site .
+0  The system shall provide the ability to capture medication administration details as discrete data  including\: lot number and expiration date .
+0  The system shall provide the ability to capture medication administration details as discrete data  including\: manufacturer; and .
+0  The system shall provide the ability to capture medication administration details as discrete data  including\: user ID .
+0  The system shall provide the ability to capture  in a discrete field  an allergy or adverse reaction to a specific immunization .
+0  The system shall provide the ability to capture immunization administration details as discrete data  including\: the immunization type and dose .
+0  The system shall provide the ability to capture immunization administration details as discrete data  including\: date and time of administration .
+0  The system shall provide the ability to capture immunization administration details as discrete data  including\: route and site .
+0  The system shall provide the ability to capture immunization administration details as discrete data  including\: lot number and expiration date .
+0  The system shall provide the ability to capture immunization administration details as discrete data  including\: manufacturer; and .
+0  The system shall provide the ability to capture immunization administration details as discrete data  including\: user ID .
+0  The system shall provide the ability to create referral orders with detail adequate for correct routing .
+0  The system shall provide the ability to record user ID and date or time stamp for all referral related events .
+0  The system shall provide the ability to establish criteria for disease management  wellness  and preventive services based on patient demographic data (minimally age and gender) .
+0  The system shall provide the ability to display alerts based on established guidelines .
+0  The system shall provide the ability to update disease management guidelines and any associated reference material .
+0  The system shall provide the ability to update preventive services or wellness guidelines and any associated reference material .
+0  The system shall provide the ability to override guidelines .
+0  The system shall provide the ability to individualize alerts to address a patients specific clinical situation .
+0  The system shall provide the ability to identify preventive services  tests or counseling that are due on an individual patient .
+0  The system shall provide the ability to designate a task as completed .
+0  The system shall provide the ability to remove a task without completing the task .
+0  The system shall provide the ability to document verbal or telephone communication into the patient record .
+0  The system shall support messaging between users .
+0  The system shall have the ability to provide electronic communication between prescribers and pharmacies or other intended recipients of the medication order .
+0  The system shall provide the ability to maintain a directory of all clinical personnel who currently use or access the system .
+0  The system shall provide the ability to maintain a directory which contains identifiers required for licensed clinicians to support the practice of medicine including at a minimum state medical license  DEA  and NPI .
+0  The system shall allow authorized users to update the directory .
+0  The system shall provide the ability to create and maintain a directory of clinical personnel external to the organization who are not users of the system to facilitate communication and information exchange .
+0  The system shall provide the ability to display a schedule of patient appointments  populated either through data entry in the system itself or through an external application interoperating with the system .
+0  The system shall provide the ability to generate reports of clinical and administrative data using either internal or external reporting tools .
+0  The system shall provide the ability to generate reports consisting of all or part of an individual patients medical record (e .g . patient summary) .
+0  The system shall provide the ability to generate reports regarding multiple patients (e .g . diabetes roster) .
+1  The system shall provide the ability to specify report parameters, sort criteria and filter criteria,  based on patient demographic and clinical data (e .g .  all male patients over 50 that are diabetic and have a HbA1c value of over 7 .0 or that are on a certain medication) .
+0  The system shall provide the ability to produce reports based on the absence of a clinical data element (e .g .  a lab test has not been performed or a blood pressure has not been measured in the last year) .
+0  The system shall provide the ability to save report parameters for generating subsequent reports .
+0  The system shall provide the ability to modify one or more parameters of a saved report specification when generating a report using that specification .
+1  The system shall provide the ability to define one or more reports as the formal health record for disclosure purposes .
+0  The system shall provide the ability to generate hardcopy or electronic output of part or all of the individual patients medical record .
+1  The system shall provide the ability to export structured data which removes those identifiers listed in the HIPAA definition of a limited dataset .
+0  This export on hardcopy and electronic output shall leave the actual PHI data unmodified in the original record .
+1  The system shall have the ability to provide support for disclosure management in compliance with HIPAA and applicable law .
+0  The system shall provide the ability to document encounters by one or more of the following means\: direct keyboard entry of text; structured data entry utilizing templates  forms  pick lists or macro substitution; dictation with subsequent transcription of voice to text  either manually or via voice recognition system .
+0  The system shall provide the ability to associate individual encounters with diagnoses .
+0  The system shall have the ability to provide filtered displays of encounters based on encounter characteristics  including date of service  encounter provider and associated diagnosis .
+0  The system shall provide the ability to display medical eligibility obtained from patients insurance carrier  populated either through data entry in the system itself or through an external application interoperating with the system .
+0  The system shall provide the ability to specify the role of each provider associated with a patient  such as encounter provider  primary care provider  attending  resident  or consultant using structured data .
+0  The system shall provide the ability to update clinical decision support guidelines and associated reference material .
+0  The system shall provide the ability to capture and maintain  as discrete data  the reason for variation from rule-based clinical messages (for example alerts and reminders) .
+0  The system shall provide a means to document a patients dispute with information currently in their chart .
+0  The system shall provide the ability to identify certain information as confidential and only make that accessible by appropriately authorized users .
+0  The system shall provide the ability to prevent specified user(s) from accessing a designated patients chart .
+0  When access to a chart is restricted  the system shall provide a means for appropriately authorized users to break the glass for emergency situations .
+0  The system shall provide the ability to retain data until otherwise purged  deleted  archived or otherwise deliberately removed .
+0  The system shall provide the ability to export (extract) pre-defined set(s) of data out of the system .
+0  The system shall provide the ability for multiple users to interact concurrently with the EHR application .
+0  The system shall provide the ability for concurrent users to simultaneously view the same record .
+0  The system shall provide the ability for concurrent users to view the same clinical documentation or template .
+0  The system shall provide protection to maintain the integrity of clinical data during concurrent access .
+0  The system shall provide the ability to receive and store general laboratory results using the HL7 v .2 .5 .1 ORU message standard .
+0  The system shall provide the ability to send an electronic prescription to pharmacy .
+0  The system shall provide the ability to respond to a request for a refill sent from a pharmacy .
+0  The system shall provide the ability to capture and display formulary information from pharmacy or PBM (Pharmacy Benefits Manager) by applying eligibility response  .
+0  The system shall provide the ability to send a query for medication history to PBM or pharmacy to capture and display medication list from the EHR .
+0  Summary patient record content information will include\: patient demographics  medication list  medication allergy list .
+0  The system shall provide the ability to generate and format patient summary documents per the following specifications\: Summary patient record content information will include\: patient demographics  medications  medication allergies .
+0  The system shall provide the ability to generate and format patient summary documents per the following specifications\: Generated xml documents must demonstrate use of industry-standard vocabularies or terminologies .
+0  The system shall provide the ability to generate and format patient summary documents per the following specifications\: The intent is to test the Required (R) fields  including the product coded terminology for the medication and medication allergy .
+0  The full content of a finalized note includes the finalized note and any finalized modifications to that note including finalized changes referred to as corrections  clarifications  addenda  etc .
+0  Finalizing is the act of publishing into the system in a way that others may access information that has changed .
+0  The system shall have the ability to record and display the identity and credentials of all users who entered all or part of a note even if they did not finalize the note .
+0  The system shall enforce the most restrictive set of rights or privileges or accesses needed by users or groups (e .g . System Administration  Clerical  Nurse  Doctor  etc .)  or processes acting on behalf of users  for the performance of specified tasks .
+0  The system shall provide the ability for authorized administrators to assign restrictions or privileges to users or groups .
+0  The system shall support removal of a users privileges without deleting the user from the system .
+1  The purpose of the criteria is to provide the ability to remove a users privileges  but maintain a history of the user in the system .
+0  The system shall allow an authorized administrator to set the inclusion or exclusion of auditable events in SC 02 .03 based on organizational policy & operating requirements or limits .
+0  The system shall support logging to a common audit engine using the schema and transports specified in the Audit Log specification of IHE Audit Trails and Node Authentication (ATNA) Profile .
+0  The system shall be able to detect security-relevant events that it mediates and generate audit records for them .
+0  Note\: The system is only responsible for auditing security events that it mediates .
+0  The system shall provide authorized administrators with the capability to read all audit information from the audit records in one of the following two ways\: 1) The system shall provide the audit records in a manner suitable for the user to interpret the information .
+0  The system shall provide the capability to generate reports based on ranges of system date and time that audit records were collected .
+0  The system shall provide the ability to generate and format patient summary documents per the following specifications\: The system shall be able to export logs into text format in such a manner as to allow correlation based on time (e .g . UTC synchronization) .
+0  The system shall be able to support time synchronization using NTP or SNTP  and use this synchronized time in all security records of time .
+0  The system shall have the ability to format for export recorded time stamps using UTC based on ISO 8601 .
+0  The system shall prohibit all users read access to the audit records  except those users that have been granted explicit read-access .
+0  The system shall protect the stored audit records from unauthorized deletion .
+0  The system shall prevent modifications to the audit records .
+0  The system shall authenticate the user before any access to Protected Resources (e .g . PHI) is allowed  including when not connected to a network e .g . mobile devices .
+0  When passwords are used  the system shall support password strength rules that allow for minimum number of characters  and inclusion of alpha-numeric complexity .
+0  The inactivity timeout shall be configurable .
+0  The system shall enforce a limit of (configurable) consecutive invalid access attempts by a user .
+0  The system shall protect against further  possibly malicious  user authentication attempts using an appropriate mechanism (e .g . locks the account or node until released by an administrator  locks the account or node for a configurable time period  or delays the next login prompt according to a configurable delay algorithm) .
+0  When passwords are used  the system shall provide an administrative function that resets passwords .
+0  When passwords are used  user accounts that have been reset by an administrator shall require the user to change the password at next successful logon .
+0  The system shall provide only limited feedback information to the user during the authentication .
+0  The system shall support case-insensitive usernames that contain typeable alpha-numeric characters in support of ISO-646 or ECMA-6 (aka US ASCII) .
+0  When passwords are used  the system shall allow an authenticated user to change their password consistent with password strength rules (SC 03 .02) .
+0  When passwords are used  the system shall support case-sensitive passwords that contain typeable alpha-numeric characters in support of ISO-646 or ECMA-6 (aka US ASCII) .
+0  When passwords are used  the system shall use either standards-based encryption  e .g .  3DES  AES  or standards-based hashing  e .g .  SHA1 to store or transport passwords .
+0  When passwords are used  the system shall prevent the reuse of passwords previously used within a specific (configurable) timeframe (i .e .  within the last X days  etc . - e .g . last 180 days)  or shall prevent the reuse of a certain (configurable) number of the most recently used passwords (e .g . last 5 passwords) .
+0  The system shall include documentation that describes the patch (hot-fix) handling process the vendor will use for EHR  operating system and underlying tools (e .g . a specific web site for notification of new patches  an approved patch list  special instructions for installation  and post-installation test) .
+0  The system shall include documentation that explains system error or performance messages to users and administrators  with the actions required .
+0  The system shall include documentation of product capacities (e .g . number of users  number of transactions per second  number of records  network load  etc .) and the baseline representative configurations assumed for these capacities (e .g . number or type of processors  server or workstation configuration and network capacity  etc) .
+0  The system shall include documented procedures for product installation  start-up possibly and possibly connection .
+0  The system shall include documentation of the minimal privileges necessary for each service and protocol necessary to provide EHR functionality possibly and possibly serviceability .
+0  The system shall include documentation available to the customer stating whether or not there are known issues or conflicts with security services in at least the following service areas\: antivirus  intrusion detection  malware eradication  host-based firewall and the resolution of that conflict (e .g . most systems should note that full virus scanning should be done outside of peak usage times and should exclude the databases .) .
+0  If the system includes hardware  the system shall include documentation that covers the expected physical environment necessary for proper secure and reliable operation of the system including\: electrical  HVAC  sterilization  and work area .
+0  The system shall include documentation that itemizes the services (e .g . PHP  web services) and network protocols/ports (e .g . HL-7  HTTP  FTP) that are necessary for proper operation and servicing of the system  including justification of the need for that service and protocol .
+0  The system shall include documentation that describes the steps needed to confirm that the system installation was properly completed and that the system is operational .
+0  The system shall include documentation available to the customer that provides guidelines for configuration and use of the security controls necessary to support secure and reliable operation of the system  including but not limited to\: creation  modification  and deactivation of user accounts  management of roles  reset of passwords  configuration of password constraints  and audit logs .
+0  Vendor may self-certify compliance with this standard through procedures that make use of commercial malware scanning software .
+0  The system shall be configurable to prevent corruption or loss of data already accepted into the system in the event of a system failure (e .g . integrating with a UPS  etc .) .
+0  The system shall support protection of confidentiality of all Protected Health Information (PHI) delivered over the Internet or other known open networks via encryption using triple-DES (3DES) or the Advanced Encryption Standard (AES) and an open protocol such as TLS  SSL  IPSec  XML encryptions  or S or MIME or their successors .
+0  When passwords are used  the system shall not display passwords while being entered .
+0  For systems that provide access to PHI through a web browser interface (i .e . HTML over HTTP) shall include the capability to encrypt the data communicated over the network via SSL (HTML over HTTPS) .
+0  The system shall support protection of integrity of all Protected Health Information (PHI) delivered over the Internet or other known open networks via SHA1 hashing and an open protocol such as TLS  SSL  IPSec  XML digital signature  or S or MIME or their successors .
+0  The system shall support ensuring the authenticity of remote nodes (mutual node authentication) when communicating Protected Health Information (PHI) over the Internet or other known open networks using an open protocol (e .g . TLS  SSL  IPSec  XML sig  S or MIME) .
+0  The system  when storing PHI on any device intended to be portable or removable (e .g . thumb-drives  CD-ROM  PDA  Notebook)  shall support use of a standards based encrypted format using triple-DES (3DES)  or the Advanced Encryption Standard (AES)  or their successors .
+0  The system  prior to access to any PHI  shall display a configurable warning or login banner (e .g . 'The system should only be accessed by authorized users') .
+0  In the event that a system does not support pre-login capabilities  the system shall display the banner immediately following authorization .
+0  The system restore functionality shall result in a fully operational and secure state .
+0  If the system claims to be available 24 by 7 then the system shall have ability to run a backup concurrently with the operation of the application .
