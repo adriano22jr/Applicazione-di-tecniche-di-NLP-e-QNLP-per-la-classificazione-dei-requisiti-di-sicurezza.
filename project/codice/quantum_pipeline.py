@@ -1,10 +1,9 @@
-from lambeq import BobcatParser, Rewriter, SpacyTokeniser
+from lambeq import BobcatParser, Rewriter
 from lambeq import IQPAnsatz, AtomicType, remove_cups
-from pytket.extensions.qiskit import AerBackend
 from lambeq import NumpyModel, QuantumTrainer, SPSAOptimizer, Dataset
 from lambeq import BinaryCrossEntropyLoss
 from utilities import *
-import torchmetrics
+import sklearn.metrics as mt
 import os, warnings, numpy as np, matplotlib.pyplot as plt
 
 
@@ -13,19 +12,19 @@ os.environ["TOKENIZERS_PARALLELISM"] = "False"
 
 
 def accuracy(y_hat, y):
-    return torchmetrics.functional.accuracy(y_hat, y, "binary")
+    return mt.accuracy_score(y, np.round(y_hat))
 
 def precision(y_hat, y):
-    return torchmetrics.functional.precision(y_hat, y, "binary")
+    return mt.precision_score(y, np.round(y_hat), average = "micro")
 
 def recall(y_hat, y):
-    return torchmetrics.functional.recall(y_hat, y, "binary")
+    return mt.recall_score(y, np.round(y_hat), average = "micro")
 
 def f1score(y_hat, y):
-    return torchmetrics.functional.f1_score(y_hat, y, "binary")
+    return mt.f1_score(y, np.round(y_hat), average = "micro")
 
 def precision(y_hat, y):
-    return torchmetrics.functional.precision(y_hat, y, "binary")
+    return mt.precision_score(y, np.round(y_hat), average = "micro")
 
 eval_metrics = {"acc": accuracy, "prec": precision, "rec": recall, "f1": f1score}
 
@@ -34,7 +33,6 @@ class QuantumPipeline():
     SUPPORTED_RULES = ["auxiliary", "connector", "coordination", "curry", "determiner", "postadverb", "preadverb", "prepositional_phrase", "object_rel_pronoun", "subject_rel_pronoun"]
     
     def __init__(self, parser, ansatz) -> None:
-        self.__tokeniser = SpacyTokeniser()
         self.__parser = parser
         self.__ansatz = ansatz
         self.__rewriter = Rewriter()
