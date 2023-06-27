@@ -1,6 +1,6 @@
 from lambeq import BobcatParser, Rewriter
 from lambeq import IQPAnsatz, AtomicType, remove_cups
-from lambeq import NumpyModel, QuantumTrainer, SPSAOptimizer, Dataset
+from lambeq import NumpyModel, QuantumTrainer, SPSAOptimizer, Dataset, Checkpoint
 from lambeq import BinaryCrossEntropyLoss
 from utilities import *
 import sklearn.metrics as mt
@@ -35,6 +35,8 @@ class QuantumPipeline():
     def __init__(self, parser, ansatz) -> None:
         self.__parser = parser
         self.__ansatz = ansatz
+        self.__model = None
+        self.__trainer = None
         self.__rewriter = Rewriter()
         
     def add_rewriter_rules(self, *rules) -> None:
@@ -77,6 +79,10 @@ class QuantumPipeline():
         )
         
         return self.__trainer
+        
+    def load_from_model(self, path):
+        checkpoint = self.__trainer.load_training_checkpoint(path)
+        return checkpoint
         
     def train_model(self, train_set, test_set, eval_step, log_step):        
         self.__trainer.fit(train_set, test_set, evaluation_step = eval_step, logging_step = log_step)
