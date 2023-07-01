@@ -3,6 +3,7 @@ from lambeq import SpacyTokeniser
 from lambeq import TensorAnsatz, SpiderAnsatz, MPSAnsatz, AtomicType
 from lambeq import PytorchModel, PytorchTrainer, Dataset
 from discopy import Dim
+from copy import deepcopy
 import torchmetrics
 from utilities import *
 import matplotlib.pyplot as plt
@@ -20,7 +21,7 @@ def recall(y_hat, y):
 def f1score(y_hat, y):
     return torchmetrics.functional.f1_score(y_hat, y, "binary")
 
-eval_metrics = {"acc": accuracy, "rec": recall, "f1": f1score}
+eval_metrics = {"acc": accuracy, "prec": precision, "rec": recall, "f1": f1score}
 
 class ClassicPipeline():
     SUPPORTED_RULES = ["auxiliary", "connector", "coordination", "curry", "determiner", "postadverb", "preadverb", "prepositional_phrase", "object_rel_pronoun", "subject_rel_pronoun"]
@@ -47,6 +48,14 @@ class ClassicPipeline():
         
         circuits = [self.__ansatz(diagram) for diagram in diagrams]
         return labels, circuits
+    
+    def create_circuits_from_list(self, sentences: list):
+        lower_sentences = [s.lower() for s in sentences]
+        tokens = self.__tokeniser.tokenise_sentences(lower_sentences)
+        diagrams = self.__parser.sentences2diagrams(tokens, tokenised = True)
+        circuits = [self.__ansatz(diagram) for diagram in diagrams]
+        
+        return circuits
     
     def normalize_diagrams(self, diagrams: list):
         max_dim = max(len(diagram) for diagram in diagrams)
@@ -93,6 +102,20 @@ class ClassicPipeline():
         
     def train_model(self, train_set, test_set, eval_step, log_step):        
         self.__trainer.fit(train_set, test_set, evaluation_step = eval_step, logging_step = log_step)
+        
+    def fold_datasets(self, folds: list, fold_number):
+        test_circuits, test_labels = unpack_data(folds[fold_number - 1])
+        
+        train_folds = deepcopy(folds)
+        del train_folds[fold_number - 1]
+        train_circuits = []
+        train_labels = []
+        for fold in train_folds:
+            c, l = unpack_data(fold)
+            train_circuits += c
+            train_labels += l
+        
+        return Dataset(train_circuits, train_labels, shuffle = False), Dataset(test_circuits, test_labels, shuffle = False)
             
     def plot(self, filename):
         fig1, ((ax_tl, ax_tr), (ax_bl, ax_br)) = plt.subplots(2, 2, sharey='row', figsize=(10, 6))

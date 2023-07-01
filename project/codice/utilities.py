@@ -1,5 +1,6 @@
-import torch
 import pickle
+import torch
+import random
 import numpy as np
 
 def extract_data(dataset):
@@ -31,6 +32,24 @@ def load_data(filename: str):
     circuits = pickle.load(file)
     file.close()
     return labels, circuits
+
+def k_split(sentences: list, labels: list, k):
+    data = []
+    for sentence, label in zip(sentences, labels):
+        data.append( (sentence, label) )
+    
+    random.shuffle(data)    
+    return [data[i::k] for i in range(k)]
+
+def unpack_data(data: list):
+    sentences = []
+    labels = []
+
+    for item in data:
+        sentences.append(item[0])
+        labels.append(item[1])
+        
+    return sentences, labels
 
 CLASSIC_SEED = 0
 QUANTUM_SEED = 2
