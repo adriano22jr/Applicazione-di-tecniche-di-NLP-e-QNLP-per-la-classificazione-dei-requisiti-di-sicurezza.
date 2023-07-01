@@ -1,3 +1,5 @@
+Elapsed time: 92m.34s + 187m1.7s + 278m56.8s + 92m20.6s + 186m25.2s + 93m28.9s
+
 Epoch 1:    train/loss: 1.0091   valid/loss: 0.8753   train/acc: 0.2143   train/prec: 0.4337   train/rec: 0.2143   train/f1: 0.2869   valid/acc: 0.2177   valid/prec: 0.5094   valid/rec: 0.2177   valid/f1: 0.3051
 Epoch 2:    train/loss: 1.1305   valid/loss: 0.9597   train/acc: 0.1845   train/prec: 0.4769   train/rec: 0.1845   train/f1: 0.2661   valid/acc: 0.1855   valid/prec: 0.4259   valid/rec: 0.1855   valid/f1: 0.2584
 Epoch 3:    train/loss: 1.0303   valid/loss: 0.9666   train/acc: 0.2440   train/prec: 0.5190   train/rec: 0.2440   train/f1: 0.3320   valid/acc: 0.1855   valid/prec: 0.4259   valid/rec: 0.1855   valid/f1: 0.2584
@@ -998,3 +1000,4 @@ Epoch 997:   train/loss: 0.7611   valid/loss: 0.9580   train/acc: 0.3095   train
 Epoch 998:   train/loss: 0.7524   valid/loss: 0.9465   train/acc: 0.3452   train/prec: 0.6744   train/rec: 0.3452   train/f1: 0.4567   valid/acc: 0.1774   valid/prec: 0.5366   valid/rec: 0.1774   valid/f1: 0.2667
 Epoch 999:   train/loss: 0.7427   valid/loss: 0.9426   train/acc: 0.2500   train/prec: 0.6269   train/rec: 0.2500   train/f1: 0.3574   valid/acc: 0.1774   valid/prec: 0.5500   valid/rec: 0.1774   valid/f1: 0.2683
 Epoch 1000:  train/loss: 0.7457   valid/loss: 0.9026   train/acc: 0.3274   train/prec: 0.7333   train/rec: 0.3274   train/f1: 0.4527   valid/acc: 0.1855   valid/prec: 0.5610   valid/rec: 0.1855   valid/f1: 0.2788
+
