@@ -54,8 +54,8 @@ class QuantumPipeline():
         
         return edited_labels, circuits
     
-    def create_dataset(self, labels, circuits):
-        return Dataset(circuits, labels, shuffle = False)
+    def create_dataset(self, circuits, labels, shuffle = False):
+        return Dataset(circuits, labels, shuffle = shuffle)
     
     def create_model(self, *circuits):
         circuits_model = []
@@ -65,7 +65,7 @@ class QuantumPipeline():
         self.__model = NumpyModel.from_diagrams(circuits_model, use_jit = False)
         return self.__model
     
-    def create_trainer(self, model = None, n_epochs = 0, a_hyp = 0.05, seed = CLASSIC_SEED):
+    def create_trainer(self, model = None, n_epochs = 0, a_hyp = 0.05, seed = CLASSIC_SEED, evaluate = False):
         self.__trainer = QuantumTrainer(
             model = model,
             loss_function = BinaryCrossEntropyLoss(use_jax = True),
@@ -73,7 +73,7 @@ class QuantumPipeline():
             optimizer = SPSAOptimizer,
             optim_hyperparams = {'a': a_hyp, 'c': 0.06, 'A':0.01 * n_epochs},
             evaluate_functions = eval_metrics,
-            evaluate_on_train = True,
+            evaluate_on_train = evaluate,
             verbose = "text",
             seed = seed
         )
@@ -84,8 +84,11 @@ class QuantumPipeline():
         checkpoint = self.__trainer.load_training_checkpoint(path)
         return checkpoint
         
-    def train_model(self, train_set, test_set, eval_step, log_step):        
+    def train_and_evaluate(self, train_set, test_set, eval_step, log_step):        
         self.__trainer.fit(train_set, test_set, evaluation_step = eval_step, logging_step = log_step)
+        
+    def train_model(self, train_set, eval_step, log_step):
+        self.__trainer.fit(train_set, evaluation_step = eval_step, logging_step = log_step)
         
     def plot(self):
         fig1, ((ax_tl, ax_tr), (ax_bl, ax_br)) = plt.subplots(2, 2, sharex = True, sharey='row', figsize=(10, 6))

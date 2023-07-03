@@ -74,8 +74,8 @@ class ClassicPipeline():
 
         return padded_diagrams    
 
-    def create_dataset(self, labels, circuits):
-        return Dataset(circuits, labels, shuffle = False)
+    def create_dataset(self, circuits, labels, shuffle = False):
+        return Dataset(circuits, labels, shuffle = shuffle)
     
     def create_model(self, *circuits):
         circuits_model = []
@@ -85,14 +85,14 @@ class ClassicPipeline():
         self.__model = PytorchModel.from_diagrams(circuits_model)
         return self.__model
     
-    def create_trainer(self, model = None, loss = None, optimizer = torch.optim.AdamW, n_epochs = 0, lr = LEARNING_RATE, seed = CLASSIC_SEED):
+    def create_trainer(self, model = None, loss = None, optimizer = torch.optim.AdamW, n_epochs = 0, lr = LEARNING_RATE, seed = CLASSIC_SEED, evaluate = False):
         self.__trainer = PytorchTrainer(
                 model = model,
                 loss_function = loss,
                 optimizer = optimizer,
                 epochs = n_epochs,
                 evaluate_functions = eval_metrics,
-                evaluate_on_train = True,
+                evaluate_on_train = evaluate,
                 learning_rate = lr,
                 verbose = "text",
                 seed = seed
@@ -100,7 +100,10 @@ class ClassicPipeline():
         
         return self.__trainer
         
-    def train_model(self, train_set, test_set, eval_step, log_step):        
+    def train_model(self, train_set, eval_step, log_step):        
+        self.__trainer.fit(train_set, evaluation_step = eval_step, logging_step = log_step)
+        
+    def train_and_evaluate(self, train_set, test_set, eval_step, log_step):
         self.__trainer.fit(train_set, test_set, evaluation_step = eval_step, logging_step = log_step)
         
     def fold_datasets(self, folds: list, fold_number):
@@ -117,7 +120,7 @@ class ClassicPipeline():
         
         return Dataset(train_circuits, train_labels, shuffle = False), Dataset(test_circuits, test_labels, shuffle = False)
             
-    def plot(self, filename):
+    def plot(self):
         fig1, ((ax_tl, ax_tr), (ax_bl, ax_br)) = plt.subplots(2, 2, sharey='row', figsize=(10, 6))
         
         ax_tl.set_title("Training set")
