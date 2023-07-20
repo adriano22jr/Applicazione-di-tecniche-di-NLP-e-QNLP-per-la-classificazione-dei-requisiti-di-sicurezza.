@@ -1,3 +1,4 @@
+CLASSIC CROSS-VALIDATION
 GPS DATASET
 Fold 1:
 Epoch 1:    train/loss: 61351700861759090072840306688.0000   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
@@ -718,3 +719,509 @@ Metrics mean:
 	- precision: 0.3870314657688141
 	- recall: 0.3771682381629944
 	- f1: 0.38182252645492554
+
+
+
+
+
+
+QUANTUM CROSS-VALIDATION
+
+GPS
+Fold 1:
+Epoch 1:    train/loss: 0.9365   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 1.0100   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.9310   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8618   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7375   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.8098   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.8765   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7790   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.7185   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.7783   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7793   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 1: 0.3235294117647059
+Test precision on fold 1: 0.55
+Test recall on fold 1: 0.3235294117647059
+Test f1_score on fold 1: 0.4074074074074075
+
+
+Fold 2:
+Epoch 1:    train/loss: 0.9274   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 1.0000   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.9207   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8391   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7569   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.7573   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.7588   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7240   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.6781   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.7291   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7448   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 2: 0.3235294117647059
+Test precision on fold 2: 0.6111111111111112
+Test recall on fold 2: 0.3235294117647059
+Test f1_score on fold 2: 0.42307692307692313
+
+
+Fold 3:
+Epoch 1:    train/loss: 0.8965   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.8953   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8606   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8444   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7938   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.7493   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.7501   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7055   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.7200   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.6979   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7388   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 3: 0.47058823529411764
+Test precision on fold 3: 0.8421052631578947
+Test recall on fold 3: 0.47058823529411764
+Test f1_score on fold 3: 0.6037735849056604
+
+
+Fold 4:
+Epoch 1:    train/loss: 0.9114   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.9469   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.9308   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8941   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.8690   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.8132   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.8671   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7678   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.7240   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.7399   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7778   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 4: 0.36363636363636365
+Test precision on fold 4: 0.6
+Test recall on fold 4: 0.36363636363636365
+Test f1_score on fold 4: 0.4528301886792453
+
+
+Fold 5:
+Epoch 1:    train/loss: 0.9085   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.9595   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8744   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8783   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7694   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.7781   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.7866   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.6846   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.6721   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.6860   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.6682   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 5: 0.18181818181818182
+Test precision on fold 5: 0.375
+Test recall on fold 5: 0.18181818181818182
+Test f1_score on fold 5: 0.24489795918367344
+
+Metrics mean:
+	- accuracy: 0.332620320855615
+	- precision: 0.5956432748538012
+	- recall: 0.332620320855615
+	- f1: 0.4263972126505819
+
+
+
+CPN
+Fold 1:
+Epoch 1:    train/loss: 1.8163   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.6105   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.5884   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.6278   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.5591   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.5265   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.5219   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.5121   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.5647   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.4701   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.5048   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 1: 0.6
+Test precision on fold 1: 0.782608695652174
+Test recall on fold 1: 0.6
+Test f1_score on fold 1: 0.6792452830188679
+
+
+Fold 2:
+Epoch 1:    train/loss: 1.9342   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.6706   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.6215   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.6469   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.5642   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.4978   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.4847   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.4974   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.5060   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.5215   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.4411   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 2: 0.3448275862068966
+Test precision on fold 2: 0.45454545454545453
+Test recall on fold 2: 0.3448275862068966
+Test f1_score on fold 2: 0.39215686274509803
+
+
+Fold 3:
+Epoch 1:    train/loss: 1.8097   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.7748   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8281   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.7029   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7501   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.7288   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.6722   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.6471   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.6976   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.5909   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.5845   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 3: 0.5172413793103449
+Test precision on fold 3: 0.7894736842105263
+Test recall on fold 3: 0.5172413793103449
+Test f1_score on fold 3: 0.625
+
+
+Fold 4:
+Epoch 1:    train/loss: 1.9180   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.7522   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8012   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.7249   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.6608   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.5864   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.5731   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.5718   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.5595   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.5476   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.5473   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 4: 0.5862068965517241
+Test precision on fold 4: 0.7391304347826086
+Test recall on fold 4: 0.5862068965517241
+Test f1_score on fold 4: 0.6538461538461539
+
+
+Fold 5:
+Epoch 1:    train/loss: 1.8880   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.7022   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.7480   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.7439   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.6806   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.6189   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.6392   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.5961   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.6994   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.5692   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.5566   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 5: 0.5172413793103449
+Test precision on fold 5: 0.75
+Test recall on fold 5: 0.5172413793103449
+Test f1_score on fold 5: 0.6122448979591838
+
+Metrics mean:
+	- accuracy: 0.5131034482758621
+	- precision: 0.7031516538381526
+	- recall: 0.5131034482758621
+	- f1: 0.5924986395138607
+
+
+
+EPURSE
+Fold 1:
+Epoch 1:    train/loss: 0.7887   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.8369   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8009   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8604   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.8841   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.6811   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.7124   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7898   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.7395   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.7018   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7529   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 1: 0.28
+Test precision on fold 1: 0.7
+Test recall on fold 1: 0.28
+Test f1_score on fold 1: 0.4
+
+
+Fold 2:
+Epoch 1:    train/loss: 0.7310   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.6780   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.6601   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8825   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7687   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.7612   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.6101   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7036   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.6558   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.6223   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.6690   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 2: 0.28
+Test precision on fold 2: 0.875
+Test recall on fold 2: 0.28
+Test f1_score on fold 2: 0.42424242424242425
+
+
+Fold 3:
+Epoch 1:    train/loss: 0.7340   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.7457   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.7216   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.7575   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7836   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.6839   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.7398   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7149   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.6355   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.5758   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.6509   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 3: 0.2
+Test precision on fold 3: 0.625
+Test recall on fold 3: 0.2
+Test f1_score on fold 3: 0.30303030303030304
+
+
+Fold 4:
+Epoch 1:    train/loss: 0.7474   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.7874   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.7275   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.7726   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7612   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.7086   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.6221   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.6529   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.6675   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.5706   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7307   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 4: 0.28
+Test precision on fold 4: 0.7777777777777778
+Test recall on fold 4: 0.28
+Test f1_score on fold 4: 0.4117647058823529
+
+
+Fold 5:
+Epoch 1:    train/loss: 0.7755   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.7837   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.7496   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8337   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7735   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.6938   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.6320   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.6454   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.6113   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.5513   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.6297   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 5: 0.3333333333333333
+Test precision on fold 5: 0.8888888888888888
+Test recall on fold 5: 0.3333333333333333
+Test f1_score on fold 5: 0.48484848484848486
+Metrics mean:
+	- accuracy: 0.27466666666666667
+	- precision: 0.7733333333333333
+	- recall: 0.27466666666666667
+	- f1: 0.404777183600713
+
+
+
+GPS_CPN
+Fold 1:
+Epoch 1:    train/loss: 1.3542   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.8998   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8055   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.7855   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7845   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.7689   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.7723   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7282   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.7018   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.7453   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7525   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 1: 0.31746031746031744
+Test precision on fold 1: 0.5405405405405406
+Test recall on fold 1: 0.31746031746031744
+Test f1_score on fold 1: 0.4
+
+
+Fold 2:
+Epoch 1:    train/loss: 1.4238   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.8547   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8548   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8145   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7177   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.7759   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.7293   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7993   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.7668   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.7081   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7195   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 2: 0.47619047619047616
+Test precision on fold 2: 0.6818181818181818
+Test recall on fold 2: 0.47619047619047616
+Test f1_score on fold 2: 0.5607476635514018
+
+
+Fold 3:
+Epoch 1:    train/loss: 1.3814   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.8687   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8313   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.7500   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7295   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.7042   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.7047   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7605   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.7872   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.6516   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7580   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 3: 0.30158730158730157
+Test precision on fold 3: 0.475
+Test recall on fold 3: 0.30158730158730157
+Test f1_score on fold 3: 0.36893203883495146
+
+
+Fold 4:
+Epoch 1:    train/loss: 1.4056   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 1.1337   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8424   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.7957   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7704   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.6953   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.7678   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7745   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.7160   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.7241   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7097   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 4: 0.38095238095238093
+Test precision on fold 4: 0.5454545454545454
+Test recall on fold 4: 0.38095238095238093
+Test f1_score on fold 4: 0.4485981308411215
+
+
+Fold 5:
+Epoch 1:    train/loss: 1.3624   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 1.4766   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8655   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8267   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.9446   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.8445   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.8739   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7202   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.7656   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.7611   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+
+GPS-EPURSE
+Fold 1:
+Epoch 1:    train/loss: 1.1812   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.8645   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8734   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8382   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.7762   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.7996   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.7979   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.8163   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.8283   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.8324   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7485   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 1: 0.1864406779661017
+Test precision on fold 1: 0.5238095238095238
+Test recall on fold 1: 0.1864406779661017
+Test f1_score on fold 1: 0.27499999999999997
+
+
+Fold 2:
+Epoch 1:    train/loss: 1.2354   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.9308   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.9322   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.9282   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.9444   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.8496   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.8459   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.8641   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.8679   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.8702   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.8513   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 2: 0.15254237288135594
+Test precision on fold 2: 0.47368421052631576
+Test recall on fold 2: 0.15254237288135594
+Test f1_score on fold 2: 0.23076923076923078
+
+
+Fold 3:
+Epoch 1:    train/loss: 1.2608   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.8992   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8771   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8516   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.8103   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.8130   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.8031   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.7751   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.8472   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.7822   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7424   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 3: 0.22413793103448276
+Test precision on fold 3: 0.52
+Test recall on fold 3: 0.22413793103448276
+Test f1_score on fold 3: 0.3132530120481928
+
+
+Fold 4:
+Epoch 1:    train/loss: 1.2469   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.9092   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.9109   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8803   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.8843   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.8971   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.9430   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.8726   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.8772   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.8463   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.7877   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 4: 0.22413793103448276
+Test precision on fold 4: 0.52
+Test recall on fold 4: 0.22413793103448276
+Test f1_score on fold 4: 0.3132530120481928
+
+
+Fold 5:
+Epoch 1:    train/loss: 1.2285   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 10:   train/loss: 0.8999   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 20:   train/loss: 0.8648   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 30:   train/loss: 0.8702   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 40:   train/loss: 0.8786   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 50:   train/loss: 0.8940   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 60:   train/loss: 0.8717   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 70:   train/loss: 0.8490   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 80:   train/loss: 0.8259   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 90:   train/loss: 0.8898   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+Epoch 100:  train/loss: 0.8222   valid/loss: -----   valid/acc: -----   valid/prec: -----   valid/rec: -----   valid/f1: -----
+
+Test accuracy on fold 5: 0.22413793103448276
+Test precision on fold 5: 0.52
+Test recall on fold 5: 0.22413793103448276
+Test f1_score on fold 5: 0.3132530120481928
+
+Metrics mean:
+	- accuracy: 0.2022793687901812
+	- precision: 0.5114987468671679
+	- recall: 0.2022793687901812
+	- f1: 0.28910565338276184
