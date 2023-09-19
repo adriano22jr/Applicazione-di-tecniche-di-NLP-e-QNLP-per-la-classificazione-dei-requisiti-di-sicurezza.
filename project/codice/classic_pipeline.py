@@ -48,31 +48,6 @@ class ClassicPipeline():
         
         circuits = [self.__ansatz(diagram) for diagram in diagrams]
         return labels, circuits
-    
-    def create_circuits_from_list(self, sentences: list):
-        lower_sentences = [s.lower() for s in sentences]
-        tokens = self.__tokeniser.tokenise_sentences(lower_sentences)
-        diagrams = self.__parser.sentences2diagrams(tokens, tokenised = True)
-        circuits = [self.__ansatz(diagram) for diagram in diagrams]
-        
-        return circuits
-    
-    def normalize_diagrams(self, diagrams: list):
-        max_dim = max(len(diagram) for diagram in diagrams)
-        print(max_dim)
-        padded_diagrams = []
-        
-        for diagram in diagrams:
-            add_count = max_dim - len(diagram)
-            print(add_count)
-            
-            pad_diagrams = [self.__ansatz(self.__parser.sentence2diagram("qw")) for i in range(add_count)]
-            new_diagram = diagram
-            for pad in pad_diagrams:
-                new_diagram = pad @ new_diagram
-            padded_diagrams.append(new_diagram)
-
-        return padded_diagrams    
 
     def create_dataset(self, circuits, labels, shuffle = False):
         return Dataset(circuits, labels, shuffle = shuffle)
@@ -105,20 +80,6 @@ class ClassicPipeline():
         
     def train_and_evaluate(self, train_set, test_set, eval_step, log_step):
         self.__trainer.fit(train_set, test_set, evaluation_step = eval_step, logging_step = log_step)
-        
-    def fold_datasets(self, folds: list, fold_number):
-        test_circuits, test_labels = unpack_data(folds[fold_number - 1])
-        
-        train_folds = deepcopy(folds)
-        del train_folds[fold_number - 1]
-        train_circuits = []
-        train_labels = []
-        for fold in train_folds:
-            c, l = unpack_data(fold)
-            train_circuits += c
-            train_labels += l
-        
-        return Dataset(train_circuits, train_labels, shuffle = False), Dataset(test_circuits, test_labels, shuffle = False)
             
     def plot(self):
         fig1, ((ax_tl, ax_tr), (ax_bl, ax_br)) = plt.subplots(2, 2, sharey='row', figsize=(10, 6))
